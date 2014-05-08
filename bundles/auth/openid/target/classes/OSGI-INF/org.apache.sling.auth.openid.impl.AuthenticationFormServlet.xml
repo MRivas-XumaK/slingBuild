@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.auth.openid.impl.AuthenticationFormServlet">
+        <implementation class="org.apache.sling.auth.openid.impl.AuthenticationFormServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="Default Login Form for OpenID Authentication"/>
+        <property name="sling.servlet.paths" value="/system/sling/openid/login"/>
+        <property name="sling.auth.requirements" value="-/system/sling/openid/login"/>
+        <property name="service.pid" value="org.apache.sling.auth.openid.impl.AuthenticationFormServlet"/>
+    </scr:component>
+</components>

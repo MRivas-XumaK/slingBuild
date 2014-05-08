@@ -1,0 +1,10 @@
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/BundleDeployMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/AbstractBundlePostMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/BundleInstallMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/BundleDeployFileMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/BundleUninstallMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/ValidationMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/AbstractBundleDeployMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/AbstractBundleInstallMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/BundleInstallFileMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-sling-plugin/src/main/java/org/apache/sling/maven/bundlesupport/GenerateAdapterMetadataMojo.java

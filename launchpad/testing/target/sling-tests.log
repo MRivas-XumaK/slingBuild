@@ -1,0 +1,283 @@
+09:26:52.498 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-api.jsp
+09:26:52.508 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/installer-duplicate.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/imports.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-delete.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:147    Script path not found scripts/sling-it/expected-to-fail
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:175    No test scripts found with resource path scripts/sling-it/expected-to-fail
+09:27:16.301 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:17.336 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:17.460 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:18.235 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:18.318 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.102 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.172 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.940 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:20.018 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:20.019 INFO  [main] HttpTestBase.java:247             Sling server found ready after 27320 msec
+09:27:20.369 INFO  [main] JUnitCategoriesTest.java:49       JUnit categories are set up correctly:[Jackrabbit-only test was executed]
+09:27:30.582 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.launchpad.testservices.serversidetests.ResourceResolverTest.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:27:45.458 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:46.252 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:46.735 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:46.974 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:49.247 WARN  [main] DomUtil.java:67                   Secure XML processing is not supported
+java.lang.AbstractMethodError: javax.xml.parsers.DocumentBuilderFactory.setFeature(Ljava/lang/String;Z)V
+	at org.apache.jackrabbit.webdav.xml.DomUtil.createFactory(DomUtil.java:63) [jackrabbit-webdav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.webdav.xml.DomUtil.<clinit>(DomUtil.java:54) [jackrabbit-webdav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.webdav.lock.Scope.create(Scope.java:110) [jackrabbit-webdav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.webdav.lock.Scope.<clinit>(Scope.java:36) [jackrabbit-webdav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.spi2dav.ItemResourceConstants.<clinit>(ItemResourceConstants.java:40) [jackrabbit-spi2dav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.spi2dav.RepositoryServiceImpl.<clinit>(RepositoryServiceImpl.java:205) [jackrabbit-spi2dav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.spi2davex.Spi2davexRepositoryServiceFactory.createRepositoryService(Spi2davexRepositoryServiceFactory.java:96) [jackrabbit-spi2dav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.jcr2spi.Jcr2spiRepositoryFactory$RepositoryConfigImpl.getRepositoryService(Jcr2spiRepositoryFactory.java:257) [jackrabbit-jcr2spi-2.2.5.jar:na]
+	at org.apache.jackrabbit.jcr2spi.RepositoryImpl.<init>(RepositoryImpl.java:82) [jackrabbit-jcr2spi-2.2.5.jar:na]
+	at org.apache.jackrabbit.jcr2spi.RepositoryImpl.create(RepositoryImpl.java:95) [jackrabbit-jcr2spi-2.2.5.jar:na]
+	at org.apache.jackrabbit.jcr2dav.Jcr2davRepositoryFactory.getRepository(Jcr2davRepositoryFactory.java:104) [jackrabbit-jcr2dav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.jcr2dav.Jcr2davRepositoryFactory.getRepository(Jcr2davRepositoryFactory.java:87) [jackrabbit-jcr2dav-2.2.5.jar:2.2.5]
+	at org.apache.jackrabbit.commons.JcrUtils.getRepository(JcrUtils.java:178) [jackrabbit-jcr-commons-2.2.9.jar:na]
+	at org.apache.jackrabbit.commons.JcrUtils.getRepository(JcrUtils.java:244) [jackrabbit-jcr-commons-2.2.9.jar:na]
+	at org.apache.sling.launchpad.webapp.integrationtest.servlets.post.PostServletPrivilegesUpdateTest.testUpdatePropertyPrivilegesAndEvents(PostServletPrivilegesUpdateTest.java:143) [org.apache.sling.launchpad.integration-tests-1.0.1-SNAPSHOT.jar:1.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_55]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:na]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:na]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:na]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:na]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.11.jar:na]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.11.jar:na]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.11.jar:na]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [junit-4.11.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:na]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [junit-4.11.jar:na]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [junit-4.11.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) [junit-4.11.jar:na]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:141) [surefire-junit47-2.16.jar:2.16]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:114) [surefire-junit47-2.16.jar:2.16]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:86) [surefire-junit47-2.16.jar:2.16]
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:134) [surefire-junit47-2.16.jar:2.16]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200) [surefire-booter-2.16.jar:2.16]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153) [surefire-booter-2.16.jar:2.16]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.16.jar:2.16]
+09:27:55.916 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:08.041 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:09.774 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/resourceresolver-api/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-api.jsp
+09:28:11.802 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:12.091 INFO  [main] ServerSideScriptsTest.java:246    Execution of resourceresolver-api.jsp took 289 msec
+09:28:12.254 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/installer-duplicate/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/installer-duplicate.jsp
+09:28:14.291 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:14.513 INFO  [main] ServerSideScriptsTest.java:246    Execution of installer-duplicate.jsp took 223 msec
+09:28:14.635 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/imports/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/imports.jsp
+09:28:16.677 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:16.892 INFO  [main] ServerSideScriptsTest.java:246    Execution of imports.jsp took 215 msec
+09:28:16.998 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/resourceresolver-delete/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-delete.jsp
+09:28:19.027 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:19.262 INFO  [main] ServerSideScriptsTest.java:246    Execution of resourceresolver-delete.jsp took 235 msec
+09:28:19.744 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.launchpad.testservices.serversidetests.WriteableResourcesTest.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:24.001 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:28.960 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:28.962 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:28.971 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:28.974 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:28.975 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:28.978 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:28.982 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:29.007 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:29.008 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:41.989 INFO  [main] SlingJSPTaglibTest.java:40        setUp
+09:28:41.991 INFO  [main] SlingJSPTaglibTest.java:44        Creating testing content...
+09:28:42.008 INFO  [main] SlingJSPTaglibTest.java:54        Creating testing component...
+09:28:42.075 INFO  [main] SlingJSPTaglibTest.java:62        Initialization successful
+09:28:42.076 INFO  [main] SlingJSPTaglibTest.java:71        testTaglib
+09:28:42.076 INFO  [main] SlingJSPTaglibTest.java:73        Executing content check
+09:28:42.633 INFO  [main] SlingJSPTaglibTest.java:76        
+
+
+
+
+AdaptTo Tag
+    Test 1: AdaptTo Tag
+    result: SUCCESS
+    
+    Test 2: Test Non-Existent Class Handling
+    result: SUCCESS
+    
+    Test 3: Test Null Adaptable Handling
+    result: SUCCESS
+    
+    Test 4: Test Non-Adaptable Handling
+    result: SUCCESS: org.apache.sling.scripting.jsp.jasper.JasperException: Unable to convert string "res" to class "org.apache.sling.api.adapter.Adaptable" for attribute "adaptable": Property Editor not registered with the PropertyEditorManager
+
+Find Resources Tag
+    Test 1: Find Resources
+    Result: SUCCESS
+
+    Test 2: Invalid Query
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+
+    Test 3: Invalid Language
+    Result: SUCCESS: org.apache.sling.resourceresolver.impl.helper.ResourceIteratorDecorator@5dd44142
+    
+Get Property Tag
+
+    Test 1: Get Property
+    Result: SUCCESS
+    
+    Test 2: Not Found Property
+    Result: SUCCESS
+
+    Test 3: Coercing Value
+    Result: SUCCESS
+
+    Test 4: Default Value
+    Result: SUCCESS
+    
+Get Resource Tag
+    Test 1: Get Resource
+    Result: SUCCESS
+
+    Test 2: Get Relative Resource
+    Result: SUCCESS
+
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+    Test 4: Bad Base Handling
+    Result: SUCCESS
+    
+List Children Tag
+    Test 1: Get Children
+    Result: SUCCESS
+
+    Test 2: Non-Existing Parent Handing
+    Result: SUCCESS
+
+    Test 3: Bad Parent Handling
+    Result: SUCCESS
+    
+    
+AdaptTo Function
+    Test 1: AdaptTo
+    result: SUCCESS
+    
+    Test 2: Test Non-Existent Class Handling
+    result: SUCCESS
+    
+    Test 3: Test Null Adaptable Handling
+    result: SUCCESS
+    
+    Test 4: Test Non-Adaptable Handling
+    result: SUCCESS: org.apache.sling.scripting.jsp.jasper.JasperException: Unable to convert string "res" to class "org.apache.sling.api.adapter.Adaptable" for attribute "adaptable": Property Editor not registered with the PropertyEditorManager
+
+Find Resources Function
+    Test 1: Find Resources
+    Result: SUCCESS
+
+    Test 2: Invalid Query
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+
+    Test 3: Invalid Language
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+    
+Get Relative Resource Function
+    Test 1: Get Relative Resource
+    Result: SUCCESS
+
+    Test 2: Bad Base Handling
+    Result: SUCCESS
+    
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+Get Resource Function
+    Test 1: Get Resource
+    Result: SUCCESS
+
+    Test 2: Bad Resolver
+    Result: SUCCESS
+    
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+Get Value Function
+    Test 1: Get Property
+    
+    Result: SUCCESS
+    
+    Test 2: Not Found Property
+    Result: SUCCESS
+
+    Test 3: Default Value
+    Result: SUCCESS
+    
+    
+List Children Function
+    Test 1: Get Children
+    Result: SUCCESS
+
+    Test 2: Non-Existing Parent Handing
+    Result: SUCCESS
+
+    Test 3: Bad Parent Handling
+    Result: SUCCESS
+    
+
+    
+        All Tests Succeeded
+    
+    
+
+09:28:42.633 INFO  [main] SlingJSPTaglibTest.java:79        testTaglib - TEST SUCCESSFUL
+09:28:43.545 DEBUG [main] PropertyRenderingTest.java:99     multiText.html content: <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=utf-8" /></head>
+<body>
+<h1>Resource dumped by HtmlRendererServlet</h1>
+<p>Resource path: <b>/PropertyRenderingTest/1398698923526/this_is_a_test_13986/multiText</b></p>
+<p>Resource metadata: <b>{sling.contentType=text/plain, sling.resolutionPathInfo=.html, sling.characterEncoding=UTF-8, sling.resolutionPath=/PropertyRenderingTest/1398698923526/this_is_a_test_13986/multiText}</b></p>
+<p>Resource type: <b>org.apache.sling.launchpad.webapp.integrationtest.PropertyRenderingTest/multiText</b></p>
+<p>Resource super type: <b>-</b></p>
+Resource Value: <b>This is a multivalued test 1398698923526</b><br />Resource Value: <b>This is another multivalued test 1398698923526</b><br /></body></html>
+
+09:28:43.702 INFO  [main] RepositoryTestUtil.java:44        Repository descriptor jcr.repository.name=Jackrabbit
+09:28:43.707 INFO  [main] RepositoryTestUtil.java:44        Repository descriptor jcr.repository.version=2.4.2
+09:28:45.691 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:48.322 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:53.283 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:53.284 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Jackrabbit Webdav Server'@localhost:43014
+09:28:53.285 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:53.285 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Sling WebDAV'@localhost:43014
+09:28:57.561 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:29:00.720 INFO  [main] JsonRenderingTest.java:137        Url: http://localhost:43014/JsonRenderingTest_1398698940333/115_1398698940355
+09:29:00.721 INFO  [main] JsonRenderingTest.java:138        postUrl: http://localhost:43014/JsonRenderingTest_1398698940333/
+09:29:01.275 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:29:01.277 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Sling (Development)'@localhost:43014
+09:29:03.281 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:03.284 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available
+09:29:04.159 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:04.159 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available
+09:29:04.184 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:04.185 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available
+09:29:05.206 DEBUG [main] JSONGroovyBuilderTest.java:76     http://localhost:43014/JSONGroovyBuilderTest/1398698945048/this_is_a_test_13986 content: {"text":"This is a test 1398698945048","obj":{"foo":"bar"}}
+09:29:07.497 INFO  [main] HttpMethodBase.java:1869          Response content length is not known

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider">
+    <OCD id="org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider" name="%org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider.name" description="%org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider.description">
+        <AD id="provider.roots" type="String" default="/test/secured-provider/read" name="%org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider.provider.roots.name" description="%org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider.provider.roots.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider">
+        <Object ocdref="org.apache.sling.resourceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider"/>
+    </Designate>
+</metatype:MetaData>

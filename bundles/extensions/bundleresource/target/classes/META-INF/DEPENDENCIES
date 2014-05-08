@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Bundle Resource Provider
+
+
+From: 'an unknown organization'
+  - org.osgi.compendium  org.osgi:org.osgi.compendium:jar:4.1.0
+
+
+
+
+

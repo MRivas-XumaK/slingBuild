@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.apache.sling.event.impl.jobs.jcr.PersistenceHandler" activate="activate" deactivate="deactivate" modified="update">
+        <implementation class="org.apache.sling.event.impl.jobs.JobManagerImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.event.jobs.JobManager"/>
+            <provide interface="org.osgi.service.event.EventHandler"/>
+            <provide interface="org.apache.sling.discovery.TopologyEventListener"/>
+            <provide interface="java.lang.Runnable"/>
+        </service>
+        <property name="job.consumermanager.disableDistribution" type="Boolean" value="false"/>
+        <property name="repository.path" value="/var/eventing/jobs"/>
+        <property name="job.scheduled.jobs.path" value="/var/eventing/scheduled-jobs"/>
+        <property name="load.delay" type="Long" value="30"/>
+        <property name="scheduler.period" type="Long" value="60"/>
+        <property name="scheduler.concurrent" type="Boolean" value="false"/>
+        <property name="event.topics">
+            org/apache/sling/api/resource/Resource/ADDED
+            org/apache/sling/api/resource/Resource/CHANGED
+            org/apache/sling/api/resource/Resource/REMOVED
+            org/apache/sling/event/notification/job/*
+            org/apache/sling/event/impl/jobs/STOP
+            org/osgi/framework/BundleEvent/STARTED
+            org/osgi/framework/BundleEvent/UPDATED
+        </property>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.event.impl.jobs.jcr.PersistenceHandler"/>
+        <reference name="environment" interface="org.apache.sling.event.impl.EnvironmentComponent" cardinality="1..1" policy="static" bind="bindEnvironment" unbind="unbindEnvironment"/>
+        <reference name="eventAdmin" interface="org.osgi.service.event.EventAdmin" cardinality="1..1" policy="static" bind="bindEventAdmin" unbind="unbindEventAdmin"/>
+        <reference name="queueConfigManager" interface="org.apache.sling.event.impl.jobs.config.QueueConfigurationManager" cardinality="1..1" policy="static" bind="bindQueueConfigManager" unbind="unbindQueueConfigManager"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory"/>
+        <reference name="scheduler" interface="org.apache.sling.commons.scheduler.Scheduler" cardinality="1..1" policy="static" bind="bindScheduler" unbind="unbindScheduler"/>
+        <reference name="jobConsumerManager" interface="org.apache.sling.event.impl.jobs.JobConsumerManager" cardinality="1..1" policy="static" bind="bindJobConsumerManager" unbind="unbindJobConsumerManager"/>
+        <reference name="queuesMBean" interface="org.apache.sling.event.jobs.jmx.QueuesMBean" cardinality="1..1" policy="static" bind="bindQueuesMBean" unbind="unbindQueuesMBean"/>
+        <reference name="threadPoolManager" interface="org.apache.sling.commons.threads.ThreadPoolManager" cardinality="1..1" policy="static" bind="bindThreadPoolManager" unbind="unbindThreadPoolManager"/>
+    </scr:component>
+</components>

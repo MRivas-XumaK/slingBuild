@@ -1,0 +1,4 @@
+org/apache/sling/commons/classloader/it/DynamicClassLoaderIT.class
+org/apache/sling/commons/classloader/impl/ClassLoadingTest.class
+org/apache/sling/commons/classloader/it/DynamicClassLoaderIT$DirectURLJUnitBundlesOption.class
+org/apache/sling/commons/classloader/impl/ClassLoadingTest$1.class

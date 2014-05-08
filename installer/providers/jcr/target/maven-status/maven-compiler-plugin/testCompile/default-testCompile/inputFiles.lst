@@ -1,0 +1,11 @@
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/MockOsgiInstaller.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/MockSettings.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/MockInstallableResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/ResourceDetectionTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/MiscUtil.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/ContentHelper.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/ScanningLoopTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/FolderNameFilterTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/FindPathsToWatchTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/FolderDetectionTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/test/java/org/apache/sling/installer/provider/jcr/impl/JcrInstallTestBase.java

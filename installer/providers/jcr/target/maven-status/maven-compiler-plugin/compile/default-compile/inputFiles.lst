@@ -1,0 +1,8 @@
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/FileNodeConverter.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/ConfigNodeConverter.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/RootFolderListener.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/WatchedFolder.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrInstaller.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrUtil.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/RescanTimer.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/providers/jcr/src/main/java/org/apache/sling/installer/provider/jcr/impl/FolderNameFilter.java

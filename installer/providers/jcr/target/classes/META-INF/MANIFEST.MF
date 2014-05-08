@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698579250
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Installs OSGi bundles and configurations      found 
+ in the JCR repository.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JCR Installer
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.installer.provider.jcr
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 3.1.7.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: org.apache.felix.configadmin;inline="org/apache/felix/
+ cm/file/ConfigurationHandler.*",org.apache.sling.commons.osgi;inline="o
+ rg/apache/sling/commons/osgi/PropertiesUtil.*"
+Import-Package: javax.jcr;version="1.0",javax.jcr.nodetype;version="1.0"
+ ,javax.jcr.observation;version="1.0",org.apache.sling.installer.api;ver
+ sion="[3.1,4)",org.apache.sling.jcr.api;version="[2.0,3)",org.apache.sl
+ ing.settings;version="[1.0,2)",org.osgi.framework;version="[1.4,2)",org
+ .osgi.service.cm;version="[1.2,2)",org.osgi.service.component;version="
+ [1.0,2)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.installer.provider.jcr.impl
+ .JcrInstaller.xml
+Sling-Namespaces: sling=http://sling.apache.org/jcr/sling/1.0
+Sling-Nodetypes: SLING-INF/nodetypes/osgiconfig.cnd
+Tool: Bnd-2.1.0.20130426-122213

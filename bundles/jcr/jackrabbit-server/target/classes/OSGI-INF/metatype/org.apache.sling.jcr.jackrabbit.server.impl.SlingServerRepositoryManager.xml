@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository" name="%repository.name" description="%repository.description">
+        <AD id="config" type="String" default="" name="%config.name" description="%config.description"/>
+        <AD id="home" type="String" default="" name="%home.name" description="%home.description"/>
+        <AD id="name" type="String" default="" name="%name.name" description="%name.description"/>
+        <AD id="defaultWorkspace" type="String" name="%defaultWorkspace.name" description="%defaultWorkspace.description"/>
+        <AD id="admin.login.enabled" type="Boolean" default="true" name="%admin.login.enabled.name" description="%admin.login.enabled.description"/>
+        <AD id="admin.name" type="String" default="admin" name="%admin.name.name" description="%admin.name.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository" factoryPid="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository">
+        <Object ocdref="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository"/>
+    </Designate>
+</metatype:MetaData>

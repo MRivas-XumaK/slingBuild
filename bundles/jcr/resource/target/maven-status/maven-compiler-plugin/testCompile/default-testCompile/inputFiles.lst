@@ -1,0 +1,16 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrResourceUtilTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrResourceListenerTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/SynchronousOakResourceListener.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrItemResourceTestBase.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrTestNodeResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/OakResourceListenerTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrResourceListenerScalabilityTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrPropertyMapTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrPropertyResourceTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/JcrNodeResourceIteratorTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/SynchronousJcrResourceListener.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrNodeResourceTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/AbstractListenerTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/helper/JcrPropertyMapCacheEntryTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrModifiablePropertyMapTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/src/test/java/org/apache/sling/jcr/resource/internal/JcrModifiableValueMapTest.java

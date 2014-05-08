@@ -1,0 +1,13 @@
+org/apache/sling/scripting/jsp/taglib/TestSlingFunctions.class
+org/apache/sling/scripting/jsp/taglib/TestGetPropertyTag.class
+org/apache/sling/scripting/jsp/taglib/TestGetResourceTag.class
+org/apache/sling/scripting/jsp/taglib/TestFindResourceTag$2.class
+org/apache/sling/scripting/jsp/taglib/TestAdaptObjectTag.class
+org/apache/sling/scripting/jsp/taglib/TestAdaptObjectTag$1.class
+org/apache/sling/scripting/jsp/taglib/TestGetResourceTag$1.class
+org/apache/sling/scripting/jsp/taglib/TestGetPropertyTag$1.class
+org/apache/sling/scripting/jsp/taglib/TestListChildrenTag.class
+org/apache/sling/scripting/jsp/taglib/TestFindResourceTag$1.class
+org/apache/sling/scripting/jsp/taglib/TestFindResourceTag.class
+org/apache/sling/scripting/jsp/taglib/TestSlingFunctions$1.class
+org/apache/sling/scripting/jsp/taglib/MockPageContext.class

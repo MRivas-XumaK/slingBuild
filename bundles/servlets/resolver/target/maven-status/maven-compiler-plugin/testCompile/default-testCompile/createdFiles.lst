@@ -1,0 +1,14 @@
+org/apache/sling/servlets/resolver/internal/helper/WeightedResourceTest.class
+org/apache/sling/servlets/resolver/internal/resource/MockServletResource.class
+org/apache/sling/servlets/resolver/internal/helper/LocationIteratorTest.class
+org/apache/sling/servlets/resolver/internal/helper/HelperTestBase.class
+org/apache/sling/servlets/resolver/internal/SlingServletResolverTest$2.class
+org/apache/sling/servlets/resolver/internal/SlingServletResolverTest$3.class
+org/apache/sling/servlets/resolver/internal/resource/ServletResourceProviderCreateTest$1.class
+org/apache/sling/servlets/resolver/internal/helper/ScriptSelectionTest.class
+org/apache/sling/servlets/resolver/internal/helper/ResourceCollectorTest.class
+org/apache/sling/servlets/resolver/internal/SlingServletResolverTest$1.class
+org/apache/sling/servlets/resolver/internal/DecomposedURLTest.class
+org/apache/sling/servlets/resolver/internal/SlingServletResolverTest$MockSlingRequestHandlerServlet.class
+org/apache/sling/servlets/resolver/internal/resource/ServletResourceProviderCreateTest.class
+org/apache/sling/servlets/resolver/internal/SlingServletResolverTest.class

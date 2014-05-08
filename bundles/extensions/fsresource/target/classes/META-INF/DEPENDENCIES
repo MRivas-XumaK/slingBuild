@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Filesystem Resource Provider
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Annotations for SCR (http://felix.apache.org/org.apache.felix.scr.annotations/) org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling AdapterManager implementation (http://sling.apache.org/org.apache.sling.adapter) org.apache.sling:org.apache.sling.adapter:bundle:2.0.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling API (http://sling.apache.org/org.apache.sling.api) org.apache.sling:org.apache.sling.api:bundle:2.3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - Commons OSGi support (http://incubator.apache.org/sling/org.apache.sling.commons.osgi) org.apache.sling:org.apache.sling.commons.osgi:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.auth.selector.SelectorFormServlet">
+        <implementation class="org.apache.sling.auth.selector.SelectorFormServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="Default Login Form for the Authenticator Selector"/>
+        <property name="sling.servlet.paths" value="/system/sling/selector/login"/>
+        <property name="sling.auth.requirements">
+            -/system/sling/selector/login
+            -/sling.css
+            -/sling-logo.png
+            -/signup.html
+        </property>
+        <property name="service.pid" value="org.apache.sling.auth.selector.SelectorFormServlet"/>
+    </scr:component>
+</components>

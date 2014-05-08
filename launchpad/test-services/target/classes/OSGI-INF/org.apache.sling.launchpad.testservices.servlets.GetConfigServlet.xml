@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.servlets.GetConfigServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.GetConfigServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+            <provide interface="javax.servlet.ServletConfig"/>
+            <provide interface="java.io.Serializable"/>
+        </service>
+        <property name="service.description" value="GetConfig Test Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.paths" value="/testing/GetConfigServlet"/>
+        <property name="sling.servlet.extensions" value="json"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.GetConfigServlet"/>
+        <reference name="configAdmin" interface="org.osgi.service.cm.ConfigurationAdmin" cardinality="1..1" policy="static" bind="bindConfigAdmin" unbind="unbindConfigAdmin"/>
+    </scr:component>
+</components>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.servlets.ExportedPackageServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.ExportedPackageServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="Exported packages Test Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.selectors" value="EXPORTED_PACKAGES"/>
+        <property name="sling.servlet.extensions" value="txt"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.ExportedPackageServlet"/>
+        <reference name="packageAdmin" interface="org.osgi.service.packageadmin.PackageAdmin" cardinality="1..1" policy="static" bind="bindPackageAdmin" unbind="unbindPackageAdmin"/>
+    </scr:component>
+</components>

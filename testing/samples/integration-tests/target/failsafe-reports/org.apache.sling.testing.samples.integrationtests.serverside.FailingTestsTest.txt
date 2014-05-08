@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.testing.samples.integrationtests.serverside.FailingTestsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in org.apache.sling.testing.samples.integrationtests.serverside.FailingTestsTest

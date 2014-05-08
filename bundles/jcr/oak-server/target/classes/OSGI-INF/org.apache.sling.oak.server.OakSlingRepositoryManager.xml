@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.apache.sling.oak.server.OakSlingRepository" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.oak.server.OakSlingRepositoryManager"/>
+        <property name="defaultWorkspace"/>
+        <property name="admin.login.enabled" type="Boolean" value="true"/>
+        <property name="admin.name" value="admin"/>
+        <property name="anonymous.read.all" type="Boolean" value="true"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.oak.server.OakSlingRepository"/>
+        <reference name="namespaceMapper" interface="org.apache.sling.jcr.api.NamespaceMapper" cardinality="0..n" policy="dynamic" bind="bindNamespaceMapper" unbind="unbindNamespaceMapper"/>
+        <reference name="serviceUserMapper" interface="org.apache.sling.serviceusermapping.ServiceUserMapper" cardinality="1..1" policy="static" bind="bindServiceUserMapper" unbind="unbindServiceUserMapper"/>
+        <reference name="nodeStore" interface="org.apache.jackrabbit.oak.spi.state.NodeStore" cardinality="1..1" policy="static" bind="bindNodeStore" unbind="unbindNodeStore"/>
+    </scr:component>
+</components>

@@ -1,0 +1,11 @@
+org/apache/sling/models/annotations/package-info.class
+org/apache/sling/models/spi/Injector.class
+org/apache/sling/models/annotations/Source.class
+org/apache/sling/models/annotations/Filter.class
+org/apache/sling/models/annotations/Default.class
+org/apache/sling/models/annotations/Model.class
+org/apache/sling/models/spi/DisposalCallbackRegistry.class
+org/apache/sling/models/annotations/Optional.class
+org/apache/sling/models/spi/package-info.class
+org/apache/sling/models/annotations/Via.class
+org/apache/sling/models/spi/DisposalCallback.class

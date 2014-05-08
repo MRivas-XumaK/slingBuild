@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697165978
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Core Tag Library for Apache Sling JSP support
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JSP Tag Library
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.scripting.jsp.taglib
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.2.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.scripting.jsp.taglib;version="2.2.0";us
+ es:="javax.servlet,javax.servlet.jsp,javax.servlet.jsp.tagext,org.apach
+ e.sling.api.adapter,org.apache.sling.api.resource"
+Import-Package: javax.servlet.jsp;version="2.0",javax.servlet.jsp.tagext
+ ;version="2.0",javax.servlet,javax.servlet.http,org.apache.commons.io;v
+ ersion="[1.4,2)",org.apache.sling.api;version="[2.1,3)",org.apache.slin
+ g.api.adapter;version="[2.1,3)",org.apache.sling.api.request;version="[
+ 2.1,3)",org.apache.sling.api.resource;version="[2.1,3)",org.apache.slin
+ g.api.scripting;version="[2.1,3)",org.apache.sling.api.servlets;version
+ ="[2.1,3)",org.apache.sling.commons.classloader;version="[1.0,2)",org.a
+ pache.sling.scripting.jsp.util;version="[2.0,3)",org.slf4j;version="[1.
+ 5,2)",javax.jcr;resolution:=optional
+Tool: Bnd-2.1.0.20130426-122213

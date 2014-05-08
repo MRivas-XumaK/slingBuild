@@ -1,0 +1,13 @@
+org/apache/sling/jcr/webdav/impl/helper/SlingResourceLocator.class
+org/apache/sling/jcr/webdav/impl/servlets/SlingSimpleWebDavServlet.class
+org/apache/sling/jcr/webdav/impl/helper/SlingResourceConfig.class
+org/apache/sling/jcr/webdav/impl/handler/SlingPropertyManager.class
+org/apache/sling/jcr/webdav/impl/helper/SlingSessionProvider.class
+org/apache/sling/jcr/webdav/impl/handler/DirListingExportHandlerService.class
+org/apache/sling/jcr/webdav/impl/handler/SlingHandlerManager.class
+org/apache/sling/jcr/webdav/impl/handler/SlingIOManager.class
+org/apache/sling/jcr/webdav/impl/servlets/SlingWebDavServlet.class
+org/apache/sling/jcr/webdav/impl/handler/DefaultHandlerService.class
+org/apache/sling/jcr/webdav/impl/helper/SlingLocatorFactory.class
+org/apache/sling/jcr/webdav/impl/helper/SlingTikaDetector.class
+org/apache/sling/jcr/webdav/impl/handler/SlingCopyMoveManager.class

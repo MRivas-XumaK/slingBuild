@@ -1,0 +1,12 @@
+org/apache/sling/junit/remote/testrunner/SlingRemoteTestRunner.class
+org/apache/sling/junit/remote/testrunner/SlingTestsCountChecker.class
+org/apache/sling/junit/remote/ide/SerializedRenderer.class
+org/apache/sling/junit/remote/ide/ExecutionResult.class
+org/apache/sling/junit/remote/ide/SlingRemoteExecutionRule$1.class
+org/apache/sling/junit/remote/httpclient/RemoteTestHttpClient$1.class
+org/apache/sling/junit/remote/testrunner/SlingRemoteTestParameters.class
+org/apache/sling/junit/remote/exported/ExampleRemoteTest$1.class
+org/apache/sling/junit/remote/exported/ExampleRemoteTest.class
+org/apache/sling/junit/remote/ide/SlingRemoteExecutionRule.class
+org/apache/sling/junit/remote/httpclient/RemoteTestHttpClient.class
+org/apache/sling/junit/remote/testrunner/SlingRemoteTest.class

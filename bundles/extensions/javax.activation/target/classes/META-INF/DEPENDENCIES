@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling javax.activation bundle
+
+
+From: 'an unknown organization'
+  - JavaBeans(TM) Activation Framework (http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp) javax.activation:activation:jar:1.1.1
+    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+
+
+
+

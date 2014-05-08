@@ -1,0 +1,6 @@
+org/apache/sling/jcr/registration/impl/JndiRegistrationSupport.class
+org/apache/sling/jcr/registration/package-info.class
+org/apache/sling/jcr/registration/impl/JndiRegistrationSupport$1.class
+org/apache/sling/jcr/registration/impl/RmiRegistrationSupport.class
+org/apache/sling/jcr/registration/impl/RmiRegistrationSupport$RmiRegistration.class
+org/apache/sling/jcr/registration/AbstractRegistrationSupport.class

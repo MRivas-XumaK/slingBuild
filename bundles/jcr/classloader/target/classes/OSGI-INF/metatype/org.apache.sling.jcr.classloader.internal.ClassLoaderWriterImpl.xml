@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.jcr.classloader.internal.DynamicClassLoaderProviderImpl" name="%loader.name" description="%loader.description">
+        <AD id="classpath" type="String" default="/var/classes" name="%classpath.name" description="%classpath.description"/>
+        <AD id="appendId" type="Boolean" default="true" name="%appendId.name" description="%appendId.description"/>
+        <AD id="owner" type="String" default="admin" name="%owner.name" description="%owner.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.jcr.classloader.internal.DynamicClassLoaderProviderImpl">
+        <Object ocdref="org.apache.sling.jcr.classloader.internal.DynamicClassLoaderProviderImpl"/>
+    </Designate>
+</metatype:MetaData>

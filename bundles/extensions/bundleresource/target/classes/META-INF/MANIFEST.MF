@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697174591
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.bundleresource.impl.Activator
+Bundle-Category: sling
+Bundle-Description: Provides a ResourceProvider implementation supportin
+ g bundle        based resources.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Bundle Resource Provider
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.bundleresource.impl
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.2.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.servlet,javax.servlet.http,org.apache.sling.api;ve
+ rsion="[2.2,3)",org.apache.sling.api.resource;version="[2.2,3)",org.apa
+ che.sling.commons.osgi;version="[2.0,3)",org.osgi.framework;version="[1
+ .4,2)",org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

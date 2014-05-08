@@ -1,0 +1,14 @@
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/RegisteredResourceComparatorTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/tasks/MockInstallationListener.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/tasks/BundleTaskCreatorTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/tasks/MockBundleTaskCreator.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/api/InstallableResourceTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/util/RefreshDependenciesUtilTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/MockBundleContext.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/mocks/MockFileDataStore.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/Utilities.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/MockBundleResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/TaskOrderingTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/RegisteredResourceTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/DictionaryDigestTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/core/src/test/java/org/apache/sling/installer/core/impl/InternalResourceTest.java

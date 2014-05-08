@@ -1,0 +1,7 @@
+org/apache/sling/extensions/webconsolesecurityprovider/internal/Activator.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/ServicesListener$Listener.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/ServicesListener$State.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/ServicesListener.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/SlingWebConsoleSecurityProvider.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/AbstractWebConsoleSecurityProvider.class
+org/apache/sling/extensions/webconsolesecurityprovider/internal/SlingWebConsoleSecurityProvider2.class

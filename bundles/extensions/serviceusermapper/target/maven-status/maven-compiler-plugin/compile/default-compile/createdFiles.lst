@@ -1,0 +1,4 @@
+org/apache/sling/serviceusermapping/ServiceUserMapper.class
+org/apache/sling/serviceusermapping/impl/Mapping.class
+org/apache/sling/serviceusermapping/package-info.class
+org/apache/sling/serviceusermapping/impl/ServiceUserMapperImpl.class

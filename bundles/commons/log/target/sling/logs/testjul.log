@@ -1,0 +1,2 @@
+2014-04-28 08:42:31,994 INFO  o.o.p.e.i.j.i.ContainerTestRunner - running testJULLogging in reactor 
+2014-04-28 08:42:32,305 INFO  foo.jul.1 - Info message 

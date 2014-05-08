@@ -1,0 +1,14 @@
+09:28:28.960 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:28.962 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:28.971 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:28.974 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:28.975 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:28.978 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:28.982 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:29.007 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:29.008 INFO  [main] HttpMethodDirector.java:722       Failure authenticating with BASIC 'Sling (Development)'@localhost:43014
+09:28:43.702 INFO  [main] RepositoryTestUtil.java:44        Repository descriptor jcr.repository.name=Jackrabbit
+09:28:43.707 INFO  [main] RepositoryTestUtil.java:44        Repository descriptor jcr.repository.version=2.4.2
+09:28:45.691 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:48.322 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:28:57.561 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

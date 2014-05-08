@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696384979
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Bundle implementing a Sling Authentication Handler w
+ hich        allows for choosing which actual authentication handler    
+     is to be used delegating the actual credential handling        to c
+ oncrete handlers. The selector handler only presents        HTML forms 
+ to provide credential data such as username        and password for the
+  Formbased Authentication Handler        or an OpenID identifier for th
+ e OpenID Authentication        Handler.
+Bundle-DocURL: http://sling.apache.org/site/openid-authenticationhandler
+ .html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Authentication Selector
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.auth.selector
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.5.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: org.apache.sling.commons.osgi;inline="org/apache/sling
+ /commons/osgi/OsgiUtil.*",
+Export-Package: org.apache.sling.auth.selector;uses:="javax.servlet.http
+ ,org.apache.sling.auth.core.spi";version="1.0.5.SNAPSHOT"
+Import-Package: javax.servlet.http,org.apache.commons.lang,org.apache.sl
+ ing.auth.core;version="[1.1,2)",org.apache.sling.auth.core.spi;version=
+ "[1.0,2)",org.apache.sling.auth.form;version="[1.0,2)",org.apache.sling
+ .auth.openid;version="[1.0,2)",org.osgi.framework,org.osgi.service.even
+ t,org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.auth.selector.SelectorFormS
+ ervlet.xml,OSGI-INF/org.apache.sling.auth.selector.SelectorAuthenticati
+ onHandler.xml
+Tool: Bnd-2.1.0.20130426-122213

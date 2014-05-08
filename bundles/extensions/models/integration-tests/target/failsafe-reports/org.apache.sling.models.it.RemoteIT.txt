@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.models.it.RemoteIT
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.289 sec - in org.apache.sling.models.it.RemoteIT

@@ -1,0 +1,5 @@
+org/apache/sling/models/it/SimpleTest.class
+org/apache/sling/models/it/models/TestModel.class
+org/apache/sling/models/it/models/SourceObject.class
+org/apache/sling/models/it/ViaTest.class
+org/apache/sling/models/it/models/ViaModel.class

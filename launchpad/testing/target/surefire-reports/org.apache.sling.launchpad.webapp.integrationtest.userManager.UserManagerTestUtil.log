@@ -1,0 +1,6 @@
+09:29:03.281 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:03.284 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available
+09:29:04.159 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:04.159 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available
+09:29:04.184 WARN  [main] HttpMethodDirector.java:288       Required credentials not available for BASIC <any realm>@localhost:43014
+09:29:04.185 WARN  [main] HttpMethodDirector.java:290       Preemptive authentication requested but no default credentials available

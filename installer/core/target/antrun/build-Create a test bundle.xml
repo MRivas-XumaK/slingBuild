@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="Create a test bundle"  >
+<target name="Create a test bundle">
+  <jar destfile="/home/xumakgt5/Desarrollo/Apache/sling/installer/core/target/org.apache.sling.installer.core-3.5.1-SNAPSHOT-testbundle-1.0.jar">
+    <fileset dir="/home/xumakgt5/Desarrollo/Apache/sling/installer/core/target/classes">
+      <include name="META-INF/**"/>
+    </fileset>
+    <manifest>
+      <attribute name="Manifest-Version" value="2"/>
+      <attribute name="Bundle-Name" value="OSGi installer test bundle"/>
+      <attribute name="Bundle-SymbolicName" value="osgi-installer-testbundle"/>
+      <attribute name="Bundle-Version" value="1.0.4"/>
+    </manifest>
+  </jar>
+</target>
+</project>

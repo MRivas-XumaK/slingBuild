@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.event.it.HistoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.36 sec - in org.apache.sling.event.it.HistoryTest

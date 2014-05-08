@@ -1,0 +1,4 @@
+09:28:53.283 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:53.284 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Jackrabbit Webdav Server'@localhost:43014
+09:28:53.285 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:28:53.285 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Sling WebDAV'@localhost:43014

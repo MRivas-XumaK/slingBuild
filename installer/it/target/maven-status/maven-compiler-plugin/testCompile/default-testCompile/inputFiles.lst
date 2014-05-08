@@ -1,0 +1,16 @@
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundleSnapshotUpdateTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/InvalidBundlesTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/MockInstallableResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundleStatePreservedTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundleDependenciesTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/RemovedResourceDetectionTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/ContextBundleUpdateTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/OsgiInstallerTestBase.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/FragmentInstallTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/ConfigInstallTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/EventsDetector.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundleInstallStressTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundlePrioritiesTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/ConfigPrioritiesTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/BundleInstallUpgradeDowngradeTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/it/src/test/java/org/apache/sling/installer/it/RegisterResourcesTest.java

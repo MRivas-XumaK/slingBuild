@@ -1,0 +1,5 @@
+org/apache/sling/commons/threaddump/internal/Activator.class
+org/apache/sling/commons/threaddump/internal/ThreadDumpCommand.class
+org/apache/sling/commons/threaddump/internal/Activator$1.class
+org/apache/sling/commons/threaddump/internal/ThreadDumperPanel.class
+org/apache/sling/commons/threaddump/internal/BaseThreadDumper.class

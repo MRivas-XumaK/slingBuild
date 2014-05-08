@@ -1,0 +1,1020 @@
+----------------------------------------------------------------
+2014-04-28 14:48:43.470 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:48:51.439 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ac3880cc-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:48:59.459 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ef1ac193-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:19.397 GMT:
+Shutting down instance ac3880cc-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:20.182 GMT:
+Shutting down instance ef1ac193-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:20.958 GMT:
+Shutting down instance a816c00e-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:21.117 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 9ee2c2d3-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:21.343 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a8d482ec-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:21.734 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 63628305-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:22.043 GMT:
+Shutting down instance a8d482ec-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:22.106 GMT:
+Shutting down instance 63628305-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:22.177 GMT:
+Shutting down instance 9ee2c2d3-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:22.325 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 76630328-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:22.533 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance d2680341-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:22.819 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2f09435a-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:23.104 GMT:
+Shutting down instance d2680341-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:23.168 GMT:
+Shutting down instance 2f09435a-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:23.238 GMT:
+Shutting down instance 76630328-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:23.376 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 9c12837c-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:23.568 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance da248395-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:23.835 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 58d2c3ae-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:24.116 GMT:
+Shutting down instance da248395-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:24.179 GMT:
+Shutting down instance 58d2c3ae-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:24.250 GMT:
+Shutting down instance 9c12837c-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:24.401 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2fb243cf-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:24.609 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 1fcb03e8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:24.870 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 80800401-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:25.136 GMT:
+Shutting down instance 1fcb03e8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:25.199 GMT:
+Shutting down instance 80800401-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:25.270 GMT:
+Shutting down instance 2fb243cf-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:25.410 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance c314c423-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:25.619 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 553a843c-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:25.902 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 97fc8455-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:26.239 GMT:
+Shutting down instance 553a843c-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:26.303 GMT:
+Shutting down instance 97fc8455-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:26.382 GMT:
+Shutting down instance c314c423-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:26.518 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 4411847d-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:26.720 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 0869c496-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:26.979 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 1d5e44af-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:27.442 GMT:
+Shutting down instance 0869c496-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:27.505 GMT:
+Shutting down instance 1d5e44af-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:27.576 GMT:
+Shutting down instance 4411847d-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:27.710 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ccf744d7-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:27.911 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 038204f0-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:28.161 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2aa90509-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:28.437 GMT:
+Shutting down instance 038204f0-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:28.500 GMT:
+Shutting down instance 2aa90509-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:28.571 GMT:
+Shutting down instance ccf744d7-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:28.712 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7601c52b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:28.904 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 4e998544-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:29.146 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 57cd855d-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:29.416 GMT:
+Shutting down instance 4e998544-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:29.479 GMT:
+Shutting down instance 57cd855d-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:29.550 GMT:
+Shutting down instance 7601c52b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:29.703 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 25f0457f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:29.887 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a0950598-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:30.129 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 8bd605b1-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:30.519 GMT:
+Shutting down instance a0950598-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:30.582 GMT:
+Shutting down instance 8bd605b1-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:30.653 GMT:
+Shutting down instance 25f0457f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:30.796 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance dcc2c5d3-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:30.988 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance f97485ec-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:31.230 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance c6c28605-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:31.622 GMT:
+Shutting down instance f97485ec-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:31.685 GMT:
+Shutting down instance c6c28605-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:31.756 GMT:
+Shutting down instance dcc2c5d3-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:31.887 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance bd8d0629-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:32.071 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6c584642-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:32.357 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2bbfc65b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:32.633 GMT:
+Shutting down instance 6c584642-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:32.705 GMT:
+Shutting down instance 2bbfc65b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:32.776 GMT:
+Shutting down instance bd8d0629-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:32.914 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 58b2867c-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:33.090 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a9848695-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:33.340 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 3af2c6ae-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:33.620 GMT:
+Shutting down instance a9848695-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:33.684 GMT:
+Shutting down instance 3af2c6ae-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:33.755 GMT:
+Shutting down instance 58b2867c-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:33.898 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2a9246cf-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:34.108 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2d6b06e8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:34.358 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a0e00701-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:34.641 GMT:
+Shutting down instance 2d6b06e8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:34.712 GMT:
+Shutting down instance a0e00701-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:34.783 GMT:
+Shutting down instance 2a9246cf-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:34.915 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e32c4722-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:35.099 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a80bc73b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:35.341 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 0d878754-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:35.636 GMT:
+Shutting down instance a80bc73b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:35.699 GMT:
+Shutting down instance 0d878754-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:35.770 GMT:
+Shutting down instance e32c4722-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:35.900 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance f9f70779-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:36.076 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 30f64792-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:36.310 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7891c7ab-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:36.689 GMT:
+Shutting down instance 30f64792-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:36.752 GMT:
+Shutting down instance 7891c7ab-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:36.823 GMT:
+Shutting down instance f9f70779-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:36.958 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 982607d0-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:37.275 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance d14507e9-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:37.542 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 8b004802-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:37.834 GMT:
+Shutting down instance d14507e9-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:37.897 GMT:
+Shutting down instance 8b004802-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:37.968 GMT:
+Shutting down instance 982607d0-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:38.101 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 51cd0829-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:38.301 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 0d184842-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:38.543 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance d8ffc85b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:38.854 GMT:
+Shutting down instance 0d184842-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:38.917 GMT:
+Shutting down instance d8ffc85b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:38.988 GMT:
+Shutting down instance 51cd0829-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:39.134 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7ef00880-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:39.334 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 3c5b0899-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:39.561 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7a6248b2-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:39.874 GMT:
+Shutting down instance 3c5b0899-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:39.937 GMT:
+Shutting down instance 7a6248b2-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:40.008 GMT:
+Shutting down instance 7ef00880-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:40.143 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a37748d7-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:40.335 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance f30208f0-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:40.569 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 33290909-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:40.886 GMT:
+Shutting down instance f30208f0-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:40.949 GMT:
+Shutting down instance 33290909-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:41.020 GMT:
+Shutting down instance a37748d7-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:41.152 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 98924932-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:41.327 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ea55c94b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:41.886 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance dcb58964-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:42.188 GMT:
+Shutting down instance ea55c94b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:42.251 GMT:
+Shutting down instance dcb58964-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:42.322 GMT:
+Shutting down instance 98924932-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:42.460 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 80fdc98b-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:42.660 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 74ed89a4-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:43.109 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 997989bd-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:43.457 GMT:
+Shutting down instance 74ed89a4-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:43.520 GMT:
+Shutting down instance 997989bd-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:43.591 GMT:
+Shutting down instance 80fdc98b-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:43.716 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7b0b09e8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:43.918 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 01400a01-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:44.152 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 88114a1a-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:44.444 GMT:
+Shutting down instance 01400a01-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:44.515 GMT:
+Shutting down instance 88114a1a-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:44.586 GMT:
+Shutting down instance 7b0b09e8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:44.726 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7e284a3f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:44.902 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 167d0a58-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:45.127 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 1f6e0a71-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:45.439 GMT:
+Shutting down instance 167d0a58-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:45.502 GMT:
+Shutting down instance 1f6e0a71-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:45.573 GMT:
+Shutting down instance 7e284a3f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:45.703 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 68a9ca96-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:45.879 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a31e4aaf-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:46.096 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance be2f0ac8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:46.401 GMT:
+Shutting down instance a31e4aaf-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:46.672 GMT:
+Shutting down instance be2f0ac8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:46.742 GMT:
+Shutting down instance 68a9ca96-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:46.886 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 50064aef-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:47.078 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6ca70b08-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:47.303 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance f9e40b21-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:47.595 GMT:
+Shutting down instance 6ca70b08-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:47.659 GMT:
+Shutting down instance f9e40b21-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:47.729 GMT:
+Shutting down instance 50064aef-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:47.863 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance c97bcb46-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:48.046 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 883c4b5f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:48.272 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 27990b78-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:48.698 GMT:
+Shutting down instance 883c4b5f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:48.762 GMT:
+Shutting down instance 27990b78-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:48.832 GMT:
+Shutting down instance c97bcb46-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:48.970 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 40244b9f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:49.171 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e1110bb8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:49.398 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance f29a0bd1-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:49.693 GMT:
+Shutting down instance e1110bb8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:49.757 GMT:
+Shutting down instance f29a0bd1-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:49.828 GMT:
+Shutting down instance 40244b9f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:49.964 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 488dcbf6-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:50.156 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 8b9a4c0f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:50.406 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance af430c28-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:50.689 GMT:
+Shutting down instance 8b9a4c0f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:50.752 GMT:
+Shutting down instance af430c28-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:50.823 GMT:
+Shutting down instance 488dcbf6-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:50.947 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a85b8c4d-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:51.124 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 1d87cc66-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:51.358 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e3504c7f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:51.800 GMT:
+Shutting down instance 1d87cc66-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:51.863 GMT:
+Shutting down instance e3504c7f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:51.934 GMT:
+Shutting down instance a85b8c4d-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:52.056 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e5dfcca6-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:52.248 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ad384cbf-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:52.482 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 552d0cd8-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:52.828 GMT:
+Shutting down instance ad384cbf-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:52.892 GMT:
+Shutting down instance 552d0cd8-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:52.963 GMT:
+Shutting down instance e5dfcca6-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:53.089 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance d4a18cfd-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:53.300 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ce19cd16-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:53.525 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 182e4d2f-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:53.815 GMT:
+Shutting down instance ce19cd16-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:53.879 GMT:
+Shutting down instance 182e4d2f-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:53.949 GMT:
+Shutting down instance d4a18cfd-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:54.082 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 8ac78d54-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:54.258 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 465f8d6d-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:54.492 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance c293cd86-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:54.794 GMT:
+Shutting down instance 465f8d6d-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:54.857 GMT:
+Shutting down instance c293cd86-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:54.928 GMT:
+Shutting down instance 8ac78d54-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+----------------------------------------------------------------
+2014-04-28 14:49:55.059 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 7851cdab-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:55.243 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 86098dc4-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:49:55.460 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance c45d8ddd-0145-a8cf-35b0-0000058f8260
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/resource/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:49:55.806 GMT:
+Shutting down instance 86098dc4-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:55.869 GMT:
+Shutting down instance c45d8ddd-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------
+
+2014-04-28 14:49:55.940 GMT:
+Shutting down instance 7851cdab-0145-a8cf-35b0-0000058f8260
+----------------------------------------------------------------

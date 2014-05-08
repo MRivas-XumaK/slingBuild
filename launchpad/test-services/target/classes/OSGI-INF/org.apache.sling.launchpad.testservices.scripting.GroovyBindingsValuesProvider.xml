@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.scripting.GroovyBindingsValuesProvider">
+        <implementation class="org.apache.sling.launchpad.testservices.scripting.GroovyBindingsValuesProvider"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.scripting.api.BindingsValuesProvider"/>
+        </service>
+        <property name="service.description" value="Groovy BindingsValuesProvider"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="javax.script.name" value="groovy"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.scripting.GroovyBindingsValuesProvider"/>
+    </scr:component>
+</components>

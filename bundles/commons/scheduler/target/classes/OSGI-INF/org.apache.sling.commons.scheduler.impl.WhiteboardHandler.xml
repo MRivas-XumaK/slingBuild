@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.apache.sling.commons.scheduler.impl.WhiteboardHandler" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.commons.scheduler.impl.WhiteboardHandler"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.commons.scheduler.impl.WhiteboardHandler"/>
+        <reference name="scheduler" interface="org.apache.sling.commons.scheduler.Scheduler" cardinality="1..1" policy="static" bind="bindScheduler" unbind="unbindScheduler"/>
+    </scr:component>
+</components>

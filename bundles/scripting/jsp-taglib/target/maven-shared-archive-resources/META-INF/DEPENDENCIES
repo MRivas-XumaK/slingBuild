@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling JSP Tag Library
+
+
+From: 'an unknown organization'
+  - jsp-api  javax.servlet:jsp-api:jar:2.0
+
+
+
+
+

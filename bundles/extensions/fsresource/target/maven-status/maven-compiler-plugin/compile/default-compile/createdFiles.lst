@@ -1,0 +1,8 @@
+org/apache/sling/fsprovider/internal/FsResourceProvider.class
+org/apache/sling/fsprovider/internal/FileMonitor$FileStatus.class
+org/apache/sling/fsprovider/internal/FileMonitor$Monitorable.class
+org/apache/sling/fsprovider/internal/FileMonitor.class
+org/apache/sling/fsprovider/internal/FileMonitor$NonExistingStatus.class
+org/apache/sling/fsprovider/internal/FileMonitor$DirStatus.class
+org/apache/sling/fsprovider/internal/FsResourceProvider$1.class
+org/apache/sling/fsprovider/internal/FsResource.class

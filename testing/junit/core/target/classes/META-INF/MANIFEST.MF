@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698154628
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.junit.Activator
+Bundle-Category: sling
+Bundle-ClassPath: .,junit-4.8.2.jar
+Bundle-Description: Runs JUnit tests in an OSGi framework and provides t
+ he JUnit libraries
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JUnit Core
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.junit.core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.9.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: org.jacoco.agent;classifier=runtime;inline=org/jacoco/
+ agent/rt/IAgent.class,*;artifactId=junit
+Embedded-Artifacts: junit-4.8.2.jar;g="junit";a="junit";v="4.8.2"
+Export-Package: org.apache.sling.junit;version="1.1.0";uses:="javax.serv
+ let.http,org.junit.runner.notification,org.osgi.framework",org.apache.s
+ ling.junit.annotations;version="1.0.8";uses:="org.junit.runners,org.jun
+ it.runners.model",junit.framework;version="4.8.2";uses:="org.junit.runn
+ er,org.junit.runner.manipulation,org.junit.runner.notification",org.jun
+ it;version="4.8.2",org.junit.matchers;version="4.8.2",org.junit.rules;v
+ ersion="4.8.2";uses:="org.junit.runners.model",org.junit.runner;version
+ ="4.8.2";uses:="junit.framework,org.junit.runner.manipulation,org.junit
+ .runner.notification,org.junit.runners.model",org.junit.runner.manipula
+ tion;version="4.8.2";uses:="org.junit.runner",org.junit.runner.notifica
+ tion;version="4.8.2";uses:="org.junit.runner",org.junit.runners;version
+ ="4.8.2";uses:="org.junit.runner,org.junit.runner.manipulation,org.juni
+ t.runner.notification,org.junit.runners.model",org.junit.runners.model;
+ version="4.8.2";uses:="org.junit.runner"
+Import-Package: javax.management,javax.servlet,javax.servlet.http,javax.
+ xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.trans
+ form.stream,junit.framework;version="[4.8,5)",org.apache.sling.commons.
+ json;version="[2.0,3)",org.apache.sling.commons.json.io;version="[2.0,3
+ )",org.apache.sling.junit;version="[1.1,2)",org.apache.sling.junit.anno
+ tations;version="[1.0,2)",org.junit.runner.manipulation;version="[4.8,5
+ )",org.junit.runner.notification;version="[4.8,5)",org.osgi.framework;v
+ ersion="[1.4,2)",org.osgi.service.component;version="[1.0,2)",org.osgi.
+ service.http;version="[1.2,2)",org.osgi.util.tracker;version="[1.3,2)",
+ org.slf4j;version="[1.5,2)",org.w3c.dom
+Service-Component: OSGI-INF/org.apache.sling.junit.impl.TestsManagerImpl
+ .xml,OSGI-INF/org.apache.sling.junit.impl.BundleTestsProvider.xml,OSGI-
+ INF/org.apache.sling.junit.impl.servlet.HtmlRenderer.xml,OSGI-INF/org.a
+ pache.sling.junit.impl.servlet.JacocoServlet.xml,OSGI-INF/org.apache.sl
+ ing.junit.impl.servlet.SlingJUnitServlet.xml,OSGI-INF/org.apache.sling.
+ junit.impl.RendererSelectorImpl.xml,OSGI-INF/org.apache.sling.junit.imp
+ l.AnnotationsProcessor.xml,OSGI-INF/org.apache.sling.junit.impl.servlet
+ .PlainTextRenderer.xml,OSGI-INF/org.apache.sling.junit.impl.servlet.Xml
+ Renderer.xml,OSGI-INF/org.apache.sling.junit.impl.servlet.JsonRenderer.
+ xml,OSGI-INF/org.apache.sling.junit.impl.servlet.JUnitServlet.xml
+Tool: Bnd-2.1.0.20130426-122213

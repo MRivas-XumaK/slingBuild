@@ -1,0 +1,10 @@
+org/apache/sling/discovery/PropertyProvider.class
+org/apache/sling/discovery/ClusterView.class
+org/apache/sling/discovery/TopologyView.class
+org/apache/sling/discovery/InstanceDescription.class
+org/apache/sling/discovery/package-info.class
+org/apache/sling/discovery/TopologyEvent.class
+org/apache/sling/discovery/TopologyEvent$Type.class
+org/apache/sling/discovery/InstanceFilter.class
+org/apache/sling/discovery/TopologyEventListener.class
+org/apache/sling/discovery/DiscoveryService.class

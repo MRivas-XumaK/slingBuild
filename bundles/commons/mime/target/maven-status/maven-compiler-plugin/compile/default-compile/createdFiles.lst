@@ -1,0 +1,6 @@
+org/apache/sling/commons/mime/internal/MimeTypeWebConsolePlugin.class
+org/apache/sling/commons/mime/internal/MimeTypeServiceImpl.class
+org/apache/sling/commons/mime/internal/TikaMimeTypeProvider.class
+org/apache/sling/commons/mime/MimeTypeProvider.class
+org/apache/sling/commons/mime/package-info.class
+org/apache/sling/commons/mime/MimeTypeService.class

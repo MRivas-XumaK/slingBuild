@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696269541
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-ClassPath: .,dyuproject-openid-1.1.7.jar,dyuproject-json-1.1.7.ja
+ r,dyuproject-util-1.1.7.jar,jetty-util-6.1.19.jar
+Bundle-Description: Bundle implementing OpenID authentication with login
+         and logout support
+Bundle-DocURL: http://sling.apache.org/site/openid-authenticationhandler
+ .html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling OpenID Authentication
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.auth.openid
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: dyuproject-openid,dyuproject-json,dyuproject-util,jett
+ y-util
+Embedded-Artifacts: dyuproject-openid-1.1.7.jar;g="com.dyuproject";a="dy
+ uproject-openid";v="1.1.7",dyuproject-json-1.1.7.jar;g="com.dyuproject"
+ ;a="dyuproject-json";v="1.1.7",dyuproject-util-1.1.7.jar;g="com.dyuproj
+ ect";a="dyuproject-util";v="1.1.7",jetty-util-6.1.19.jar;g="org.mortbay
+ .jetty";a="jetty-util";v="6.1.19"
+Export-Package: org.apache.sling.auth.openid;version="1.0"
+Import-Package: javax.crypto;resolution:=optional,javax.crypto.spec;reso
+ lution:=optional,javax.jcr;resolution:=optional,javax.security.auth.cal
+ lback;resolution:=optional,javax.servlet;resolution:=optional,javax.ser
+ vlet.http;resolution:=optional,org.apache.jackrabbit.api;resolution:=op
+ tional;version="[2.1,3)",org.apache.jackrabbit.api.security.user;resolu
+ tion:=optional;version="[2.1,3)",org.apache.sling.auth.core;resolution:
+ =optional;version="[1.1,2)",org.apache.sling.auth.core.spi;resolution:=
+ optional;version="[1.0,2)",org.apache.sling.auth.openid;resolution:=opt
+ ional;version="[1.0,2)",org.apache.sling.commons.osgi;resolution:=optio
+ nal;version="[2.0,3)",org.apache.sling.jcr.api;resolution:=optional;ver
+ sion="[2.0,3)",org.apache.sling.jcr.jackrabbit.server.security;resoluti
+ on:=optional;version="[2.0,3)",org.osgi.framework;resolution:=optional;
+ version="[1.4,2)",org.osgi.service.component;resolution:=optional;versi
+ on="[1.0,2)",org.slf4j;resolution:=optional;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.auth.openid.impl.OpenIDAuth
+ enticationHandler.xml,OSGI-INF/org.apache.sling.auth.openid.impl.Authen
+ ticationFormServlet.xml
+Tool: Bnd-2.1.0.20130426-122213

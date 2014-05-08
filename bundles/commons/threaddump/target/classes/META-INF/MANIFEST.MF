@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696235289
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.commons.threaddump.internal.Activator
+Bundle-Category: sling
+Bundle-Description: Plugin providing plugins to the Felix Shell and Web 
+ Console to        have the current threads with the stack traces dumped
+ .
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Thread Dumper
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.commons.threaddump
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.2.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: org.apache.felix.shell;version="[1.0,2)"
+Import-Package: org.osgi.framework;version="[1.4,2)",org.slf4j;version="
+ [1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

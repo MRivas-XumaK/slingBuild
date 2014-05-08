@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695815239
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: The Apache Sling API defines an extension to the Ser
+ vlet        API 2.4 to provide access to content and unified access    
+     to request parameters hiding the differences between the        dif
+ ferent methods of transferring parameters from client        to server.
+  Note that the Apache Sling API bundle does not        include the Serv
+ let API but instead requires the API to        be provided by the Servl
+ et container in which the Apache        Sling framework is running or b
+ y another bundle.
+Bundle-DocURL: http://sling.apache.org/site/sling-api.html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling API
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.api
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.7.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.api.adapter;version="2.2",org.apache.sl
+ ing.api.security;version="1.0";uses:="org.apache.sling.api.resource",or
+ g.apache.sling.api.servlets;version="2.1";uses:="javax.servlet,javax.se
+ rvlet.http,org.apache.sling.api,org.apache.sling.api.resource",org.apac
+ he.sling.api;version="2.3";uses:="javax.servlet,javax.servlet.http,org.
+ apache.sling.api.adapter,org.apache.sling.api.request,org.apache.sling.
+ api.resource",org.apache.sling.api.wrappers;version="2.5";uses:="javax.
+ servlet,javax.servlet.http,org.apache.sling.api,org.apache.sling.api.re
+ quest,org.apache.sling.api.resource",org.apache.sling.api.auth;version=
+ "1.0";uses:="javax.servlet.http,org.apache.sling.api",org.apache.sling.
+ api.resource;version="2.5";uses:="javax.servlet.http,org.apache.sling.a
+ pi,org.apache.sling.api.adapter",org.apache.sling.api.scripting;version
+ ="2.1";uses:="org.apache.sling.api,org.apache.sling.api.request,org.apa
+ che.sling.api.resource,org.slf4j",org.apache.sling.api.request;version=
+ "2.4";uses:="javax.servlet,javax.servlet.http,org.apache.sling.api,org.
+ apache.sling.api.resource"
+Import-Package: javax.servlet;version="2.4",javax.servlet.http;version="
+ 2.4",org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

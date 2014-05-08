@@ -1,0 +1,3 @@
+org/apache/sling/installer/factories/deploypck/impl/Activator.class
+org/apache/sling/installer/factories/deploypck/impl/DeploymentPackageInstaller.class
+org/apache/sling/installer/factories/deploypck/impl/DeployPckTask.class

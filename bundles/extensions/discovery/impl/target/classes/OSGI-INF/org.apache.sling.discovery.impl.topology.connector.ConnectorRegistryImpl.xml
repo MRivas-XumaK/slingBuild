@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.discovery.impl.topology.connector.ConnectorRegistryImpl" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.discovery.impl.topology.connector.ConnectorRegistryImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.discovery.impl.topology.connector.ConnectorRegistry"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.discovery.impl.topology.connector.ConnectorRegistryImpl"/>
+        <reference name="announcementRegistry" interface="org.apache.sling.discovery.impl.topology.announcement.AnnouncementRegistry" cardinality="1..1" policy="static" bind="bindAnnouncementRegistry" unbind="unbindAnnouncementRegistry"/>
+        <reference name="config" interface="org.apache.sling.discovery.impl.Config" cardinality="1..1" policy="static" bind="bindConfig" unbind="unbindConfig"/>
+    </scr:component>
+</components>

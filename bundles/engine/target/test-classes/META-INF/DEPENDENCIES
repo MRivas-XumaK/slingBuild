@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Engine Implementation
+
+
+From: 'GlassFish Community' (https://glassfish.dev.java.net)
+  - Java Servlet API (http://servlet-spec.java.net) javax.servlet:javax.servlet-api:jar:3.0.1
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+
+
+

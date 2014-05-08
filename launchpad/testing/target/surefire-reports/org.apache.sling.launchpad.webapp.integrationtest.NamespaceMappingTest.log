@@ -1,0 +1,10 @@
+09:27:16.301 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:17.336 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:17.460 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:18.235 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:18.318 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.102 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.172 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:19.940 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:20.018 WARN  [main] HttpMethodBase.java:682           Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+09:27:20.019 INFO  [main] HttpTestBase.java:247             Sling server found ready after 27320 msec

@@ -1,0 +1,13 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/SlingFunctions.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/GetResourceTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/GetPropertyTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/ListChildrenTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/IncludeTagHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/FindResourcesTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/EvalTagHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/DefineObjectsTEI.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/AdaptToTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/ForwardTagHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/AbstractDispatcherTagHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/DefineObjectsTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/main/java/org/apache/sling/scripting/jsp/taglib/CallTag.java

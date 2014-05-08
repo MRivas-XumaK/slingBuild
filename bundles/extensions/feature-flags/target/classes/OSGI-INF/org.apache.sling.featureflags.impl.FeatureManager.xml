@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.featureflags.impl.FeatureManager" configuration-policy="ignore">
+        <implementation class="org.apache.sling.featureflags.impl.FeatureManager"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.featureflags.Features"/>
+            <provide interface="javax.servlet.Filter"/>
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="felix.webconsole.label" value="features"/>
+        <property name="felix.webconsole.title" value="Features"/>
+        <property name="felix.webconsole.category" value="Sling"/>
+        <property name="pattern" value="/.*"/>
+        <property name="service.ranking" type="Integer" value="16384"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.featureflags.impl.FeatureManager"/>
+        <reference name="feature" interface="org.apache.sling.featureflags.Feature" cardinality="0..n" policy="dynamic" bind="bindFeature" unbind="unbindFeature"/>
+    </scr:component>
+</components>

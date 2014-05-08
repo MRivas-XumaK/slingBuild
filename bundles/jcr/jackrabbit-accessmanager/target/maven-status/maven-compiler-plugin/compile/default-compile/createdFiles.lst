@@ -1,0 +1,13 @@
+org/apache/sling/jcr/jackrabbit/accessmanager/post/ModifyAceServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractGetAclServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/PrivilegesInfo$AccessRights.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/GetEffectiveAclServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet$1.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/DeleteAcesServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/GetEffectiveAcl.class
+org/apache/sling/jcr/jackrabbit/accessmanager/DeleteAces.class
+org/apache/sling/jcr/jackrabbit/accessmanager/GetAcl.class
+org/apache/sling/jcr/jackrabbit/accessmanager/PrivilegesInfo.class
+org/apache/sling/jcr/jackrabbit/accessmanager/post/GetAclServlet.class
+org/apache/sling/jcr/jackrabbit/accessmanager/ModifyAce.class

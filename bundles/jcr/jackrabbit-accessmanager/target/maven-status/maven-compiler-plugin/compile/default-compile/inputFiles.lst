@@ -1,0 +1,11 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/DeleteAcesServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/DeleteAces.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractGetAclServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/GetEffectiveAcl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/ModifyAceServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/GetEffectiveAclServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/GetAclServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/GetAcl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/PrivilegesInfo.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/jackrabbit-accessmanager/src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/ModifyAce.java

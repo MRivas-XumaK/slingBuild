@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.installer.it.BundleInstallUpgradeDowngradeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.528 sec - in org.apache.sling.installer.it.BundleInstallUpgradeDowngradeTest

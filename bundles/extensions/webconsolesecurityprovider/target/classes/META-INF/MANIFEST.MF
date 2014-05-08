@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697861112
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.extensions.webconsolesecurityprovider
+ .internal.Activator
+Bundle-Category: sling
+Bundle-Description: WebConsoleSecurityProvider for the Apache Felix Web 
+ Console using the        Apache Sling Auth Core bundle to authenticate 
+ users.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Web Console Security Provider
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.extensions.webconsolesecurityprovi
+ der
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: org.apache.sling.api.auth;version="[1.0,2)",org.a
+ pache.sling.api.resource;version="[2.3,3)",org.apache.sling.auth.core;v
+ ersion="[1.0,2)"
+Import-Package: javax.jcr,javax.servlet.http,org.apache.felix.webconsole
+ ;version="[3.1,4)",org.apache.jackrabbit.api;version="[2.3,3)",org.apac
+ he.jackrabbit.api.security.user;version="[2.3,3)",org.apache.sling.laun
+ chpad.api;version="[1.1,2)",org.osgi.framework;version="[1.4,2)",org.os
+ gi.service.cm;version="[1.2,2)",org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

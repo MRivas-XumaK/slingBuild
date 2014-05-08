@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.adapter.ReallyAnAdapterFactory">
+        <implementation class="org.apache.sling.launchpad.testservices.adapter.ReallyAnAdapterFactory"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.api.adapter.AdapterFactory"/>
+        </service>
+        <property name="adaptables" value="org.apache.sling.api.resource.Resource"/>
+        <property name="adapters" value="something_which_should_appear"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.adapter.ReallyAnAdapterFactory"/>
+    </scr:component>
+</components>

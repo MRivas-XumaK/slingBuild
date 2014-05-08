@@ -1,0 +1,3 @@
+org/apache/sling/testing/samples/failingtests/JUnit3FailingTest.class
+org/apache/sling/testing/samples/failingtests/JUnit4FailingTest.class
+org/apache/sling/testing/samples/failingtests/EmptyTest.class

@@ -1,0 +1,120 @@
+2014-04-28 08:42:26,828 INFO  org.apache.sling.commons.logservice - Service [org.apache.sling.commons.logservice.internal.LogServiceFactory,11] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,831 INFO  org.apache.sling.commons.logservice - Service [org.apache.sling.commons.logservice.internal.LogReaderServiceFactory,12] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,831 INFO  org.apache.sling.commons.logservice - BundleEvent STARTED 
+2014-04-28 08:42:26,835 INFO  org.apache.felix.http.jetty - BundleEvent RESOLVED 
+2014-04-28 08:42:26,835 INFO  org.apache.felix.http.jetty - BundleEvent STARTING 
+2014-04-28 08:42:26,849 INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog 
+2014-04-28 08:42:26,850 INFO  org.apache.felix.http.jetty - Service [org.apache.felix.http,13] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,851 INFO  org.apache.felix.http.jetty - BundleEvent STARTED 
+2014-04-28 08:42:26,855 INFO  org.apache.felix.webconsole - BundleEvent RESOLVED 
+2014-04-28 08:42:26,856 INFO  org.apache.felix.scr - BundleEvent RESOLVED 
+2014-04-28 08:42:26,856 INFO  org.apache.felix.metatype - BundleEvent RESOLVED 
+2014-04-28 08:42:26,856 INFO  org.apache.felix.webconsole - BundleEvent STARTING 
+2014-04-28 08:42:26,871 INFO  org.apache.felix.webconsole - Service [14] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,873 INFO  org.apache.felix.webconsole - Service [15] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,874 INFO  org.apache.felix.webconsole - Service [16] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,875 INFO  org.apache.felix.webconsole - Service [17] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,877 INFO  org.apache.felix.webconsole - Service [18] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,878 INFO  org.apache.felix.webconsole - Service [19] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,879 INFO  org.apache.felix.webconsole - Service [20] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,899 INFO  org.apache.felix.webconsole - Service [org.apache.felix.webconsole.internal.servlet.OsgiManager,21] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,900 INFO  org.apache.felix.webconsole - BundleEvent STARTED 
+2014-04-28 08:42:26,900 INFO  org.apache.felix.metatype - BundleEvent STARTING 
+2014-04-28 08:42:26,914 INFO  org.apache.felix.metatype - Service [org.apache.felix.metatype.MetaTypeService,23] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,915 INFO  org.apache.felix.metatype - BundleEvent STARTED 
+2014-04-28 08:42:26,915 INFO  org.apache.felix.scr - BundleEvent STARTING 
+2014-04-28 08:42:26,915 INFO  org.apache.felix.http.jetty - Service [22] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,924 INFO  org.apache.felix.scr - Service [Declarative Services Management Agent,24] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,928 INFO  org.apache.felix.scr - Service [org.apache.felix.scr.ScrService,25] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,932 INFO  org.apache.felix.scr - Service [SCR Gogo Shell Support,26] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,932 INFO  org.apache.felix.scr - BundleEvent STARTED 
+2014-04-28 08:42:26,933 INFO  org.apache.commons.io - BundleEvent RESOLVED 
+2014-04-28 08:42:26,933 INFO  org.apache.commons.io - BundleEvent STARTING 
+2014-04-28 08:42:26,934 INFO  org.apache.commons.io - BundleEvent STARTED 
+2014-04-28 08:42:26,936 INFO  org.apache.commons.fileupload - BundleEvent RESOLVED 
+2014-04-28 08:42:26,936 INFO  org.apache.commons.fileupload - BundleEvent STARTING 
+2014-04-28 08:42:26,937 INFO  org.apache.commons.fileupload - BundleEvent STARTED 
+2014-04-28 08:42:26,937 INFO  wrap_mvn_org.json_json_20070829 - BundleEvent RESOLVED 
+2014-04-28 08:42:26,937 INFO  wrap_mvn_org.json_json_20070829 - BundleEvent STARTING 
+2014-04-28 08:42:26,937 INFO  wrap_mvn_org.json_json_20070829 - BundleEvent STARTED 
+2014-04-28 08:42:26,938 INFO  org.apache.felix.configadmin - BundleEvent STARTING 
+2014-04-28 08:42:26,940 INFO  org.apache.felix.http.jetty - Started jetty 6.1.x at port(s) HTTP:49169 
+2014-04-28 08:42:26,947 INFO  org.apache.felix.configadmin - Service [org.apache.felix.cm.file.FilePersistenceManager,27] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,950 INFO  org.apache.felix.scr - Service [Declarative Services Configuration Support Listener,29] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,952 INFO  org.apache.felix.configadmin - Service [org.apache.felix.cm.ConfigurationAdmin,28] ServiceEvent REGISTERED 
+2014-04-28 08:42:26,957 INFO  org.apache.felix.configadmin - BundleEvent STARTED 
+2014-04-28 08:42:26,977 INFO  org.apache.felix.http.jetty - Service [35] ServiceEvent REGISTERED 
+2014-04-28 08:42:28,006 ERROR org.apache.felix.http.jetty - servlet_3: Failed to instantiate plugin org.apache.felix.webconsole.internal.deppack.DepPackServlet (java.lang.NoClassDefFoundError: org/osgi/service/deploymentadmin/DeploymentException) 
+java.lang.NoClassDefFoundError: org/osgi/service/deploymentadmin/DeploymentException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2493)
+	at java.lang.Class.getConstructor0(Class.java:2803)
+	at java.lang.Class.newInstance(Class.java:345)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$InternalPlugin.doGetConsolePlugin(PluginHolder.java:761)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder$Plugin.getConsolePlugin(PluginHolder.java:532)
+	at org.apache.felix.webconsole.internal.servlet.PluginHolder.getLocalizedLabelMap(PluginHolder.java:242)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:420)
+	at org.apache.felix.webconsole.internal.servlet.OsgiManager.service(OsgiManager.java:384)
+	at org.apache.felix.http.base.internal.handler.ServletHandler.doHandle(ServletHandler.java:96)
+	at org.apache.felix.http.base.internal.handler.ServletHandler.handle(ServletHandler.java:79)
+	at org.apache.felix.http.base.internal.dispatch.ServletPipeline.handle(ServletPipeline.java:42)
+	at org.apache.felix.http.base.internal.dispatch.InvocationFilterChain.doFilter(InvocationFilterChain.java:49)
+	at org.apache.felix.http.base.internal.dispatch.HttpFilterChain.doFilter(HttpFilterChain.java:33)
+	at org.apache.felix.http.base.internal.dispatch.FilterPipeline.dispatch(FilterPipeline.java:48)
+	at org.apache.felix.http.base.internal.dispatch.Dispatcher.dispatch(Dispatcher.java:39)
+	at org.apache.felix.http.base.internal.DispatcherServlet.service(DispatcherServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:926)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.ClassNotFoundException: org.osgi.service.deploymentadmin.DeploymentException not found by org.apache.felix.webconsole [6]
+	at org.apache.felix.framework.BundleWiringImpl.findClassOrResourceByDelegation(BundleWiringImpl.java:1460)
+	at org.apache.felix.framework.BundleWiringImpl.access$400(BundleWiringImpl.java:72)
+	at org.apache.felix.framework.BundleWiringImpl$BundleClassLoader.loadClass(BundleWiringImpl.java:1843)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 31 common frames omitted
+2014-04-28 08:42:28,017 INFO  org.apache.felix.webconsole - Service [36] ServiceEvent REGISTERED 
+2014-04-28 08:42:31,190 INFO  org.apache.felix.framework - BundleEvent STOPPING 
+2014-04-28 08:42:31,190 INFO  o.a.sling.common.log.testbundle - BundleEvent STOPPING 
+2014-04-28 08:42:31,191 INFO  o.a.sling.common.log.testbundle - Service [30] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,192 INFO  o.a.sling.common.log.testbundle - Service [31] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,204 INFO  o.a.sling.common.log.testbundle - Service [34] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,213 INFO  o.a.sling.common.log.testbundle - BundleEvent STOPPED 
+2014-04-28 08:42:31,214 INFO  org.apache.felix.configadmin - BundleEvent STOPPING 
+2014-04-28 08:42:31,215 INFO  org.apache.felix.scr - Service [Declarative Services Configuration Support Listener,29] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,215 INFO  org.apache.felix.configadmin - Service [org.apache.felix.cm.ConfigurationAdmin,28] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,216 INFO  org.apache.felix.configadmin - Service [org.apache.felix.cm.file.FilePersistenceManager,27] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,217 INFO  org.apache.felix.configadmin - BundleEvent STOPPED 
+2014-04-28 08:42:31,217 INFO  wrap_mvn_org.json_json_20070829 - BundleEvent STOPPING 
+2014-04-28 08:42:31,217 INFO  wrap_mvn_org.json_json_20070829 - BundleEvent STOPPED 
+2014-04-28 08:42:31,217 INFO  org.apache.commons.fileupload - BundleEvent STOPPING 
+2014-04-28 08:42:31,217 INFO  org.apache.commons.fileupload - BundleEvent STOPPED 
+2014-04-28 08:42:31,218 INFO  org.apache.commons.io - BundleEvent STOPPING 
+2014-04-28 08:42:31,218 INFO  org.apache.commons.io - BundleEvent STOPPED 
+2014-04-28 08:42:31,218 INFO  org.apache.felix.scr - BundleEvent STOPPING 
+2014-04-28 08:42:31,219 INFO  org.apache.felix.scr - Service [Declarative Services Management Agent,24] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,220 INFO  org.apache.felix.scr - Service [org.apache.felix.scr.ScrService,25] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,220 INFO  org.apache.felix.scr - Service [SCR Gogo Shell Support,26] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,220 INFO  org.apache.felix.scr - BundleEvent STOPPED 
+2014-04-28 08:42:31,221 INFO  org.apache.felix.metatype - BundleEvent STOPPING 
+2014-04-28 08:42:31,222 INFO  org.apache.felix.metatype - Service [org.apache.felix.metatype.MetaTypeService,23] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,223 INFO  org.apache.felix.metatype - BundleEvent STOPPED 
+2014-04-28 08:42:31,225 INFO  org.apache.felix.webconsole - BundleEvent STOPPING 
+2014-04-28 08:42:31,226 INFO  org.apache.felix.webconsole - Service [36] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,226 INFO  org.apache.felix.webconsole - Service [14] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,227 INFO  org.apache.felix.webconsole - Service [15] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,227 INFO  org.apache.felix.webconsole - Service [16] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,227 INFO  org.apache.felix.webconsole - Service [17] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,228 INFO  org.apache.felix.webconsole - Service [18] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,228 INFO  org.apache.felix.webconsole - Service [19] ServiceEvent UNREGISTERING 
+2014-04-28 08:42:31,229 INFO  org.apache.felix.webconsole - Service [20] ServiceEvent UNREGISTERING 

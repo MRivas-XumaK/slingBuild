@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.event.jobs.QueueConfiguration" name="%queue.name" description="%queue.description">
+        <AD id="queue.name" type="String" name="%queue.name.name" description="%queue.name.description"/>
+        <AD id="queue.type" type="String" default="UNORDERED" name="%queue.type.name" description="%queue.type.description">
+            <Option value="UNORDERED" label="Parallel"/>
+            <Option value="ORDERED" label="Ordered"/>
+            <Option value="TOPIC_ROUND_ROBIN" label="Topic Round Robin"/>
+            <Option value="IGNORE" label="Ignore"/>
+            <Option value="DROP" label="Drop"/>
+        </AD>
+        <AD id="queue.topics" type="String" name="%queue.topics.name" description="%queue.topics.description" cardinality="2147483647"/>
+        <AD id="queue.maxparallel" type="Integer" default="15" name="%queue.maxparallel.name" description="%queue.maxparallel.description"/>
+        <AD id="queue.retries" type="Integer" default="10" name="%queue.retries.name" description="%queue.retries.description"/>
+        <AD id="queue.retrydelay" type="Long" default="2000" name="%queue.retrydelay.name" description="%queue.retrydelay.description"/>
+        <AD id="queue.priority" type="String" default="NORM" name="%queue.priority.name" description="%queue.priority.description">
+            <Option value="NORM" label="Norm"/>
+            <Option value="MIN" label="Min"/>
+            <Option value="MAX" label="Max"/>
+        </AD>
+        <AD id="queue.keepJobs" type="Boolean" default="false" name="%queue.keepJobs.name" description="%queue.keepJobs.description"/>
+        <AD id="queue.preferRunOnCreationInstance" type="Boolean" default="false" name="%queue.preferRunOnCreationInstance.name" description="%queue.preferRunOnCreationInstance.description"/>
+        <AD id="queue.threadPoolSize" type="Integer" default="0" name="%queue.threadPoolSize.name" description="%queue.threadPoolSize.description"/>
+        <AD id="service.ranking" type="Integer" default="0" name="%queue.ranking.name" description="%queue.ranking.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.event.jobs.QueueConfiguration" factoryPid="org.apache.sling.event.jobs.QueueConfiguration">
+        <Object ocdref="org.apache.sling.event.jobs.QueueConfiguration"/>
+    </Designate>
+</metatype:MetaData>

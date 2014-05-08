@@ -1,0 +1,14 @@
+org/apache/sling/installer/provider/file/impl/FileMonitor$NonExistingStatus.class
+org/apache/sling/installer/provider/file/impl/ScanConfiguration.class
+org/apache/sling/installer/provider/file/impl/FileMonitor$Collector.class
+org/apache/sling/installer/provider/file/impl/Installer.class
+org/apache/sling/installer/provider/file/impl/FileMonitor.class
+org/apache/sling/installer/provider/file/impl/Activator.class
+org/apache/sling/installer/provider/file/impl/FileInstaller.class
+org/apache/sling/installer/provider/file/impl/FileMonitor$Monitorable.class
+org/apache/sling/installer/provider/file/impl/FileMonitor$DirStatus.class
+org/apache/sling/installer/provider/file/impl/ServicesListener.class
+org/apache/sling/installer/provider/file/impl/FileChangesListener.class
+org/apache/sling/installer/provider/file/impl/FileMonitor$1.class
+org/apache/sling/installer/provider/file/impl/ServicesListener$Listener.class
+org/apache/sling/installer/provider/file/impl/FileMonitor$FileStatus.class

@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697137427
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Support for JavaScript scripting
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Scripting JavaScript Support
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.scripting.javascript
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.0.13.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.scripting.javascript;version="0.1.0";us
+ es:="org.mozilla.javascript",org.mozilla.javascript;version="0.0.0.1_7R
+ 4";uses:="org.mozilla.javascript.debug",org.mozilla.classfile;version="
+ 0.0.0.1_7R4",org.mozilla.javascript.debug;version="0.0.0.1_7R4";uses:="
+ org.mozilla.javascript"
+Import-Package: javax.jcr;version="[1.0,2)",javax.jcr.lock;version="[1.0
+ ,2)",javax.jcr.nodetype;version="[1.0,2)",javax.jcr.version;version="[1
+ .0,2)",javax.script,javax.servlet.http,javax.swing,javax.swing.border,j
+ avax.swing.event,javax.swing.filechooser,javax.swing.table,javax.swing.
+ text,javax.swing.tree,javax.xml.parsers,javax.xml.transform,javax.xml.t
+ ransform.dom,javax.xml.transform.stream,org.apache.sling.api.resource;v
+ ersion="[2.0,3)",org.apache.sling.api.scripting;version="[2.0,3)",org.a
+ pache.sling.commons.classloader;version="[1.0,2)",org.apache.sling.comm
+ ons.json.jcr;version="[2.0,3)",org.apache.sling.jcr.resource;version="[
+ 2.0,3)",org.apache.sling.scripting.api;version="[2.0,3)",org.apache.sli
+ ng.scripting.javascript;version="[0.1,1)",org.mozilla.classfile;version
+ ="[0.0,1)",org.mozilla.javascript.debug;version="[0.0,1)",org.osgi.fram
+ ework;version="[1.4,2)",org.osgi.service.component;version="[1.0,2)",or
+ g.slf4j;version="[1.5,2)",org.w3c.dom,org.xml.sax
+ScriptEngine-Name: Apache Sling Scripting JavaScript Support
+ScriptEngine-Version: 2.0.13-SNAPSHOT
+Service-Component: OSGI-INF/org.apache.sling.scripting.javascript.intern
+ al.RhinoJavaScriptEngineFactory.xml
+Tool: Bnd-2.1.0.20130426-122213

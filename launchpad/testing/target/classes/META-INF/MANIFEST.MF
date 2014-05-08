@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: Apache Sling Launchpad Base
+Implementation-Version: 2.5.1-SNAPSHOT
+Implementation-Vendor-Id: org.apache.sling
+Built-By: xumakgt5
+Build-Jdk: 1.7.0_55
+Created-By: Apache Maven 3.0.4
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,17 @@
+org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextIT$2.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest$3.class
+org/apache/sling/scripting/core/impl/helper/ProtectedBindingsTest.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest$MockServiceRegistration.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest$2.class
+org/apache/sling/scripting/core/impl/DummyScriptEngineFactory$DummyScriptEngine.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest$1.class
+org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextIT$3.class
+org/apache/sling/scripting/core/impl/ScriptEngineManagerFactoryTest$4.class
+org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextIT.class
+org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextIT$4.class
+org/apache/sling/scripting/core/impl/LogWriterTest$1.class
+org/apache/sling/scripting/core/impl/DummyScriptEngineFactory.class
+org/apache/sling/scripting/core/impl/LogWriterTest$MockLogger.class
+org/apache/sling/scripting/core/impl/LogWriterTest.class
+org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextIT$1.class

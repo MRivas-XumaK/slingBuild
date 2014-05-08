@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+2014-04-28 14:58:40.065 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-0145-a8d8-50b3-000005f55898
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/javascript/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 14:58:47.627 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance cbf5809d-0145-a8d8-50b3-000005f55898
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/javascript/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+
+2014-04-28 14:58:56.438 GMT:
+Shutting down instance cbf5809d-0145-a8d8-50b3-000005f55898
+----------------------------------------------------------------
+
+2014-04-28 14:58:56.931 GMT:
+Shutting down instance c013800d-0145-a8d8-50b3-000005f55898
+----------------------------------------------------------------

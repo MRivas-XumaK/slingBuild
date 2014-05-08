@@ -1,0 +1,16 @@
+org/apache/sling/scripting/jsp/taglib/GetPropertyTag.class
+org/apache/sling/scripting/jsp/taglib/AbstractDispatcherTagHandler$DispatcherSyntheticResource.class
+org/apache/sling/scripting/jsp/taglib/FindResourcesTag.class
+org/apache/sling/scripting/jsp/taglib/GetResourceTag.class
+org/apache/sling/scripting/jsp/taglib/ListChildrenTag.class
+org/apache/sling/scripting/jsp/taglib/AdaptToTag.class
+org/apache/sling/scripting/jsp/taglib/AbstractDispatcherTagHandler.class
+org/apache/sling/scripting/jsp/taglib/EvalTagHandler.class
+org/apache/sling/scripting/jsp/taglib/DefineObjectsTag.class
+org/apache/sling/scripting/jsp/taglib/SlingFunctions.class
+org/apache/sling/scripting/jsp/taglib/ForwardTagHandler.class
+org/apache/sling/scripting/jsp/taglib/IncludeTagHandler$CaptureResponseWrapper.class
+org/apache/sling/scripting/jsp/taglib/CallTag.class
+org/apache/sling/scripting/jsp/taglib/DefineObjectsTEI.class
+org/apache/sling/scripting/jsp/taglib/IncludeTagHandler$BufferedServletOutputStream.class
+org/apache/sling/scripting/jsp/taglib/IncludeTagHandler.class

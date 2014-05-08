@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.resourceaccesssecurity.it.impl.gates.FinalApplicationGate1">
+        <implementation class="org.apache.sling.resourceaccesssecurity.it.impl.gates.FinalApplicationGate1"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.resourceaccesssecurity.ResourceAccessGate"/>
+        </service>
+        <property name="path" value="/test/(un|)secured-provider/read(-update|)/(app|mixed)/.*"/>
+        <property name="finaloperations" value="read,update"/>
+        <property name="access.context" value="application"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.resourceaccesssecurity.it.impl.gates.FinalApplicationGate1"/>
+    </scr:component>
+</components>

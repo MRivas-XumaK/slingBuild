@@ -1,0 +1,11 @@
+org/apache/sling/bundleresource/impl/BundleResourceIterator.class
+org/apache/sling/bundleresource/impl/MappedPath.class
+org/apache/sling/bundleresource/impl/BundleResource.class
+org/apache/sling/bundleresource/impl/Activator.class
+org/apache/sling/bundleresource/impl/BundleResourceURLStreamHandler.class
+org/apache/sling/bundleresource/impl/BundleResourceWebConsolePlugin$1.class
+org/apache/sling/bundleresource/impl/BundleResourceProvider.class
+org/apache/sling/bundleresource/impl/BundleResourceWebConsolePlugin.class
+org/apache/sling/bundleresource/impl/BundleResourceCache$BundleResourceMap.class
+org/apache/sling/bundleresource/impl/BundleResourceCache.class
+org/apache/sling/bundleresource/impl/BundleResourceURLConnection.class

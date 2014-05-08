@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695842790
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: This bundle provides the Resource Resolver and the R
+ esource Resolver Factory.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Resource Resolver
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.resourceresolver
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.sling.api.resource;version="[2.5,2.6)",org.ap
+ ache.sling.commons.osgi;version="2.2.0",javax.jcr;version="[2.0,3)",jav
+ ax.servlet,javax.servlet.http,org.apache.commons.collections;version="[
+ 3.2,4)",org.apache.commons.collections.bidimap;version="[3.2,4)",org.ap
+ ache.sling.api;version="[2.3,3)",org.apache.sling.api.adapter;version="
+ [2.2,3)",org.apache.sling.api.request;version="[2.4,3)",org.apache.slin
+ g.api.security;version="[1.0,2)",org.apache.sling.api.wrappers;version=
+ "[2.5,3)",org.apache.sling.serviceusermapping;version="[1.0,2)",org.osg
+ i.framework;version="[1.4,2)",org.osgi.service.component;version="[1.0,
+ 2)",org.osgi.service.event;version="[1.1,2)",org.slf4j;version="[1.5,2)
+ ",javax.annotation;resolution:=optional
+Service-Component: OSGI-INF/org.apache.sling.resourceresolver.impl.Resou
+ rceResolverFactoryActivator.xml,OSGI-INF/org.apache.sling.resourceresol
+ ver.impl.ResourceAccessSecurityTracker.xml
+Tool: Bnd-2.1.0.20130426-122213

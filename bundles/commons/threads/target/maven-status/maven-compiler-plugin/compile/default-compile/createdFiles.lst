@@ -1,0 +1,17 @@
+org/apache/sling/commons/threads/impl/ExtendedThreadFactory.class
+org/apache/sling/commons/threads/impl/ThreadPoolMBeanImpl.class
+org/apache/sling/commons/threads/impl/DefaultThreadPool.class
+org/apache/sling/commons/threads/ThreadPoolConfig.class
+org/apache/sling/commons/threads/ThreadPoolManager.class
+org/apache/sling/commons/threads/impl/ThreadPoolFacade.class
+org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPoolPolicy.class
+org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPriority.class
+org/apache/sling/commons/threads/impl/DefaultThreadPool$1.class
+org/apache/sling/commons/threads/jmx/ThreadPoolMBean.class
+org/apache/sling/commons/threads/ModifiableThreadPoolConfig.class
+org/apache/sling/commons/threads/impl/Activator.class
+org/apache/sling/commons/threads/impl/ExtendedThreadFactory$1.class
+org/apache/sling/commons/threads/ThreadPool.class
+org/apache/sling/commons/threads/impl/DefaultThreadPoolManager$Entry.class
+org/apache/sling/commons/threads/impl/DefaultThreadPoolManager.class
+org/apache/sling/commons/threads/impl/WebConsolePrinter.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.events.EventsCounterImpl">
+        <implementation class="org.apache.sling.launchpad.testservices.events.EventsCounterImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.osgi.service.event.EventHandler"/>
+            <provide interface="org.apache.sling.launchpad.testservices.events.EventsCounter"/>
+            <provide interface="javax.servlet.Servlet"/>
+            <provide interface="javax.servlet.ServletConfig"/>
+            <provide interface="java.io.Serializable"/>
+        </service>
+        <property name="service.description" value="Paths Test Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.paths" value="/testing/EventsCounter"/>
+        <property name="sling.servlet.extensions" value="json"/>
+        <property name="event.topics">
+            org/apache/sling/api/resource/Resource/ADDED
+            org/apache/sling/api/resource/ResourceResolverMapping/CHANGED
+        </property>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.events.EventsCounterImpl"/>
+    </scr:component>
+</components>

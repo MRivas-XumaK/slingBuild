@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.event.impl.jobs.tasks.HistoryCleanUpTask">
+        <implementation class="org.apache.sling.event.impl.jobs.tasks.HistoryCleanUpTask"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.event.jobs.consumer.JobExecutor"/>
+        </service>
+        <property name="job.topics" value="org/apache/sling/event/impl/jobs/tasks/HistoryCleanUpTask"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.event.impl.jobs.tasks.HistoryCleanUpTask"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory"/>
+        <reference name="jobManager" interface="org.apache.sling.event.jobs.JobManager" cardinality="1..1" policy="static" bind="bindJobManager" unbind="unbindJobManager"/>
+    </scr:component>
+</components>

@@ -1,0 +1,17 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/unsecured/UnsecuredReadAndUpdateProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/unsecured/UnsecuredReadProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/AResourceAccessGate.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/FinalProviderGate1.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/SimpleModifiableResourceProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/ApplicationGateDefault.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/secured/SecuredReadResourceProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/Init.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/ApplicationGate2.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/ProviderGate2.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/FinalApplicationGate2.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/FinalApplicationGate1.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/ProviderGate1.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/ApplicationGate1.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/gates/FinalProviderGate2.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/secured/SecuredReadAndUpdateResourceProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/it/src/main/java/org/apache/sling/resourceaccesssecurity/it/impl/providers/SimpleResourceProvider.java

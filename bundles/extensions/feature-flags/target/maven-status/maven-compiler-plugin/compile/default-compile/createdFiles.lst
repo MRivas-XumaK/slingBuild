@@ -1,0 +1,8 @@
+org/apache/sling/featureflags/impl/ExecutionContextImpl.class
+org/apache/sling/featureflags/Features.class
+org/apache/sling/featureflags/package-info.class
+org/apache/sling/featureflags/ExecutionContext.class
+org/apache/sling/featureflags/impl/FeatureManager.class
+org/apache/sling/featureflags/impl/FeatureManager$FeatureDescription.class
+org/apache/sling/featureflags/Feature.class
+org/apache/sling/featureflags/impl/ConfiguredFeature.class

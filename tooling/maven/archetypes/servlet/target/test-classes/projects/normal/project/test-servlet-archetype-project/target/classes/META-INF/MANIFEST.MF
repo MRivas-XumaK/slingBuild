@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.apache.sling.archetype.servlet.testing;uses:="org.
+ apache.sling.api.servlets,javax.servlet,org.apache.sling.api,org.slf4
+ j,org.apache.sling.api.resource"
+Built-By: xumakgt5
+Tool: Bnd-0.0.357
+Bundle-Name: test-servlet-archetype-project
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.7.0_55
+Bundle-Version: 0.0.1.SNAPSHOT
+Bnd-LastModified: 1398695741199
+Bundle-ManifestVersion: 2
+Bundle-Description: org.apache.sling - test-servlet-archetype-project
+Import-Package: javax.servlet,org.apache.sling.api;version="2.1",org.a
+ pache.sling.api.resource;version="2.1",org.apache.sling.api.servlets;
+ version="2.1",org.apache.sling.archetype.servlet.testing,org.slf4j;ve
+ rsion="1.5"
+Bundle-SymbolicName: org.apache.sling.test-servlet-archetype-project
+

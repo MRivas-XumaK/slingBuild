@@ -1,0 +1,6 @@
+org/apache/sling/auth/openid/impl/OpenIDLoginModulePlugin.class
+org/apache/sling/auth/openid/impl/OpenIDAuthenticationHandler.class
+org/apache/sling/auth/openid/impl/AuthenticationFormServlet.class
+org/apache/sling/auth/openid/impl/OpenIDLoginModulePlugin$1.class
+org/apache/sling/auth/openid/OpenIDConstants.class
+org/apache/sling/auth/openid/OpenIDFailure.class

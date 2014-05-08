@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698445659
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.installer.provider.file.impl.Activato
+ r
+Bundle-Category: sling
+Bundle-Description: Installs OSGi bundles and configurations from the fi
+ le system.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling File Installer
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.installer.provider.file
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: org.apache.felix.configadmin;inline="org/apache/felix/
+ cm/file/ConfigurationHandler.*"
+Import-Package: org.apache.sling.installer.api;version="[3.1,4)",org.osg
+ i.framework;version="[1.4,2)",org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

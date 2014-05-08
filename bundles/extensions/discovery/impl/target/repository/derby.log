@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+2014-04-28 15:00:13.529 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0145-a8d9-bdae-000006e6c638
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/discovery/impl/target/repository/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 15:00:21.077 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 9a4840c2-0145-a8d9-bdae-000006e6c638
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/discovery/impl/target/repository/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 15:00:28.498 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a770417f-0145-a8d9-bdae-000006e6c638
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/discovery/impl/target/repository/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpath=''

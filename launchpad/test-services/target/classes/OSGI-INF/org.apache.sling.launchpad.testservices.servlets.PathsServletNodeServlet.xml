@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.servlets.PathsServletNodeServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.PathsServletNodeServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+            <provide interface="javax.servlet.ServletConfig"/>
+            <provide interface="java.io.Serializable"/>
+        </service>
+        <property name="service.description" value="Paths Servlet Node Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.paths" value="/testing/PathsServletNodeServlet"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.PathsServletNodeServlet"/>
+    </scr:component>
+</components>

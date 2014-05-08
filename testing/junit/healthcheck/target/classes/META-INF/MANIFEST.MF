@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698155802
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Sling Health Check services that run JUnit tests
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JUnit Health Checks
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.junit.healthcheck
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.7.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.servlet.http,org.apache.sling.hc.api;version="[1.0
+ ,2)",org.apache.sling.hc.util;version="[1.0,2)",org.apache.sling.junit;
+ version="[1.0,2)",org.junit.runner;version="[4.8,5)",org.junit.runner.n
+ otification;version="[4.8,5)",org.slf4j;version="[1.5,2)",org.apache.sl
+ ing.testing.tools.http;resolution:=optional
+Service-Component: OSGI-INF/org.apache.sling.junit.healthcheck.impl.JUni
+ tHealthCheck.xml
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.1.0.20130426-122213

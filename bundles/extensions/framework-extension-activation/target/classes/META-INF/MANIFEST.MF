@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695843783
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Adds the Activation API package to the system bundle
+  exports.        The list of packages is derived from the packages avai
+ lable        in the Java 6 platform. To use more recent Activation API 
+ either        modify this bundle to also export those package from the 
+        platform or install respective API bundles.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling System Bundle Extension: Activation API
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.fragment.activation
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: javax.activation;version="1.1.0"
+Fragment-Host: system.bundle;extension:=framework
+Implementation-Title: Apache Sling System Bundle Extension: Activation A
+ PI
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.sling
+Implementation-Version: 1.0.3-SNAPSHOT
+Specification-Title: Apache Sling System Bundle Extension: Activation AP
+ I
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.0.3-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213

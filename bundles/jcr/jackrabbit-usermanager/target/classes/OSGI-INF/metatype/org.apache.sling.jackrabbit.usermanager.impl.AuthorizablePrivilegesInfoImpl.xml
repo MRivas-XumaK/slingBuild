@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.jackrabbit.usermanager.impl.AuthorizablePrivilegesInfoImpl" name="%org.apache.sling.jackrabbit.usermanager.impl.AuthorizablePrivilegesInfoImpl.name" description="%org.apache.sling.jackrabbit.usermanager.impl.AuthorizablePrivilegesInfoImpl.description">
+        <AD id="user.admin.group.name" type="String" default="UserAdmin" name="%user.admin.group.name.name" description="%user.admin.group.name.description"/>
+        <AD id="group.admin.group.name" type="String" default="GroupAdmin" name="%group.admin.group.name.name" description="%group.admin.group.name.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.jackrabbit.usermanager.impl.AuthorizablePrivilegesInfoImpl">
+        <Object ocdref="org.apache.sling.jackrabbit.usermanager.impl.AuthorizablePrivilegesInfoImpl"/>
+    </Designate>
+</metatype:MetaData>

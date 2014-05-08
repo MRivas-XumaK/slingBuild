@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.extensions.groovy.json.internal.JsonBuilderBindingsValuesProvider">
+        <implementation class="org.apache.sling.extensions.groovy.json.internal.JsonBuilderBindingsValuesProvider"/>
+        <service servicefactory="false">
+            <provide interface="java.util.Map"/>
+            <provide interface="java.lang.Cloneable"/>
+            <provide interface="java.io.Serializable"/>
+        </service>
+        <property name="service.description" value="JSONGroovyBuilder BindingsValuesProvider"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="javax.script.name" value="groovy"/>
+        <property name="service.pid" value="org.apache.sling.extensions.groovy.json.internal.JsonBuilderBindingsValuesProvider"/>
+    </scr:component>
+</components>

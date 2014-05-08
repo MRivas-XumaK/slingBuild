@@ -1,0 +1,3 @@
+org/apache/sling/extensions/groovy/json/internal/JsonBuilderBindingsValuesProvider.class
+org/apache/sling/extensions/groovy/scripting/internal/GSPScriptEngineFactory.class
+org/apache/sling/extensions/groovy/scripting/internal/GSPScriptEngine.class

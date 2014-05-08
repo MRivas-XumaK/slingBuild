@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl" activate="configure" modified="configure">
+        <implementation class="org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.serviceusermapping.ServiceUserMapper"/>
+        </service>
+        <property name="user.mapping"/>
+        <property name="user.default"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl"/>
+    </scr:component>
+</components>

@@ -1,0 +1,13 @@
+org/apache/sling/models/impl/injectors/ValueMapInjector.class
+org/apache/sling/models/impl/ModelAdapterFactory$DisposalCallbackRegistryImpl.class
+org/apache/sling/models/impl/ModelAdapterFactory$ParameterCountComparator.class
+org/apache/sling/models/impl/ModelAdapterFactory$MapBackedInvocationHandler.class
+org/apache/sling/models/impl/injectors/BindingsInjector.class
+org/apache/sling/models/impl/injectors/ChildResourceInjector.class
+org/apache/sling/models/impl/ModelAdapterFactory$1.class
+org/apache/sling/models/impl/injectors/OSGiServiceInjector.class
+org/apache/sling/models/impl/injectors/OSGiServiceInjector$Callback.class
+org/apache/sling/models/impl/ModelConfigurationPrinter.class
+org/apache/sling/models/impl/ModelAdapterFactory.class
+org/apache/sling/models/impl/ModelPackageBundleListener.class
+org/apache/sling/models/impl/injectors/RequestAttributeInjector.class

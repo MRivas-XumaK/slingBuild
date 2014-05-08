@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696596396
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: This bundle provides the JCR based ResourceResolver.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JCR Resource Resolver
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.jcr.resource
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.3.7.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: org.apache.jackrabbit.api.observation
+Embed-Dependency: jackrabbit-classloader;inline="org/apache/jackrabbit/n
+ et/**|org/apache/jackrabbit/classloader/Util.*",jackrabbit-jcr-commons;
+ inline="org/apache/jackrabbit/util/ISO9075.*|org/apache/jackrabbit/name
+ /QName.*|org/apache/jackrabbit/util/XMLChar.*|org/apache/jackrabbit/uti
+ l/Text.*",
+Export-Package: org.apache.sling.jcr.resource;version="2.2";uses:="javax
+ .jcr,javax.jcr.query,org.apache.sling.api.resource"
+Import-Package: javax.script;resolution:=optional,org.apache.sling.scrip
+ ting.api;resolution:=optional;version="[2.1,3)",org.apache.sling.api.re
+ source;version="[2.5,2.6)",org.apache.sling.commons.osgi;version="2.1.0
+ ",org.apache.jackrabbit.oak.plugins.observation;resolution:=optional;ve
+ rsion="[0.16,1)",org.apache.jackrabbit.oak.spi.commit;resolution:=optio
+ nal;version="[0.16,1)",javax.jcr;version="[2.0,3)",javax.jcr.nodetype;v
+ ersion="[2.0,3)",javax.jcr.observation;version="[2.0,3)",javax.jcr.quer
+ y;version="[2.0,3)",javax.servlet.http,org.apache.commons.lang,org.apac
+ he.sling.api;version="[2.3,3)",org.apache.sling.api.adapter;version="[2
+ .2,3)",org.apache.sling.api.wrappers;version="[2.5,3)",org.apache.sling
+ .auth.core.spi;version="[1.0,2)",org.apache.sling.commons.classloader;v
+ ersion="[1.0,2)",org.apache.sling.jcr.api;version="[2.2,3)",org.osgi.fr
+ amework;version="[1.4,2)",org.osgi.service.component;version="[1.2,2)",
+ org.osgi.service.event;version="[1.3,2)",org.osgi.util.tracker;version=
+ "[1.5,2)",org.slf4j;version="[1.5,2)",javax.annotation;resolution:=opti
+ onal
+Service-Component: OSGI-INF/org.apache.sling.jcr.resource.internal.helpe
+ r.jcr.JcrResourceProviderFactory.xml,OSGI-INF/org.apache.sling.jcr.reso
+ urce.internal.scripting.JcrObjectsBindingsValuesProvider.xml,OSGI-INF/o
+ rg.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl.xm
+ l,OSGI-INF/org.apache.sling.jcr.resource.internal.WorkspaceAuthInfoPost
+ Processor.xml
+Sling-Namespaces: sling=http://sling.apache.org/jcr/sling/1.0
+Sling-Nodetypes: SLING-INF/nodetypes/folder.cnd,SLING-INF/nodetypes/reso
+ urce.cnd,SLING-INF/nodetypes/vanitypath.cnd,SLING-INF/nodetypes/redirec
+ t.cnd,SLING-INF/nodetypes/mapping.cnd
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698096342
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Sling Models API
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Sling Models API
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.models.api
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.models.annotations;version="1.0.0";uses
+ :="javax.inject",org.apache.sling.models.spi;version="1.0.0",javax.inje
+ ct;version=0
+Tool: Bnd-2.1.0.20130426-122213

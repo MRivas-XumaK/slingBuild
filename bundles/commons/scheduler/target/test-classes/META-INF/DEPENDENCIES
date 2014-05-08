@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Scheduler Support
+
+
+From: 'an unknown organization'
+  - c3p0:JDBC DataSources/Resource Pools (http://c3p0.sourceforge.net) c3p0:c3p0:jar:0.9.1.1
+    License: GNU LESSER GENERAL PUBLIC LICENSE  (http://www.gnu.org/licenses/lgpl.txt)
+
+From: 'Terracotta, Inc.' (http://www.terracotta.org)
+  - quartz (http://www.quartz-scheduler.org/quartz) org.quartz-scheduler:quartz:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

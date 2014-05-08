@@ -1,0 +1,9 @@
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/AbstractNodeDescriptor.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/AbstractDescriptorElement.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/XMLWriter.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/JcrOcmMojo.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/ClassDescriptor.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/FieldDescriptor.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/AbstractItemDescriptor.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/CollectionDescriptor.java
+/home/xumakgt5/Desarrollo/Apache/sling/tooling/maven/maven-jcrocm-plugin/src/main/java/org/apache/sling/maven/jcrocm/BeanDescriptor.java

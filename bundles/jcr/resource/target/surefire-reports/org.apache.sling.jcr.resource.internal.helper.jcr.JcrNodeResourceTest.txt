@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.jcr.resource.internal.helper.jcr.JcrNodeResourceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.384 sec - in org.apache.sling.jcr.resource.internal.helper.jcr.JcrNodeResourceTest

@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698055768
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Project that tests functionality for org.apache.slin
+ g.resourceaccesssecurity bundle.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Resource Access Security Integration Tests
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.resourceaccesssecurity.it
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.resourceaccesssecurity.it;version="0.0.
+ 1.SNAPSHOT"
+Import-Package: javax.jcr;version="[2.0,3)",javax.servlet.http,org.apach
+ e.jackrabbit.api;version="[2.3,3)",org.apache.jackrabbit.api.security.u
+ ser;version="[2.3,3)",org.apache.sling.api.resource;version="[2.5,3)",o
+ rg.apache.sling.api.servlets;version="[2.1,3)",org.apache.sling.api.wra
+ ppers;version="[2.5,3)",org.apache.sling.resourceaccesssecurity;version
+ ="[1.0,2)"
+Service-Component: OSGI-INF/org.apache.sling.resourceaccesssecurity.it.i
+ mpl.gates.FinalProviderGate2.xml,OSGI-INF/org.apache.sling.resourceacce
+ sssecurity.it.impl.providers.unsecured.UnsecuredReadAndUpdateProvider.x
+ ml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it.impl.gates.Final
+ ApplicationGate2.xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.i
+ t.impl.gates.ProviderGate1.xml,OSGI-INF/org.apache.sling.resourceaccess
+ security.it.impl.gates.FinalProviderGate1.xml,OSGI-INF/org.apache.sling
+ .resourceaccesssecurity.it.impl.gates.ApplicationGate1.xml,OSGI-INF/org
+ .apache.sling.resourceaccesssecurity.it.impl.providers.unsecured.Unsecu
+ redReadProvider.xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it
+ .impl.gates.ApplicationGateDefault.xml,OSGI-INF/org.apache.sling.resour
+ ceaccesssecurity.it.impl.providers.secured.SecuredReadResourceProvider.
+ xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it.impl.gates.Prov
+ iderGate2.xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it.impl.
+ providers.secured.SecuredReadAndUpdateResourceProvider.xml,OSGI-INF/org
+ .apache.sling.resourceaccesssecurity.it.impl.gates.FinalApplicationGate
+ 1.xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it.impl.gates.Ap
+ plicationGate2.xml,OSGI-INF/org.apache.sling.resourceaccesssecurity.it.
+ impl.Init.xml
+Sling-Initial-Content: SLING-CONTENT/content/test;path:=/content/test;ov
+ erwrite:=true,SLING-CONTENT/libs/test;path:=/libs/test;overwrite:=true
+Tool: Bnd-2.1.0.20130426-122213

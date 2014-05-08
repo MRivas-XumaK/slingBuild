@@ -1,0 +1,10 @@
+org/apache/sling/maven/bundlesupport/ValidationMojo.class
+org/apache/sling/maven/bundlesupport/BundleDeployMojo.class
+org/apache/sling/maven/bundlesupport/AbstractBundleDeployMojo.class
+org/apache/sling/maven/bundlesupport/AbstractBundlePostMojo.class
+org/apache/sling/maven/bundlesupport/BundleInstallMojo.class
+org/apache/sling/maven/bundlesupport/GenerateAdapterMetadataMojo.class
+org/apache/sling/maven/bundlesupport/AbstractBundleInstallMojo.class
+org/apache/sling/maven/bundlesupport/BundleUninstallMojo.class
+org/apache/sling/maven/bundlesupport/BundleInstallFileMojo.class
+org/apache/sling/maven/bundlesupport/BundleDeployFileMojo.class

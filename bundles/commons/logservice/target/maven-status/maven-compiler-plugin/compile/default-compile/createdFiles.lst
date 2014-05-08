@@ -1,0 +1,10 @@
+org/apache/sling/commons/logservice/internal/LogSupport$LogEntryDispatcher.class
+org/apache/sling/commons/logservice/internal/LogEntryImpl.class
+org/apache/sling/commons/logservice/internal/Activator.class
+org/apache/sling/commons/logservice/internal/LogServiceFactory$LogServiceImpl.class
+org/apache/sling/commons/logservice/internal/LogSupport$1.class
+org/apache/sling/commons/logservice/internal/LogReaderServiceFactory$LogReaderServiceImpl.class
+org/apache/sling/commons/logservice/internal/LogSupport$LogListenerProxy.class
+org/apache/sling/commons/logservice/internal/LogServiceFactory.class
+org/apache/sling/commons/logservice/internal/LogSupport.class
+org/apache/sling/commons/logservice/internal/LogReaderServiceFactory.class

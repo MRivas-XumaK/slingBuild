@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.servlets.HtmlResponseServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.HtmlResponseServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="Paths Test Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.paths" value="/testing/HtmlResponseServlet"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.HtmlResponseServlet"/>
+    </scr:component>
+</components>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="false" name="org.apache.sling.auth.openid.OpenIDAuthenticationHandler">
+        <implementation class="org.apache.sling.auth.openid.impl.OpenIDAuthenticationHandler"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.auth.core.spi.AuthenticationHandler"/>
+            <provide interface="org.apache.sling.auth.core.spi.AuthenticationFeedbackHandler"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="Apache Sling OpenID Authentication Handler"/>
+        <property name="path">
+            /
+        </property>
+        <property name="authtype" value="OpenID"/>
+        <property name="openid.login.form" value="/system/sling/openid/login"/>
+        <property name="openid.login.identifier" value="openid_identifier"/>
+        <property name="openid.external.url.prefix" value=""/>
+        <property name="openid.use.cookie" type="Boolean" value="true"/>
+        <property name="openid.cookie.domain" value=""/>
+        <property name="openid.cookie.name" value="sling.openid"/>
+        <property name="openid.cookie.secret.key" value="secret"/>
+        <property name="openid.user.attr" value="openid.user"/>
+        <property name="openid.property.identity" value="openid.identity"/>
+        <property name="service.pid" value="org.apache.sling.auth.openid.OpenIDAuthenticationHandler"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
+    </scr:component>
+</components>

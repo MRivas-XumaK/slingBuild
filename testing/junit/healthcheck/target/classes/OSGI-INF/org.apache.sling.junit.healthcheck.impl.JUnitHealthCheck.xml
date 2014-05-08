@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck" configuration-policy="require" activate="activate">
+        <implementation class="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.hc.api.HealthCheck"/>
+        </service>
+        <property name="hc.name"/>
+        <property name="hc.tags"/>
+        <property name="hc.mbean.name"/>
+        <property name="test.package.or.class"/>
+        <property name="test.method"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck"/>
+        <reference name="testsManager" interface="org.apache.sling.junit.TestsManager" cardinality="1..1" policy="static" bind="bindTestsManager" unbind="unbindTestsManager"/>
+    </scr:component>
+</components>

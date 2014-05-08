@@ -1,0 +1,12 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITWebConsoleRemote.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/LogTestBase.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITFilterSupport.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITJULIntegration.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITLogWebConsolePlugin.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/internal/TestLogWriter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITAppenderServices.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/internal/TestLogConfig.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITConfigFragments.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/remote/WebConsoleTestActivator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITConfigAdminSupport.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/commons/log/src/test/java/org/apache/sling/commons/log/logback/integration/ITDefaultConfig.java

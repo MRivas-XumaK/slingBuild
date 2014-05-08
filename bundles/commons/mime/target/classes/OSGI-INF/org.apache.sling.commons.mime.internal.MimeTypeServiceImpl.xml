@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.commons.mime.internal.MimeTypeServiceImpl">
+        <implementation class="org.apache.sling.commons.mime.internal.MimeTypeServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.commons.mime.MimeTypeService"/>
+        </service>
+        <property name="service.description" value="Apache Sling MIME Type Service"/>
+        <property name="mime.types"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.commons.mime.internal.MimeTypeServiceImpl"/>
+        <reference name="MimeTypeProvider" interface="org.apache.sling.commons.mime.MimeTypeProvider" cardinality="0..n" policy="dynamic" bind="bindMimeTypeProvider" unbind="unbindMimeTypeProvider"/>
+        <reference name="logService" interface="org.osgi.service.log.LogService" cardinality="0..1" policy="dynamic" bind="bindLogService" unbind="unbindLogService"/>
+    </scr:component>
+</components>

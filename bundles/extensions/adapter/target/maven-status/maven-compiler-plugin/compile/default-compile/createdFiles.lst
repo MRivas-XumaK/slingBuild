@@ -1,0 +1,6 @@
+org/apache/sling/adapter/internal/AdapterFactoryDescriptor.class
+org/apache/sling/adapter/internal/AdapterWebConsolePlugin$AdaptableDescription.class
+org/apache/sling/adapter/internal/AdapterWebConsolePlugin.class
+org/apache/sling/adapter/internal/AdapterManagerImpl.class
+org/apache/sling/adapter/internal/AdapterFactoryDescriptorMap.class
+org/apache/sling/adapter/SlingAdaptable.class

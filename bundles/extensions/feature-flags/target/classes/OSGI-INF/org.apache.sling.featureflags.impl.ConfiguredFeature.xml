@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.featureflags.Feature" configuration-policy="require" activate="activate">
+        <implementation class="org.apache.sling.featureflags.impl.ConfiguredFeature"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.featureflags.Feature"/>
+        </service>
+        <property name="name"/>
+        <property name="description"/>
+        <property name="enabled" type="Boolean" value="false"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.featureflags.Feature"/>
+    </scr:component>
+</components>

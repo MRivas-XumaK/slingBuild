@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.servlets.DomServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.DomServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths">
+            /bin/dom
+        </property>
+        <property name="sling.servlet.extensions">
+            xml
+        </property>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.DomServlet"/>
+    </scr:component>
+</components>

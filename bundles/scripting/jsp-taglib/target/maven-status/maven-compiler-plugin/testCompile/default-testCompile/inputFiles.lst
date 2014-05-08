@@ -1,0 +1,7 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/MockPageContext.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestGetPropertyTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestFindResourceTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestAdaptObjectTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestSlingFunctions.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestGetResourceTag.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/jsp-taglib/src/test/java/org/apache/sling/scripting/jsp/taglib/TestListChildrenTag.java

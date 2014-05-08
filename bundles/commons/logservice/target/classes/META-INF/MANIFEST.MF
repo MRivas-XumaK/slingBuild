@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696158137
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.commons.logservice.internal.Activator
+Bundle-Category: sling
+Bundle-Description: Implementation of the OSGi Compendium Log Service us
+ ing SLF4J        as the actual logging backend.
+Bundle-DocURL: http://sling.apache.org/site/logging.html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling OSGi LogService Implementation
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.commons.logservice
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.osgi.service.log;version="1.3";uses:="org.osgi.frame
+ work"
+Import-Package: org.osgi.service.log;version="[1.3,1.4)",org.osgi.framew
+ ork;version="[1.3,2)",org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

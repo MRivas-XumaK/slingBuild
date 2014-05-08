@@ -1,0 +1,12 @@
+org/apache/sling/commons/classloader/impl/DynamicClassLoaderManagerFactory.class
+org/apache/sling/commons/classloader/impl/BundleProxyClassLoader.class
+org/apache/sling/commons/classloader/impl/ClassLoaderFacade.class
+org/apache/sling/commons/classloader/impl/DynamicClassLoaderManagerImpl$1.class
+org/apache/sling/commons/classloader/impl/DynamicClassLoaderManagerImpl.class
+org/apache/sling/commons/classloader/DynamicClassLoader.class
+org/apache/sling/commons/classloader/ClassLoaderWriter.class
+org/apache/sling/commons/classloader/DynamicClassLoaderProvider.class
+org/apache/sling/commons/classloader/impl/ClassLoaderFacade$StackTraceProbe.class
+org/apache/sling/commons/classloader/DynamicClassLoaderManager.class
+org/apache/sling/commons/classloader/impl/Activator.class
+org/apache/sling/commons/classloader/impl/PackageAdminClassLoader.class

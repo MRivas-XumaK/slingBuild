@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.launchpad.testservices.handlers.TestHandler3">
+    <OCD id="org.apache.sling.launchpad.testservices.handlers.TestHandler3" name="%org.apache.sling.launchpad.testservices.handlers.TestHandler3.name" description="%org.apache.sling.launchpad.testservices.handlers.TestHandler3.description">
+        <AD id="service.ranking" type="Integer" default="1" name="%org.apache.sling.launchpad.testservices.handlers.TestHandler3.service.ranking.name" description="%org.apache.sling.launchpad.testservices.handlers.TestHandler3.service.ranking.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.launchpad.testservices.handlers.TestHandler3">
+        <Object ocdref="org.apache.sling.launchpad.testservices.handlers.TestHandler3"/>
+    </Designate>
+</metatype:MetaData>

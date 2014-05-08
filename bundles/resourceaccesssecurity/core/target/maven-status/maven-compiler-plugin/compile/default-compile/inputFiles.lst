@@ -1,0 +1,9 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/AllowingResourceAccessGate.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/ResourceAccessGateHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/AccessGateResourceWrapper.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/ApplicationResourceAccessSecurityImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/ProviderResourceAccessSecurityImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/ResourceAccessGate.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/ResourceAccessSecurityImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/resourceaccesssecurity/core/src/main/java/org/apache/sling/resourceaccesssecurity/impl/ReadOnlyValueMapWrapper.java

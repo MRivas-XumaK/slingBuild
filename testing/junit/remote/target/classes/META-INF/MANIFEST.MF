@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698156229
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Utilities to run server-side JUnit tests remotely
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JUnit Remote Tests Runners
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.junit.remote
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.9.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.junit.remote.exported;uses:="org.apache
+ .sling.junit.remote.ide,org.junit";version="1.0.9.SNAPSHOT",org.apache.
+ sling.junit.remote.ide;uses:="javax.servlet.http,org.apache.sling.junit
+ ,org.apache.sling.testing.tools.http,org.junit.rules,org.junit.runner,o
+ rg.junit.runner.notification,org.junit.runners.model";version="1.0.9.SN
+ APSHOT"
+Import-Package: org.apache.http;resolution:=optional,org.apache.http.cli
+ ent;resolution:=optional,org.apache.http.client.entity;resolution:=opti
+ onal,org.apache.http.impl.client;resolution:=optional,org.apache.http.m
+ essage;resolution:=optional,org.apache.sling.testing.tools.http;resolut
+ ion:=optional;version="[1.0,2)",org.junit.internal;resolution:=optional
+ ,org.junit.internal.runners.model;resolution:=optional,javax.servlet,ja
+ vax.servlet.http,org.apache.sling.commons.json;version="[2.0,3)",org.ap
+ ache.sling.junit;version="[1.0,2)",org.junit;version="[4.8,5)",org.juni
+ t.rules;version="[4.8,5)",org.junit.runner;version="[4.8,5)",org.junit.
+ runner.notification;version="[4.8,5)",org.junit.runners;version="[4.8,5
+ )",org.junit.runners.model;version="[4.8,5)",org.slf4j;version="[1.5,2)
+ "
+Service-Component: OSGI-INF/org.apache.sling.junit.remote.ide.Serialized
+ Renderer.xml
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.1.0.20130426-122213

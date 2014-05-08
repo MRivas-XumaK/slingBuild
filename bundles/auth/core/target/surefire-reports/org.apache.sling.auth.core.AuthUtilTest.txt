@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.auth.core.AuthUtilTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec - in org.apache.sling.auth.core.AuthUtilTest

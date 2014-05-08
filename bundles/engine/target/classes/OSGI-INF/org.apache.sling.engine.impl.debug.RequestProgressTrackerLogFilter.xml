@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter">
+        <implementation class="org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.description" value="RequestProgressTracker dump filter"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="filter.scope" value="request"/>
+        <property name="service.pid" value="org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter"/>
+    </scr:component>
+</components>

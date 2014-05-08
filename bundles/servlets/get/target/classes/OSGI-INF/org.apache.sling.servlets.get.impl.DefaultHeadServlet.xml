@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.apache.sling.servlets.get.impl.DefaultHeadServlet" configuration-policy="ignore">
+        <implementation class="org.apache.sling.servlets.get.impl.DefaultHeadServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="Default HEAD Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.prefix" type="Integer" value="-1"/>
+        <property name="sling.servlet.methods" value="HEAD"/>
+        <property name="service.pid" value="org.apache.sling.servlets.get.impl.DefaultHeadServlet"/>
+    </scr:component>
+</components>

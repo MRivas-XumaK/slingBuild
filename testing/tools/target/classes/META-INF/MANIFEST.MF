@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697906875
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Sling testing utilities.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Test Tools
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.testing.tools
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.7.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.testing.tools.http;uses:="org.apache.ht
+ tp,org.apache.http.client,org.apache.http.client.methods,org.apache.htt
+ p.impl.client";version="1.0.7.SNAPSHOT",org.apache.sling.testing.tools.
+ jarexec;version="1.0.7.SNAPSHOT",org.apache.sling.testing.tools.junit;u
+ ses:="javax.servlet,org.apache.http,org.apache.http.protocol,org.junit.
+ rules,org.junit.runner";version="1.0.7.SNAPSHOT",org.apache.sling.testi
+ ng.tools.osgi;version="1.0.7.SNAPSHOT",org.apache.sling.testing.tools.r
+ etry;version="1.0.7.SNAPSHOT",org.apache.sling.testing.tools.serversetu
+ p;uses:="org.apache.sling.testing.tools.jarexec";version="1.0.7.SNAPSHO
+ T",org.apache.sling.testing.tools.sling;uses:="org.apache.http.client,o
+ rg.apache.sling.testing.tools.http,org.apache.sling.testing.tools.jarex
+ ec,org.apache.sling.testing.tools.osgi";version="1.0.7.SNAPSHOT"
+Import-Package: org.apache.commons.exec;resolution:=optional;version="[1
+ .1,2)",javax.servlet,javax.servlet.http,junit.framework,org.apache.http
+ ,org.apache.http.auth,org.apache.http.client,org.apache.http.client.met
+ hods,org.apache.http.client.utils,org.apache.http.entity,org.apache.htt
+ p.entity.mime,org.apache.http.entity.mime.content,org.apache.http.impl.
+ auth,org.apache.http.impl.client,org.apache.http.message,org.apache.htt
+ p.params,org.apache.http.protocol,org.apache.http.util,org.apache.sling
+ .commons.json;version="[2.0,3)",org.junit,org.junit.rules,org.junit.run
+ ner,org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.testing.tools.junit.TestNam
+ eLoggingFilter.xml
+Tool: Bnd-2.1.0.20130426-122213

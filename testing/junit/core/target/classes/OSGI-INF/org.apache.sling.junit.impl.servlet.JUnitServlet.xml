@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.junit.impl.servlet.JUnitServlet">
+        <implementation class="org.apache.sling.junit.impl.servlet.JUnitServlet"/>
+        <property name="servlet.path" value="/system/sling/junit"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.junit.impl.servlet.JUnitServlet"/>
+        <reference name="testsManager" interface="org.apache.sling.junit.TestsManager" cardinality="1..1" policy="static" bind="bindTestsManager" unbind="unbindTestsManager"/>
+        <reference name="httpService" interface="org.osgi.service.http.HttpService" cardinality="1..1" policy="static" bind="bindHttpService" unbind="unbindHttpService"/>
+        <reference name="rendererSelector" interface="org.apache.sling.junit.RendererSelector" cardinality="1..1" policy="static" bind="bindRendererSelector" unbind="unbindRendererSelector"/>
+    </scr:component>
+</components>

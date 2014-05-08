@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.jcr.classloader.internal.DynamicClassLoaderProviderImpl" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.jcr.classloader.internal.ClassLoaderWriterImpl"/>
+        <service servicefactory="true">
+            <provide interface="org.apache.sling.commons.classloader.ClassLoaderWriter"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="Repository based classloader writer"/>
+        <property name="classpath" value="/var/classes"/>
+        <property name="appendId" type="Boolean" value="true"/>
+        <property name="owner" value="admin"/>
+        <property name="service.pid" value="org.apache.sling.jcr.classloader.internal.DynamicClassLoaderProviderImpl"/>
+        <reference name="settings" interface="org.apache.sling.settings.SlingSettingsService" cardinality="1..1" policy="static" bind="bindSettings" unbind="unbindSettings"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
+        <reference name="mimeTypeService" interface="org.apache.sling.commons.mime.MimeTypeService" cardinality="0..1" policy="dynamic" bind="bindMimeTypeService" unbind="unbindMimeTypeService"/>
+        <reference name="dynamicClassLoaderManager" interface="org.apache.sling.commons.classloader.DynamicClassLoaderManager" cardinality="1..1" policy="static" bind="bindDynamicClassLoaderManager" unbind="unbindDynamicClassLoaderManager"/>
+    </scr:component>
+</components>

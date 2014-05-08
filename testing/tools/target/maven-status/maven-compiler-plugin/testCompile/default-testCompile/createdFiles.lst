@@ -1,0 +1,4 @@
+org/apache/sling/testing/tools/test/TestServerSetup.class
+org/apache/sling/testing/tools/sling/SlingClientTest.class
+org/apache/sling/testing/tools/test/ServerSetupSingletonTest.class
+org/apache/sling/testing/tools/test/TestSetupPhase.class

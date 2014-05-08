@@ -1,0 +1,17 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/ScriptHelper.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/ProtectedBindings.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/ContextBvpCollector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/OnDemandReaderRequest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/ScriptEngineManagerFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/OnDemandWriter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/ServiceCache.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/InternalScriptHelper.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/OnDemandWriterResponse.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/SlingScriptEngineManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/OnDemandReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/ScriptEngineConsolePlugin.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/SlingScriptAdapterFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/DefaultSlingScript.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/helper/ProxyScriptEngineManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/core/src/main/java/org/apache/sling/scripting/core/impl/LogWriter.java

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.junit.impl.servlet.JacocoServlet" name="%org.apache.sling.junit.impl.servlet.JacocoServlet.name" description="%org.apache.sling.junit.impl.servlet.JacocoServlet.description">
+        <AD id="servlet.path" type="String" default="/system/sling/jacoco" name="%servlet.path.name" description="%servlet.path.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.junit.impl.servlet.JacocoServlet">
+        <Object ocdref="org.apache.sling.junit.impl.servlet.JacocoServlet"/>
+    </Designate>
+</metatype:MetaData>

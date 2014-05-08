@@ -1,0 +1,8 @@
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/Activator.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/ConfigTaskCreator.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/ConfigInstallTask.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/AbstractConfigTask.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/ConfigRemoveTask.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/ConfigurationConstants.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/ConfigUtil.java
+/home/xumakgt5/Desarrollo/Apache/sling/installer/factories/configuration/src/main/java/org/apache/sling/installer/factories/configuration/impl/ServicesListener.java

@@ -1,0 +1,5 @@
+javax/script/ScriptEngineManager.class
+org/apache/sling/scripting/api/BindingsValuesProvider.class
+org/apache/sling/scripting/api/BindingsValuesProvidersByContext.class
+org/apache/sling/scripting/api/AbstractScriptEngineFactory.class
+org/apache/sling/scripting/api/AbstractSlingScriptEngine.class

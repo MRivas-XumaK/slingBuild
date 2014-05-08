@@ -1,0 +1,13 @@
+org/apache/sling/installer/provider/jcr/impl/JcrUtil.class
+org/apache/sling/installer/provider/jcr/impl/JcrInstaller$StoppableThread.class
+org/apache/sling/installer/provider/jcr/impl/RootFolderListener.class
+org/apache/sling/installer/provider/jcr/impl/ConfigNodeConverter.class
+org/apache/sling/installer/provider/jcr/impl/JcrInstaller$NodeConverter.class
+org/apache/sling/installer/provider/jcr/impl/FolderNameFilter.class
+org/apache/sling/installer/provider/jcr/impl/RescanTimer.class
+org/apache/sling/installer/provider/jcr/impl/FileNodeConverter.class
+org/apache/sling/installer/provider/jcr/impl/JcrInstaller.class
+org/apache/sling/installer/provider/jcr/impl/FolderNameFilter$RootPathInfo.class
+org/apache/sling/installer/provider/jcr/impl/JcrInstaller$StoppableThread$1.class
+org/apache/sling/installer/provider/jcr/impl/WatchedFolder$ScanResult.class
+org/apache/sling/installer/provider/jcr/impl/WatchedFolder.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.servlets.PrefixServletMinusOne">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.PrefixServletMinusOne"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="Prefix Test Servlet Minus One"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.prefix" type="Integer" value="-1"/>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.extensions">
+            TEST_EXT_3
+            TEST_EXT_4
+        </property>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.PrefixServletMinusOne"/>
+    </scr:component>
+</components>

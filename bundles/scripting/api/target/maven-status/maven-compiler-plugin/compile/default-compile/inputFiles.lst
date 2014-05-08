@@ -1,0 +1,5 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/api/src/main/java/org/apache/sling/scripting/api/AbstractSlingScriptEngine.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/api/src/main/java/org/apache/sling/scripting/api/AbstractScriptEngineFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/api/src/main/java/org/apache/sling/scripting/api/BindingsValuesProvidersByContext.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/api/src/main/java/javax/script/ScriptEngineManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/scripting/api/src/main/java/org/apache/sling/scripting/api/BindingsValuesProvider.java

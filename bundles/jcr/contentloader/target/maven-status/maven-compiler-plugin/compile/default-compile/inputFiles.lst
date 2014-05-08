@@ -1,0 +1,17 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/Loader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/BaseImportLoader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/JcrContentHelper.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/ContentImporter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/PathEntry.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/DefaultContentCreator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/ContentLoaderService.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/ContentCreator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/readers/ZipReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/ImportProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/ContentReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/DefaultContentImporter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/internal/readers/JsonReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/ImportOptions.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/contentloader/src/main/java/org/apache/sling/jcr/contentloader/ContentImportListener.java

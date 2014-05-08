@@ -1,0 +1,13 @@
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/sling/post/SlingPostChunkUploadTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/ServerSideTestsBase.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/JSONResponseTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/sling/SlingServerSideTestsBase.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/scriptable/ScriptableTestsTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/ServerSideSampleTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/sling/SlingServerSideTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/SingleServerSideMethodTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/http/OsgiConsoleTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/FailingTestsTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/sling/SlingServerSideSingleMethodTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/serverside/DontCareForTestsCountTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/src/test/java/org/apache/sling/testing/samples/integrationtests/http/MultipleOsgiConsoleTest.java

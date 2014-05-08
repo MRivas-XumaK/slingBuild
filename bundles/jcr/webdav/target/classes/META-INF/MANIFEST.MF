@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696607550
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling,jcr
+Bundle-Description: Bundle to access JCR repositories over WebDAV
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Simple WebDAV Access to repositories
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.jcr.webdav
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.2.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: jackrabbit-jcr-server;inline=org/apache/jackrabbit/web
+ dav/jcr/DavLocatorFactoryImpl*.class|org/apache/jackrabbit/webdav/jcr/I
+ temResourceConstants*.class|org/apache/jackrabbit/webdav/jcr/JcrDavExce
+ ption*.class|org/apache/jackrabbit/webdav/jcr/JcrDavSession*.class|org/
+ apache/jackrabbit/webdav/jcr/JcrValueType*.class|org/apache/jackrabbit/
+ webdav/jcr/lock/*|META-INF/maven/**
+Export-Package: org.apache.jackrabbit.server.io;version="2.3";uses:="jav
+ ax.jcr,org.apache.jackrabbit.webdav,org.apache.jackrabbit.webdav.io,org
+ .apache.jackrabbit.webdav.property,org.apache.tika.detect,org.slf4j"
+Import-Package: javax.jcr;version="[2.0,3)",javax.jcr.lock;version="[2.0
+ ,3)",javax.jcr.nodetype;version="[2.0,3)",javax.jcr.query;version="[2.0
+ ,3)",javax.jcr.version;version="[2.0,3)",javax.servlet,javax.servlet.ht
+ tp,javax.xml.parsers,org.apache.jackrabbit;version="[2.2,3)",org.apache
+ .jackrabbit.commons;version="[2.4,3)",org.apache.jackrabbit.commons.web
+ dav;version="[2.5,3)",org.apache.jackrabbit.util;version="[2.4,3)",org.
+ apache.jackrabbit.webdav;version="[1.0,2)",org.apache.jackrabbit.webdav
+ .bind;version="[1.0,2)",org.apache.jackrabbit.webdav.io;version="[1.0,2
+ )",org.apache.jackrabbit.webdav.lock;version="[1.0,2)",org.apache.jackr
+ abbit.webdav.property;version="[1.0,2)",org.apache.jackrabbit.webdav.se
+ curity;version="[1.0,2)",org.apache.jackrabbit.webdav.server;version="[
+ 1.0,2)",org.apache.jackrabbit.webdav.util;version="[1.0,2)",org.apache.
+ jackrabbit.webdav.version;version="[1.0,2)",org.apache.jackrabbit.webda
+ v.version.report;version="[1.0,2)",org.apache.jackrabbit.webdav.xml;ver
+ sion="[1.1,2)",org.apache.sling.api.resource;version="[2.0,3)",org.apac
+ he.sling.commons.mime;version="[2.0,3)",org.apache.sling.commons.osgi;v
+ ersion="[2.0,3)",org.apache.sling.jcr.api;version="[2.0,3)",org.apache.
+ tika.detect;version="[1.0,2)",org.apache.tika.metadata;version="[1.0,2)
+ ",org.apache.tika.mime;version="[1.2,2)",org.osgi.framework;version="[1
+ .4,2)",org.osgi.service.component;version="[1.0,2)",org.osgi.service.ht
+ tp;version="[1.2,2)",org.slf4j;version="[1.5,2)",org.w3c.dom,org.xml.sa
+ x
+Service-Component: OSGI-INF/org.apache.sling.jcr.webdav.impl.handler.Def
+ aultHandlerService.xml,OSGI-INF/org.apache.sling.jcr.webdav.impl.handle
+ r.DirListingExportHandlerService.xml,OSGI-INF/org.apache.sling.jcr.webd
+ av.impl.servlets.SlingWebDavServlet.xml
+Tool: Bnd-2.1.0.20130426-122213

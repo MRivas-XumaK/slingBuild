@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697854204
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.settings.impl.Activator
+Bundle-Category: sling
+Bundle-Description: Settings support including run modes
+Bundle-DocURL: http://sling.apache.org/documentation/bundles/sling-setti
+ ngs-orgapacheslingsettings.html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Settings
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.settings
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.3.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: org.osgi.service.cm
+Export-Package: org.apache.sling.settings;version="1.3.0"
+Import-Package: org.apache.felix.shell;resolution:=optional;version="[1.
+ 0,2)",org.apache.sling.launchpad.api;version="[1.1,2)",org.apache.sling
+ .settings;version="[1.3,2)",org.osgi.framework;version="[1.4,2)",org.sl
+ f4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

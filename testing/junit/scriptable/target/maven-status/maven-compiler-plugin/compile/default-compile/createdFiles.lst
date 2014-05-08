@@ -1,0 +1,8 @@
+org/apache/sling/junit/scriptable/HttpResponse.class
+org/apache/sling/junit/scriptable/TestServletOutputStream.class
+org/apache/sling/junit/scriptable/ExplainTests.class
+org/apache/sling/junit/scriptable/ScriptableTestsProvider.class
+org/apache/sling/junit/scriptable/ScriptableTestsProvider$TestContext.class
+org/apache/sling/junit/scriptable/HttpRequest.class
+org/apache/sling/junit/scriptable/ScriptableTestsProvider$RootListener.class
+org/apache/sling/junit/scriptable/TestAllPaths.class

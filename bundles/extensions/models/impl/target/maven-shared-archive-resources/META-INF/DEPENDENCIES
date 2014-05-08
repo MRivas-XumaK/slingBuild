@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Sling Models Implementation
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons BeanUtils (http://commons.apache.org/beanutils/) commons-beanutils:commons-beanutils:jar:1.8.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling JUnit Health Checks
+
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:4.8.2
+    License: Common Public License Version 1.0  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Sling JSON Library (http://sling.apache.org/org.apache.sling.commons.json) org.apache.sling:org.apache.sling.commons.json:bundle:2.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling JUnit Core (http://sling.apache.org/org.apache.sling.junit.core) org.apache.sling:org.apache.sling.junit.core:bundle:1.0.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

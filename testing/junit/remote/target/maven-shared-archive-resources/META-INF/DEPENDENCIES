@@ -1,0 +1,35 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling JUnit Remote Tests Runners
+
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:4.8.2
+    License: Common Public License Version 1.0  (http://www.opensource.org/licenses/cpl1.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Codec (http://commons.apache.org/codec/) commons-codec:commons-codec:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Exec (http://commons.apache.org/exec/) org.apache.commons:commons-exec:jar:1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.1
+    License: Apache License  (LICENSE.txt)
+  - HttpCore (http://hc.apache.org/httpcomponents-core-ga/) org.apache.httpcomponents:httpcore:jar:4.1
+    License: Apache License  (LICENSE.txt)
+  - HttpMime (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpmime:jar:4.1
+    License: Apache License  (LICENSE.txt)
+  - Apache Sling JSON Library (http://sling.apache.org/org.apache.sling.commons.json) org.apache.sling:org.apache.sling.commons.json:bundle:2.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling JUnit Core (http://sling.apache.org/org.apache.sling.junit.core) org.apache.sling:org.apache.sling.junit.core:bundle:1.0.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling Test Tools (http://sling.apache.org/org.apache.sling.testing.tools) org.apache.sling:org.apache.sling.testing.tools:bundle:1.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

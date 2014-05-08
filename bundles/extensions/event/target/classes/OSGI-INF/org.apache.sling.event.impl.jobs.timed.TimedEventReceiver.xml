@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.apache.sling.event.impl.jobs.timed.TimedEventReceiver" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.event.impl.jobs.timed.TimedEventReceiver"/>
+        <service servicefactory="false">
+            <provide interface="org.osgi.service.event.EventHandler"/>
+        </service>
+        <property name="event.topics" value="org/apache/sling/event/timed"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.event.impl.jobs.timed.TimedEventReceiver"/>
+        <reference name="config" interface="org.apache.sling.event.impl.jobs.timed.TimedEventConfiguration" cardinality="1..1" policy="static" bind="bindConfig" unbind="unbindConfig"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory"/>
+    </scr:component>
+</components>

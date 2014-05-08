@@ -1,0 +1,8 @@
+org/apache/sling/commons/osgi/bundleversion/BundleBundleVersionInfoTest$1.class
+org/apache/sling/commons/osgi/PropertiesUtilTest.class
+org/apache/sling/commons/osgi/OsgiUtilTest.class
+org/apache/sling/commons/osgi/bundleversion/MockBundleVersionInfo.class
+org/apache/sling/commons/osgi/ManifestHeaderTest.class
+org/apache/sling/commons/osgi/bundleversion/BundleVersionComparisonTest.class
+org/apache/sling/commons/osgi/bundleversion/BundleBundleVersionInfoTest.class
+org/apache/sling/commons/osgi/bundleversion/FileBundleVersionInfoTest.class

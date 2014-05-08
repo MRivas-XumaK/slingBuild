@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository" configuration-policy="require" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.jcr.jackrabbit.server.impl.SlingServerRepositoryManager"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="Factory for embedded Jackrabbit Repository Instances"/>
+        <property name="config" value=""/>
+        <property name="home" value=""/>
+        <property name="name" value=""/>
+        <property name="defaultWorkspace"/>
+        <property name="admin.login.enabled" type="Boolean" value="true"/>
+        <property name="admin.name" value="admin"/>
+        <property name="service.pid" value="org.apache.sling.jcr.jackrabbit.server.SlingServerRepository"/>
+        <reference name="namespaceMapper" interface="org.apache.sling.jcr.api.NamespaceMapper" cardinality="0..n" policy="dynamic" bind="bindNamespaceMapper" unbind="unbindNamespaceMapper"/>
+        <reference name="serviceUserMapper" interface="org.apache.sling.serviceusermapping.ServiceUserMapper" cardinality="1..1" policy="static" bind="bindServiceUserMapper" unbind="unbindServiceUserMapper"/>
+    </scr:component>
+</components>

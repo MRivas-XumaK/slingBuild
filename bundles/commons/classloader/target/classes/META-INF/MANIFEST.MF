@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695958624
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.commons.classloader.impl.Activator
+Bundle-Category: sling
+Bundle-Description: This bundle provides support for dynamic class loadi
+ ng used for example by the scripting engines.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Dynamic Class Loader Support
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.commons.classloader
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.3.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.commons.classloader;version="1.3.0"
+Import-Package: org.apache.sling.commons.classloader;version="[1.3,2)",o
+ rg.osgi.framework;version="[1.4,2)",org.osgi.service.packageadmin;versi
+ on="[1.2,2)",org.osgi.util.tracker;version="[1.3,2)",org.slf4j;version=
+ "[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,4 @@
+org/apache/sling/jcr/webconsole/internal/NodeTypeConfigurationPrinter$1.class
+org/apache/sling/jcr/webconsole/internal/NamespaceConfigurationPrinter.class
+org/apache/sling/jcr/webconsole/internal/NodeTypeConfigurationPrinter.class
+org/apache/sling/jcr/webconsole/internal/DescriptorsConfigurationPrinter.class

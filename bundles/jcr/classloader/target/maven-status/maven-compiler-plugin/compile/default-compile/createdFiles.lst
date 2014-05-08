@@ -1,0 +1,8 @@
+org/apache/sling/jcr/classloader/internal/RepositoryClassLoader$2.class
+org/apache/sling/jcr/classloader/internal/ClassLoaderWriterImpl.class
+org/apache/sling/jcr/classloader/internal/RepositoryClassLoader$1.class
+org/apache/sling/jcr/classloader/internal/RepositoryClassLoader.class
+org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.class
+org/apache/sling/jcr/classloader/internal/ClassLoaderWriterImpl$RepositoryOutputStream.class
+org/apache/sling/jcr/classloader/internal/Util.class
+org/apache/sling/jcr/classloader/internal/net/JCRURLHandler.class

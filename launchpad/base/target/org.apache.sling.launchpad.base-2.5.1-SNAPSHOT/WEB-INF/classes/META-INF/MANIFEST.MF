@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697922405
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: This module contains the common classes and configur
+ ation files used        by the various launchpad modules..
+Bundle-DocURL: http://sling.apache.org/site/the-sling-launchpad.html
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Launchpad Base
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: system.bundle
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.5.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Embed-Dependency: org.apache.felix.framework;inline=org/**|META-INF/**,o
+ rg.apache.felix.http.proxy;inline=org/apache/**,org.apache.sling.launch
+ pad.api;inline=org/apache/sling/launchpad/api/**
+Implementation-Title: Apache Sling Launchpad Base
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.sling
+Implementation-Version: 2.5.1-SNAPSHOT
+Specification-Title: Apache Sling Launchpad Base
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 2.5.1-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213

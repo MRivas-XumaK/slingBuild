@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="Create snapc bundle"  >
+<target name="Create snapc bundle">
+  <jar destfile="/home/xumakgt5/Desarrollo/Apache/sling/installer/it/target/org.apache.sling.installer.it-3.5.1-SNAPSHOT-notabundle.jar">
+    <fileset dir="/home/xumakgt5/Desarrollo/Apache/sling/installer/it/target/classes">
+      <include name="META-INF/**"/>
+    </fileset>
+    <manifest>
+      <attribute name="Bundle-ManifestVersion" value="2"/>
+    </manifest>
+  </jar>
+</target>
+</project>

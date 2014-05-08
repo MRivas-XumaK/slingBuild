@@ -1,0 +1,5 @@
+org/apache/sling/testing/samples/sampletests/JUnit4Test.class
+org/apache/sling/testing/samples/sampletests/ParametrizedJunit4Test.class
+org/apache/sling/testing/samples/sampletests/OsgiAwareTest.class
+org/apache/sling/testing/samples/sampletests/SomeOtherClass.class
+org/apache/sling/testing/samples/sampletests/JUnit3Test.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="Create invalid-version bundle"  >
+<target name="Create invalid-version bundle">
+  <jar destfile="/home/xumakgt5/Desarrollo/Apache/sling/installer/it/target/org.apache.sling.installer.it-3.5.1-SNAPSHOT-invalid-version.jar">
+    <fileset dir="/home/xumakgt5/Desarrollo/Apache/sling/installer/it/target/classes">
+      <include name="META-INF/**"/>
+    </fileset>
+    <manifest>
+      <attribute name="Bundle-ManifestVersion" value="2"/>
+      <attribute name="Bundle-Name" value="OSGi controller test bundle, invalid version number"/>
+      <attribute name="Bundle-SymbolicName" value="osgi-installer-invalid-version-test"/>
+      <attribute name="Bundle-Version" value="1.0.0-SNAPSHOT"/>
+    </manifest>
+  </jar>
+</target>
+</project>

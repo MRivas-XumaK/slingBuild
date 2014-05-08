@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.extensions.groovy.scripting.internal.GSPScriptEngineFactory">
+        <implementation class="org.apache.sling.extensions.groovy.scripting.internal.GSPScriptEngineFactory"/>
+        <service servicefactory="false">
+            <provide interface="javax.script.ScriptEngineFactory"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.description" value="GSP Script Engine"/>
+        <property name="compatible.javax.script.name" value="groovy"/>
+        <property name="service.pid" value="org.apache.sling.extensions.groovy.scripting.internal.GSPScriptEngineFactory"/>
+        <reference name="dynamicClassLoaderManager" interface="org.apache.sling.commons.classloader.DynamicClassLoaderManager" cardinality="1..1" policy="static" bind="bindDynamicClassLoaderManager" unbind="unbindDynamicClassLoaderManager"/>
+    </scr:component>
+</components>

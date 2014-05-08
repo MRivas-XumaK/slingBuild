@@ -1,0 +1,13 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/SlingPropertyManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/servlets/SlingWebDavServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/helper/SlingTikaDetector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/DirListingExportHandlerService.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/DefaultHandlerService.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/SlingIOManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/SlingCopyMoveManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/helper/SlingSessionProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/servlets/SlingSimpleWebDavServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/helper/SlingLocatorFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/helper/SlingResourceLocator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/handler/SlingHandlerManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/webdav/src/main/java/org/apache/sling/jcr/webdav/impl/helper/SlingResourceConfig.java

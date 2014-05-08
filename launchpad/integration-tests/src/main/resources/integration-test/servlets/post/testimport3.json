@@ -1,0 +1,8 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"jcr:mixinTypes": [
+		"mix:referenceable",
+		"mix:versionable"
+	],
+	"abc": "def"
+}

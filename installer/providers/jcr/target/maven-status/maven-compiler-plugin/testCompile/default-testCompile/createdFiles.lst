@@ -1,0 +1,13 @@
+org/apache/sling/installer/provider/jcr/impl/JcrInstallTestBase.class
+org/apache/sling/installer/provider/jcr/impl/FolderDetectionTest.class
+org/apache/sling/installer/provider/jcr/impl/ScanningLoopTest.class
+org/apache/sling/installer/provider/jcr/impl/MockInstallableResource.class
+org/apache/sling/installer/provider/jcr/impl/ContentHelper.class
+org/apache/sling/installer/provider/jcr/impl/MiscUtil$1.class
+org/apache/sling/installer/provider/jcr/impl/MockOsgiInstaller$InstallableResourceComparator.class
+org/apache/sling/installer/provider/jcr/impl/FindPathsToWatchTest.class
+org/apache/sling/installer/provider/jcr/impl/MiscUtil.class
+org/apache/sling/installer/provider/jcr/impl/MockOsgiInstaller.class
+org/apache/sling/installer/provider/jcr/impl/FolderNameFilterTest.class
+org/apache/sling/installer/provider/jcr/impl/MockSettings.class
+org/apache/sling/installer/provider/jcr/impl/ResourceDetectionTest.class

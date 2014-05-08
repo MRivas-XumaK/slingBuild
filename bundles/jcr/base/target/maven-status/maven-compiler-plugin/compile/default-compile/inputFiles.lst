@@ -1,0 +1,14 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/AbstractSlingRepository2.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/internal/loader/Loader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/AbstractNamespaceMappingRepository.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/NodeTypeLoader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/SessionProxyHandler.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/NamespaceMappingSupport.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/util/RepositoryAccessor.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/AbstractSlingRepository.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/internal/RepositoryPrinterProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/util/AccessControlUtil.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/AbstractSlingRepositoryManager.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/internal/RepositoryPrinter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/base/src/main/java/org/apache/sling/jcr/base/util/package-info.java

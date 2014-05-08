@@ -1,0 +1,4 @@
+org/apache/sling/launchpad/api/StartupListener.class
+org/apache/sling/launchpad/api/StartupMode.class
+org/apache/sling/launchpad/api/LaunchpadContentProvider.class
+org/apache/sling/launchpad/api/StartupHandler.class

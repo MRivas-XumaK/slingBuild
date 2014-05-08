@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697173414
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: JavaServer Pages Standard Tag Library based on Jakar
+ ta Taglibs (XML support excluded)
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JSP Standard Tag Library
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.scripting.jsp.jstl
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: jstl;inline=javax/**,standard;inline=org/apache/taglib
+ s/standard/functions/**|org/apache/taglibs/standard/lang/**|org/apache/
+ taglibs/standard/resources/**|org/apache/taglibs/standard/tag/*/core/**
+ |org/apache/taglibs/standard/tag/*/fmt/**|org/apache/taglibs/standard/t
+ ag/*/sql/**|org/apache/taglibs/standard/tei/**|org/apache/taglibs/stand
+ ard/tlv/**|META-INF/c*.tld|META-INF/fmt*.tld|META-INF/fn*.tld|META-INF/
+ permittedTaglibs.tld|META-INF/scriptfree.tld|META-INF/sql*.tld
+Export-Package: javax.servlet.jsp.jstl.core;version="1.1.2";uses:="javax
+ .servlet,javax.servlet.http,javax.servlet.jsp,javax.servlet.jsp.tagext"
+ ,javax.servlet.jsp.jstl.fmt;version="1.1.2";uses:="javax.servlet.jsp",j
+ avax.servlet.jsp.jstl.sql;version="1.1.2",javax.servlet.jsp.jstl.tlv;ve
+ rsion="1.1.2";uses:="javax.servlet.jsp.tagext",org.apache.taglibs.stand
+ ard.functions;version="1.1.2";uses:="javax.servlet.jsp",org.apache.tagl
+ ibs.standard.lang.jstl;version="1.1.2";uses:="javax.servlet.jsp,javax.s
+ ervlet.jsp.tagext,org.apache.taglibs.standard.lang.support",org.apache.
+ taglibs.standard.lang.jstl.parser;version="1.1.2";uses:="org.apache.tag
+ libs.standard.lang.jstl",org.apache.taglibs.standard.lang.jstl.test;ver
+ sion="1.1.2";uses:="javax.servlet,javax.servlet.http,javax.servlet.jsp,
+ javax.servlet.jsp.el",org.apache.taglibs.standard.lang.jstl.test.beans;
+ version="1.1.2",org.apache.taglibs.standard.lang.support;version="1.1.2
+ ";uses:="javax.servlet.jsp,javax.servlet.jsp.tagext",org.apache.taglibs
+ .standard.resources;version="1.1.2",org.apache.taglibs.standard.tag.com
+ mon.core;version="1.1.2";uses:="javax.servlet.http,javax.servlet.jsp,ja
+ vax.servlet.jsp.jstl.core,javax.servlet.jsp.tagext",org.apache.taglibs.
+ standard.tag.common.fmt;version="1.1.2";uses:="javax.servlet.jsp,javax.
+ servlet.jsp.jstl.fmt,javax.servlet.jsp.tagext",org.apache.taglibs.stand
+ ard.tag.common.sql;version="1.1.2";uses:="javax.servlet.jsp,javax.servl
+ et.jsp.jstl.sql,javax.servlet.jsp.tagext,javax.sql",org.apache.taglibs.
+ standard.tag.el.core;version="1.1.2";uses:="javax.servlet.jsp,javax.ser
+ vlet.jsp.jstl.core,javax.servlet.jsp.tagext,org.apache.taglibs.standard
+ .tag.common.core",org.apache.taglibs.standard.tag.el.fmt;version="1.1.2
+ ";uses:="javax.servlet.jsp,org.apache.taglibs.standard.tag.common.fmt",
+ org.apache.taglibs.standard.tag.el.sql;version="1.1.2";uses:="javax.ser
+ vlet.jsp,org.apache.taglibs.standard.tag.common.sql",org.apache.taglibs
+ .standard.tag.rt.core;version="1.1.2";uses:="javax.servlet.jsp,javax.se
+ rvlet.jsp.jstl.core,javax.servlet.jsp.tagext,org.apache.taglibs.standar
+ d.tag.common.core",org.apache.taglibs.standard.tag.rt.fmt;version="1.1.
+ 2";uses:="javax.servlet.jsp,javax.servlet.jsp.jstl.fmt,org.apache.tagli
+ bs.standard.tag.common.fmt",org.apache.taglibs.standard.tag.rt.sql;vers
+ ion="1.1.2";uses:="javax.servlet.jsp,org.apache.taglibs.standard.tag.co
+ mmon.sql",org.apache.taglibs.standard.tei;version="1.1.2";uses:="javax.
+ servlet.jsp.tagext",org.apache.taglibs.standard.tlv;version="1.1.2";use
+ s:="javax.servlet.jsp.tagext,org.xml.sax,org.xml.sax.helpers"
+Import-Package: javax.naming,javax.servlet,javax.servlet.http,javax.serv
+ let.jsp,javax.servlet.jsp.el,javax.servlet.jsp.tagext,javax.sql,javax.x
+ ml.parsers,org.xml.sax,org.xml.sax.helpers
+Tool: Bnd-2.1.0.20130426-122213

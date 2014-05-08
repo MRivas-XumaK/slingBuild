@@ -1,0 +1,3 @@
+org/apache/sling/resourceaccesssecurity/it/ResourceAccessSecurityTestBase.class
+org/apache/sling/resourceaccesssecurity/it/UnsecuredProviderResourceAccessSecurityTest.class
+org/apache/sling/resourceaccesssecurity/it/SecuredProviderResourceAccessSecurityTest.class

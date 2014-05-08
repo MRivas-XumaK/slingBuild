@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.auth.openid.OpenIDAuthenticationHandler" name="%auth.openid.name" description="%auth.openid.description">
+        <AD id="path" type="String" default="/" name="%path.name" description="%path.description" cardinality="2147483647"/>
+        <AD id="openid.login.form" type="String" default="/system/sling/openid/login" name="%openid.login.form.name" description="%openid.login.form.description"/>
+        <AD id="openid.login.identifier" type="String" default="openid_identifier" name="%openid.login.identifier.name" description="%openid.login.identifier.description"/>
+        <AD id="openid.external.url.prefix" type="String" default="" name="%openid.external.url.prefix.name" description="%openid.external.url.prefix.description"/>
+        <AD id="openid.use.cookie" type="Boolean" default="true" name="%openid.use.cookie.name" description="%openid.use.cookie.description"/>
+        <AD id="openid.cookie.domain" type="String" default="" name="%openid.cookie.domain.name" description="%openid.cookie.domain.description"/>
+        <AD id="openid.cookie.name" type="String" default="sling.openid" name="%openid.cookie.name.name" description="%openid.cookie.name.description"/>
+        <AD id="openid.cookie.secret.key" type="String" default="secret" name="%openid.cookie.secret.key.name" description="%openid.cookie.secret.key.description"/>
+        <AD id="openid.user.attr" type="String" default="openid.user" name="%openid.user.attr.name" description="%openid.user.attr.description"/>
+        <AD id="openid.property.identity" type="String" default="openid.identity" name="%openid.property.identity.name" description="%openid.property.identity.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.auth.openid.OpenIDAuthenticationHandler">
+        <Object ocdref="org.apache.sling.auth.openid.OpenIDAuthenticationHandler"/>
+    </Designate>
+</metatype:MetaData>

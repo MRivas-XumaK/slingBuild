@@ -1,0 +1,9 @@
+org/apache/sling/installer/factories/configuration/impl/ConfigTaskCreator.class
+org/apache/sling/installer/factories/configuration/impl/Activator.class
+org/apache/sling/installer/factories/configuration/impl/ConfigRemoveTask.class
+org/apache/sling/installer/factories/configuration/impl/ConfigUtil.class
+org/apache/sling/installer/factories/configuration/impl/ConfigInstallTask.class
+org/apache/sling/installer/factories/configuration/impl/AbstractConfigTask.class
+org/apache/sling/installer/factories/configuration/impl/ServicesListener.class
+org/apache/sling/installer/factories/configuration/ConfigurationConstants.class
+org/apache/sling/installer/factories/configuration/impl/ServicesListener$Listener.class

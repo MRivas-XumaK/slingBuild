@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jackrabbit-ocm>
+
+  <!--
+      Class: org.apache.sling.jcr.ocm.AbstractMappedObject
+  -->
+  <class-descriptor
+     className="org.apache.sling.jcr.ocm.AbstractMappedObject"
+     abstract="true"
+     discriminator="false">
+
+    <field-descriptor
+       fieldName="path"
+       path="true" />
+  </class-descriptor>
+
+  <!--
+      Class: org.apache.sling.jcr.ocm.DefaultMappedObject
+  -->
+  <class-descriptor
+     className="org.apache.sling.jcr.ocm.DefaultMappedObject"
+     discriminator="false">
+
+    <field-descriptor
+       fieldName="path"
+       path="true" />
+
+    <collection-descriptor
+       fieldName="properties"
+       jcrName="*"
+       elementClassName="java.lang.Object"
+       collectionConverter="org.apache.jackrabbit.ocm.manager.collectionconverter.impl.ResidualPropertiesCollectionConverterImpl" />
+
+    <field-descriptor
+       fieldName="primaryType"
+       jcrName="jcr:primaryType" />
+
+    <collection-descriptor
+       fieldName="mixinTypes"
+       jcrName="jcr:mixinTypes"
+       autoUpdate="false"
+       autoInsert="false"
+       elementClassName="java.lang.String"
+       collectionConverter="org.apache.jackrabbit.ocm.manager.collectionconverter.impl.MultiValueCollectionConverterImpl" />
+  </class-descriptor>
+</jackrabbit-ocm>

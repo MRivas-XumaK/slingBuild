@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.handlers.TestHandler1">
+        <implementation class="org.apache.sling.launchpad.testservices.handlers.TestHandler1"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.jackrabbit.server.io.IOHandler"/>
+            <provide interface="org.apache.jackrabbit.server.io.PropertyHandler"/>
+        </service>
+        <property name="service.ranking" type="Integer" value="3"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.handlers.TestHandler1"/>
+    </scr:component>
+</components>

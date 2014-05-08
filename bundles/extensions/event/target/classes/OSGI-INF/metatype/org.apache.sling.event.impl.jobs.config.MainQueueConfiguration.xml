@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.event.impl.jobs.DefaultJobManager" name="%job.events.name" description="%job.events.description">
+        <AD id="queue.priority" type="String" default="NORM" name="%queue.priority.name" description="%queue.priority.description">
+            <Option value="NORM" label="Norm"/>
+            <Option value="MIN" label="Min"/>
+            <Option value="MAX" label="Max"/>
+        </AD>
+        <AD id="queue.retries" type="Integer" default="10" name="%queue.retries.name" description="%queue.retries.description"/>
+        <AD id="queue.retrydelay" type="Long" default="2000" name="%queue.retrydelay.name" description="%queue.retrydelay.description"/>
+        <AD id="queue.maxparallel" type="Integer" default="15" name="%queue.maxparallel.name" description="%queue.maxparallel.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.event.impl.jobs.DefaultJobManager">
+        <Object ocdref="org.apache.sling.event.impl.jobs.DefaultJobManager"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.oak.server.OakSlingRepositoryManager">
+    <OCD id="org.apache.sling.oak.server.OakSlingRepository" name="%org.apache.sling.oak.server.OakSlingRepository.name" description="%org.apache.sling.oak.server.OakSlingRepository.description">
+        <AD id="defaultWorkspace" type="String" name="%org.apache.sling.oak.server.OakSlingRepository.defaultWorkspace.name" description="%org.apache.sling.oak.server.OakSlingRepository.defaultWorkspace.description"/>
+        <AD id="admin.login.enabled" type="Boolean" default="true" name="%org.apache.sling.oak.server.OakSlingRepository.admin.login.enabled.name" description="%org.apache.sling.oak.server.OakSlingRepository.admin.login.enabled.description"/>
+        <AD id="admin.name" type="String" default="admin" name="%org.apache.sling.oak.server.OakSlingRepository.admin.name.name" description="%org.apache.sling.oak.server.OakSlingRepository.admin.name.description"/>
+        <AD id="anonymous.read.all" type="Boolean" default="true" name="%org.apache.sling.oak.server.OakSlingRepository.anonymous.read.all.name" description="%org.apache.sling.oak.server.OakSlingRepository.anonymous.read.all.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.oak.server.OakSlingRepository">
+        <Object ocdref="org.apache.sling.oak.server.OakSlingRepository"/>
+    </Designate>
+</metatype:MetaData>

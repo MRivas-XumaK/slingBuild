@@ -1,0 +1,17 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/ClassDescriptorReader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/AbstractMappedObject.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/DefaultMappedObject.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/SlingAtomicTypeConverterProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/OcmConstants.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/ValueTypeConverterImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/OcmFactoryAdapterFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/classloader/Loader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/BundleMapper.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/ObservingObjectCache.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/classloader/BundleLoader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/ObjectContentManagerFactoryImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/ObjectContentManagerFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/classloader/MapperClassLoader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/OcmAdapterFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/classloader/ClassLoaderLoader.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/jcr/ocm/src/main/java/org/apache/sling/jcr/ocm/impl/classloader/LoaderDelegate.java

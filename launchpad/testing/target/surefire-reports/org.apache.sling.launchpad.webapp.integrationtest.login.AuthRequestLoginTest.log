@@ -1,0 +1,2 @@
+09:29:01.275 INFO  [main] AuthChallengeProcessor.java:101   basic authentication scheme selected
+09:29:01.277 INFO  [main] HttpMethodDirector.java:737       No credentials available for BASIC 'Sling (Development)'@localhost:43014

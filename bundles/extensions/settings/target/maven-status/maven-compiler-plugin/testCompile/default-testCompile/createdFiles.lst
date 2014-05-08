@@ -1,0 +1,3 @@
+org/apache/sling/settings/impl/RunModeImplTest$StartupHandlerImpl.class
+org/apache/sling/settings/impl/RunModeImplTest$BundleContextMock.class
+org/apache/sling/settings/impl/RunModeImplTest.class

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698155271
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Registers Sling test resources with the JUnit core  
+        so that they can be run as tests.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JUnit Scriptable Tests Provider
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.junit.scriptable
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.9.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.junit.scriptable;uses:="javax.jcr,javax
+ .servlet,javax.servlet.http,org.apache.sling.engine,org.apache.sling.jc
+ r.api,org.apache.sling.jcr.resource,org.apache.sling.junit,org.junit,or
+ g.junit.runner,org.junit.runners,org.osgi.service.component";version="1
+ .0.9.SNAPSHOT"
+Import-Package: javax.jcr,javax.jcr.observation,javax.jcr.query,javax.se
+ rvlet,javax.servlet.http,org.apache.sling.api.resource;version="[2.1,3)
+ ",org.apache.sling.engine;version="[2.1,3)",org.apache.sling.jcr.api;ve
+ rsion="[2.0,3)",org.apache.sling.jcr.resource;version="[2.0,3)",org.apa
+ che.sling.junit;version="[1.0,2)",org.junit;version="[4.8,5)",org.junit
+ .runner;version="[4.8,5)",org.junit.runners;version="[4.8,5)",org.osgi.
+ service.component;version="[1.0,2)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.junit.scriptable.Scriptable
+ TestsProvider.xml
+Sling-Nodetypes: SLING-INF/nodetypes/slingtest.cnd
+Tool: Bnd-2.1.0.20130426-122213

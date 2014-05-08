@@ -1,0 +1,9 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/SlingSettingsServiceImpl.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/SlingPropertiesPrinter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/Activator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/RunModeCommand.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/ServicesListener.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/SlingSettingsPrinter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/impl/SettingsServiceConfigurator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/settings/src/main/java/org/apache/sling/settings/SlingSettingsService.java

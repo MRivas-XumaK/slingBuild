@@ -1,0 +1,41 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Scripting JavaScript Support
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - Apache BSF API (http://jakarta.apache.org/bsf/bsf-api/) org.apache.bsf:bsf-api:jar:3.0-beta2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix Web Management Console (http://felix.apache.org/org.apache.felix.webconsole/) org.apache.felix:org.apache.felix.webconsole:bundle:1.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - AdapterManager implementation (http://incubator.apache.org/sling/org.apache.sling.adapter) org.apache.sling:org.apache.sling.adapter:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling API (http://sling.apache.org/org.apache.sling.api) org.apache.sling:org.apache.sling.api:bundle:2.0.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling Dynamic Class Loader Support (http://sling.apache.org/org.apache.sling.commons.classloader) org.apache.sling:org.apache.sling.commons.classloader:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - Sling JSON Library (http://incubator.apache.org/sling/org.apache.sling.commons.json) org.apache.sling:org.apache.sling.commons.json:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - Commons OSGi support (http://incubator.apache.org/sling/org.apache.sling.commons.osgi) org.apache.sling:org.apache.sling.commons.osgi:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - Repository API Bundle (http://incubator.apache.org/sling/org.apache.sling.jcr.api) org.apache.sling:org.apache.sling.jcr.api:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling Resource Resolver (http://sling.apache.org/org.apache.sling.jcr.resource) org.apache.sling:org.apache.sling.jcr.resource:bundle:2.0.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Sling - Scripting Implementation API (http://incubator.apache.org/sling/org.apache.sling.scripting.api) org.apache.sling:org.apache.sling.scripting.api:bundle:2.0.2-incubator
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Mozilla Foundation' (http://www.mozilla.org)
+  - Mozilla Rhino (https://developer.mozilla.org/en/Rhino) org.mozilla:rhino:jar:1.7R4
+    License: Mozilla Public License, Version 2.0  (http://www.mozilla.org/MPL/2.0/index.txt)
+
+
+
+

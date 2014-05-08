@@ -1,0 +1,4 @@
+org/apache/sling/jcr/api/package-info.class
+org/apache/sling/jcr/api/TooManySessionsException.class
+org/apache/sling/jcr/api/SlingRepository.class
+org/apache/sling/jcr/api/NamespaceMapper.class

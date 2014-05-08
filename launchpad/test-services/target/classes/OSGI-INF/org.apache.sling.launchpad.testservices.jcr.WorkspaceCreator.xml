@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.launchpad.testservices.jcr.WorkspaceCreator" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.launchpad.testservices.jcr.WorkspaceCreator"/>
+        <property name="service.description" value="Generates Test Workspaces ws1, ws2, ws3"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.jcr.WorkspaceCreator"/>
+        <reference name="repo" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepo" unbind="unbindRepo"/>
+    </scr:component>
+</components>

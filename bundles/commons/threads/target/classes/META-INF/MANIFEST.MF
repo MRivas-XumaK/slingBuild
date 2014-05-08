@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696235701
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Activator: org.apache.sling.commons.threads.impl.Activator
+Bundle-Category: sling
+Bundle-Description: Support for thread handling like pooling.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Thread Support
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.commons.threads
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 3.2.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.commons.threads;version="3.2.0",org.apa
+ che.sling.commons.threads.jmx;version="1.0.0"
+Import-Package: javax.management,org.apache.sling.commons.threads;versio
+ n="[3.2,4)",org.apache.sling.commons.threads.jmx;version="[1.0,2)",org.
+ osgi.framework;version="[1.4,2)",org.osgi.service.cm;version="[1.2,2)",
+ org.slf4j;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

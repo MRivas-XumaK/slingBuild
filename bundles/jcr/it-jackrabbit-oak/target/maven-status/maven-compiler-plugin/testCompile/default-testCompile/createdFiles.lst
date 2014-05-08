@@ -1,0 +1,8 @@
+org/apache/sling/jcr/repository/it/ResourceEventListener.class
+org/apache/sling/jcr/repository/it/JackrabbitRepositoryIT.class
+org/apache/sling/jcr/repository/it/CommonTests.class
+org/apache/sling/jcr/repository/it/Retry.class
+org/apache/sling/jcr/repository/it/CommonTests$1.class
+org/apache/sling/jcr/repository/it/CommonTests$2.class
+org/apache/sling/jcr/repository/it/OakRepositoryIT.class
+org/apache/sling/jcr/repository/it/CommonTests$JcrEventsCounter.class

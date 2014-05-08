@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Scripting JSP Support
+
+
+From: 'an unknown organization'
+  - el-api  org.apache.tomcat:el-api:jar:6.0.14
+
+  - jasper-el  org.apache.tomcat:jasper-el:jar:6.0.14
+
+  - jasper-jdt  org.apache.tomcat:jasper-jdt:jar:6.0.14
+
+  - jsp-api  org.apache.tomcat:jsp-api:jar:6.0.14
+
+
+
+
+

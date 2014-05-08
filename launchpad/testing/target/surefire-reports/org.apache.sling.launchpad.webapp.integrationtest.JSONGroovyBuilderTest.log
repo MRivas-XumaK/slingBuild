@@ -1,0 +1,1 @@
+09:29:05.206 DEBUG [main] JSONGroovyBuilderTest.java:76     http://localhost:43014/JSONGroovyBuilderTest/1398698945048/this_is_a_test_13986 content: {"text":"This is a test 1398698945048","obj":{"foo":"bar"}}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.junit.impl.AnnotationsProcessor">
+        <implementation class="org.apache.sling.junit.impl.AnnotationsProcessor"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.junit.TestObjectProcessor"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.junit.impl.AnnotationsProcessor"/>
+    </scr:component>
+</components>

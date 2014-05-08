@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask" name="Apache Sling Post Chunk Upload : Cleanup Task" description="Task to regularly purge incomplete chunks from the repository">
+        <AD id="scheduler.expression" type="String" default="31\ 41\ 0/12\ *\ *\ ?" name="Schedule" description="Cron expression scheudling this job. Default is hourly 17m23s after the hour. See http://www.docjar.com/docs/api/org/quartz/CronTrigger.html for a description of the format for this value."/>
+        <AD id="chunk.cleanup.age" type="Integer" default="360" name="%chunk.cleanup.age.name" description="The chunk's age in minutes before it is considered for clean up."/>
+    </OCD>
+    <Designate pid="org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask">
+        <Object ocdref="org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask"/>
+    </Designate>
+</metatype:MetaData>

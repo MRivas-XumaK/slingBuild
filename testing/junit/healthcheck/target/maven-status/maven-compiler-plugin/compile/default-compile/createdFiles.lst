@@ -1,0 +1,4 @@
+org/apache/sling/junit/healthcheck/impl/JUnitHealthCheck$CustomRunListener.class
+org/apache/sling/junit/healthcheck/impl/JUnitHealthCheck.class
+org/apache/sling/junit/healthcheck/impl/JUnitTestSelector.class
+org/apache/sling/junit/healthcheck/impl/JUnitHealthCheck$CustomRenderer.class

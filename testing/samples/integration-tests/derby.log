@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+2014-04-28 15:25:20.520 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0145-a8f0-b4e0-000005930510
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/sling/instance1/jackrabbit/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 15:25:28.183 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 9a4840c2-0145-a8f0-b4e0-000005930510
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/sling/instance1/jackrabbit/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2014-04-28 15:25:35.813 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance bfd00180-0145-a8f0-b4e0-000005930510
+on database directory /home/xumakgt5/Desarrollo/Apache/sling/testing/samples/integration-tests/sling/instance1/jackrabbit/workspaces/security/db  
+
+Database Class Loader started - derby.database.classpa
+2014-
+2014-04-28 15:26:03.774 GMT:
+Shutting down instance 9a4840c2-0145-a8f0-b4e0-000005930510
+-----------------------------------------------------------
+2014-
+2014-04-28 15:26:05.723 GMT:
+Shutting down instance bfd00180-0145-a8f0-b4e0-000005930510
+-----------------------------------------------------------
+2014-
+2014-04-28 15:26:06.943 GMT:
+Shutting down instance a816c00e-0145-a8f0-b4e0-000005930510
+----------------------------------------------------------------

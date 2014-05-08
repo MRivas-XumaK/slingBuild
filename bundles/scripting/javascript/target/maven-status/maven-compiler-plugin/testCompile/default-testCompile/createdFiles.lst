@@ -1,0 +1,16 @@
+org/apache/sling/scripting/javascript/internal/ScriptEngineHelper$RhinoMockComponentContext.class
+org/apache/sling/scripting/javascript/internal/ScriptEngineHelper$Data.class
+org/apache/sling/scripting/wrapper/ScriptableResourceTest$TestResource.class
+org/apache/sling/scripting/wrapper/ScriptableVersionTest.class
+org/apache/sling/scripting/javascript/io/EspReaderTest.class
+org/apache/sling/scripting/javascript/internal/ScriptEngineHelper$1.class
+org/apache/sling/scripting/javascript/internal/RhinoJavaScriptEngineTest$MockRhinoJavaScriptEngineFactory.class
+org/apache/sling/scripting/javascript/internal/ScriptEngineHelper.class
+org/apache/sling/scripting/javascript/internal/TestPathRegexp.class
+org/apache/sling/scripting/TestSetupTest.class
+org/apache/sling/scripting/wrapper/ScriptableResourceTest.class
+org/apache/sling/scripting/RepositoryScriptingTestBase.class
+org/apache/sling/scripting/javascript/internal/ScriptEngineHelper$RhinoMockComponentContext$1.class
+org/apache/sling/scripting/javascript/internal/RhinoJavaScriptEngineTest.class
+org/apache/sling/scripting/javascript/internal/RhinoJavaScriptEngineTest$1.class
+org/apache/sling/scripting/wrapper/ScriptableNodeTest.class

@@ -1,0 +1,9 @@
+org/apache/sling/auth/form/impl/TokenStore.class
+org/apache/sling/auth/form/impl/FormAuthenticationHandler.class
+org/apache/sling/auth/form/impl/FormAuthenticationHandler$AuthenticationStorage.class
+org/apache/sling/auth/form/impl/AuthenticationFormServlet.class
+org/apache/sling/auth/form/FormReason.class
+org/apache/sling/auth/form/impl/FormLoginModulePlugin$1.class
+org/apache/sling/auth/form/impl/FormLoginModulePlugin.class
+org/apache/sling/auth/form/impl/FormAuthenticationHandler$CookieStorage.class
+org/apache/sling/auth/form/impl/FormAuthenticationHandler$SessionStorage.class

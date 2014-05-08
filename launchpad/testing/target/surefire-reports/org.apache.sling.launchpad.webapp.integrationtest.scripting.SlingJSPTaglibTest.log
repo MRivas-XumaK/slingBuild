@@ -1,0 +1,147 @@
+09:28:41.989 INFO  [main] SlingJSPTaglibTest.java:40        setUp
+09:28:41.991 INFO  [main] SlingJSPTaglibTest.java:44        Creating testing content...
+09:28:42.008 INFO  [main] SlingJSPTaglibTest.java:54        Creating testing component...
+09:28:42.075 INFO  [main] SlingJSPTaglibTest.java:62        Initialization successful
+09:28:42.076 INFO  [main] SlingJSPTaglibTest.java:71        testTaglib
+09:28:42.076 INFO  [main] SlingJSPTaglibTest.java:73        Executing content check
+09:28:42.633 INFO  [main] SlingJSPTaglibTest.java:76        
+
+
+
+
+AdaptTo Tag
+    Test 1: AdaptTo Tag
+    result: SUCCESS
+    
+    Test 2: Test Non-Existent Class Handling
+    result: SUCCESS
+    
+    Test 3: Test Null Adaptable Handling
+    result: SUCCESS
+    
+    Test 4: Test Non-Adaptable Handling
+    result: SUCCESS: org.apache.sling.scripting.jsp.jasper.JasperException: Unable to convert string "res" to class "org.apache.sling.api.adapter.Adaptable" for attribute "adaptable": Property Editor not registered with the PropertyEditorManager
+
+Find Resources Tag
+    Test 1: Find Resources
+    Result: SUCCESS
+
+    Test 2: Invalid Query
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+
+    Test 3: Invalid Language
+    Result: SUCCESS: org.apache.sling.resourceresolver.impl.helper.ResourceIteratorDecorator@5dd44142
+    
+Get Property Tag
+
+    Test 1: Get Property
+    Result: SUCCESS
+    
+    Test 2: Not Found Property
+    Result: SUCCESS
+
+    Test 3: Coercing Value
+    Result: SUCCESS
+
+    Test 4: Default Value
+    Result: SUCCESS
+    
+Get Resource Tag
+    Test 1: Get Resource
+    Result: SUCCESS
+
+    Test 2: Get Relative Resource
+    Result: SUCCESS
+
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+    Test 4: Bad Base Handling
+    Result: SUCCESS
+    
+List Children Tag
+    Test 1: Get Children
+    Result: SUCCESS
+
+    Test 2: Non-Existing Parent Handing
+    Result: SUCCESS
+
+    Test 3: Bad Parent Handling
+    Result: SUCCESS
+    
+    
+AdaptTo Function
+    Test 1: AdaptTo
+    result: SUCCESS
+    
+    Test 2: Test Non-Existent Class Handling
+    result: SUCCESS
+    
+    Test 3: Test Null Adaptable Handling
+    result: SUCCESS
+    
+    Test 4: Test Non-Adaptable Handling
+    result: SUCCESS: org.apache.sling.scripting.jsp.jasper.JasperException: Unable to convert string "res" to class "org.apache.sling.api.adapter.Adaptable" for attribute "adaptable": Property Editor not registered with the PropertyEditorManager
+
+Find Resources Function
+    Test 1: Find Resources
+    Result: SUCCESS
+
+    Test 2: Invalid Query
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+
+    Test 3: Invalid Language
+    Result: SUCCESS: org.apache.sling.api.SlingException: Exception building query: javax.jcr.query.InvalidQueryException: Number of location steps must be > 0
+
+    
+Get Relative Resource Function
+    Test 1: Get Relative Resource
+    Result: SUCCESS
+
+    Test 2: Bad Base Handling
+    Result: SUCCESS
+    
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+Get Resource Function
+    Test 1: Get Resource
+    Result: SUCCESS
+
+    Test 2: Bad Resolver
+    Result: SUCCESS
+    
+    Test 3: Not Found Handling
+    Result: SUCCESS
+    
+Get Value Function
+    Test 1: Get Property
+    
+    Result: SUCCESS
+    
+    Test 2: Not Found Property
+    Result: SUCCESS
+
+    Test 3: Default Value
+    Result: SUCCESS
+    
+    
+List Children Function
+    Test 1: Get Children
+    Result: SUCCESS
+
+    Test 2: Non-Existing Parent Handing
+    Result: SUCCESS
+
+    Test 3: Bad Parent Handling
+    Result: SUCCESS
+    
+
+    
+        All Tests Succeeded
+    
+    
+
+09:28:42.633 INFO  [main] SlingJSPTaglibTest.java:79        testTaglib - TEST SUCCESSFUL

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.jcr.davex.impl.servlets.AuthHttpContextTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in org.apache.sling.jcr.davex.impl.servlets.AuthHttpContextTest

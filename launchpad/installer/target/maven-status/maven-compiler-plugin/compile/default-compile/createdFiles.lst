@@ -1,0 +1,5 @@
+org/apache/sling/launchpad/installer/impl/LaunchpadListener.class
+org/apache/sling/launchpad/installer/impl/ServicesListener$Listener.class
+org/apache/sling/launchpad/installer/impl/Activator.class
+org/apache/sling/launchpad/installer/impl/LaunchpadConfigInstaller.class
+org/apache/sling/launchpad/installer/impl/ServicesListener.class

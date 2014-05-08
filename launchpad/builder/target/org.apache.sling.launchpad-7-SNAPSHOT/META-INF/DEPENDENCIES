@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Launchpad Application Builder
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Sling Launchpad Base (http://sling.apache.org/org.apache.sling.launchpad.base) org.apache.sling:org.apache.sling.launchpad.base:bundle:2.5.1-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

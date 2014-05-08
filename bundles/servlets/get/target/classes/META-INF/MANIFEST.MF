@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398697063799
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Provides default GET servlets for HTML, Text and JSO
+ N rendering        and streaming resources.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Default GET Servlets
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.servlets.get
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.1.9.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.jcr,javax.servlet,javax.servlet.http,org.apache.co
+ mmons.lang;version="[2.4,3)",org.apache.sling.api;version="[2.0,3)",org
+ .apache.sling.api.request;version="[2.0,3)",org.apache.sling.api.resour
+ ce;version="[2.0,3)",org.apache.sling.api.servlets;version="[2.0,3)",or
+ g.apache.sling.api.wrappers;version="[2.0,3)",org.apache.sling.commons.
+ json;version="[2.0,3)",org.apache.sling.commons.json.io;version="[2.0,3
+ )",org.apache.sling.commons.osgi;version="[2.0,3)",org.osgi.service.com
+ ponent;version="[1.0,2)",org.slf4j;version="[1.5,2)",org.xml.sax
+Service-Component: OSGI-INF/org.apache.sling.servlets.get.impl.impl.info
+ .SlingInfoServlet.xml,OSGI-INF/org.apache.sling.servlets.get.impl.Redir
+ ectServlet.xml,OSGI-INF/org.apache.sling.servlets.get.impl.DefaultHeadS
+ ervlet.xml,OSGI-INF/org.apache.sling.servlets.get.impl.DefaultGetServle
+ t.xml
+Tool: Bnd-2.1.0.20130426-122213

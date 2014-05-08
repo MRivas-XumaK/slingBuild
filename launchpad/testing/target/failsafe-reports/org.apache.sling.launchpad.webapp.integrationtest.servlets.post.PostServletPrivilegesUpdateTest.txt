@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.launchpad.webapp.integrationtest.servlets.post.PostServletPrivilegesUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.543 sec - in org.apache.sling.launchpad.webapp.integrationtest.servlets.post.PostServletPrivilegesUpdateTest

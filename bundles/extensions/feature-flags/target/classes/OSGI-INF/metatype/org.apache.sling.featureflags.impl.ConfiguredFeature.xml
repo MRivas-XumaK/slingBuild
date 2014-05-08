@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.featureflags.impl.ConfiguredFeature">
+    <OCD id="org.apache.sling.featureflags.Feature" name="%org.apache.sling.featureflags.Feature.name" description="%org.apache.sling.featureflags.Feature.description">
+        <AD id="name" type="String" name="%org.apache.sling.featureflags.Feature.name.name" description="%org.apache.sling.featureflags.Feature.name.description"/>
+        <AD id="description" type="String" name="%org.apache.sling.featureflags.Feature.description.name" description="%org.apache.sling.featureflags.Feature.description.description"/>
+        <AD id="enabled" type="Boolean" default="false" name="%org.apache.sling.featureflags.Feature.enabled.name" description="%org.apache.sling.featureflags.Feature.enabled.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.featureflags.Feature" factoryPid="org.apache.sling.featureflags.Feature">
+        <Object ocdref="org.apache.sling.featureflags.Feature"/>
+    </Designate>
+</metatype:MetaData>

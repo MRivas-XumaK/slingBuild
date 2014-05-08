@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696471208
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-ClassPath: .,commons-beanutils-1.7.0.jar,cglib-2.1_3.jar
+Bundle-Description: This bundle provides Object Content Mapping support 
+ for        resources loaded from a JCR repositories. This support is   
+      implemented as an AdapterFactory for Resource objects.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Object Content Mapping
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.jcr.ocm
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.0.5.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: commons-beanutils,cglib
+Embedded-Artifacts: commons-beanutils-1.7.0.jar;g="commons-beanutils";a=
+ "commons-beanutils";v="1.7.0",cglib-2.1_3.jar;g="cglib";a="cglib";v="2.
+ 1_3"
+Export-Package: org.apache.sling.jcr.ocm;version="2.0.5.SNAPSHOT";uses:=
+ "javax.jcr,org.apache.jackrabbit.ocm.manager,org.apache.jackrabbit.ocm.
+ manager.collectionconverter",org.apache.jackrabbit.ocm.exception;versio
+ n="1.4";uses:="javax.jcr.query",org.apache.jackrabbit.ocm.mapper;versio
+ n="1.4",org.apache.jackrabbit.ocm.manager;version="1.4";uses:="javax.jc
+ r,javax.jcr.version,org.apache.jackrabbit.ocm.exception,org.apache.jack
+ rabbit.ocm.query,org.apache.jackrabbit.ocm.version",org.apache.jackrabb
+ it.ocm.manager.atomictypeconverter;version="1.4";uses:="javax.jcr",org.
+ apache.jackrabbit.ocm.manager.collectionconverter;version="1.4";uses:="
+ javax.jcr,org.apache.jackrabbit.ocm.exception",org.apache.jackrabbit.oc
+ m.manager.collectionconverter.impl;version="1.4";uses:="javax.jcr,org.a
+ pache.jackrabbit.ocm.manager.collectionconverter,org.apache.jackrabbit.
+ ocm.mapper",org.apache.jackrabbit.ocm.query;version="1.4",org.apache.ja
+ ckrabbit.ocm.version;version="1.4";uses:="javax.jcr.version"
+Import-Package: javax.jcr,javax.jcr.lock,javax.jcr.nodetype,javax.jcr.ob
+ servation,javax.jcr.query,javax.jcr.version,org.apache.commons.collecti
+ ons.comparators;version="[3.2,4)",org.apache.commons.collections.keyval
+ ue;version="[3.2,4)",org.apache.commons.collections.list;version="[3.2,
+ 4)",org.apache.commons.collections.set;version="[3.2,4)",org.apache.com
+ mons.lang,org.apache.commons.logging;resolution:=optional,org.apache.ja
+ ckrabbit.ocm.exception;version="[1.4,2)",org.apache.jackrabbit.ocm.mana
+ ger.atomictypeconverter;version="[1.4,2)",org.apache.jackrabbit.ocm.que
+ ry;version="[1.4,2)",org.apache.jackrabbit.ocm.version;version="[1.4,2)
+ ",org.apache.jackrabbit.value;version="[1.5,2)",org.apache.sling.api.ad
+ apter;version="[2.0,3)",org.apache.sling.api.resource;version="[2.0,3)"
+ ,org.apache.sling.commons.osgi;version="[2.0,3)",org.apache.sling.jcr.o
+ cm;version="[2.0,3)",org.osgi.framework;version="[1.4,2)",org.osgi.serv
+ ice.component;version="[1.0,2)",org.osgi.service.event;version="[1.1,2)
+ ",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/org.apache.sling.jcr.ocm.impl.ObjectContentM
+ anagerFactoryImpl.xml
+Sling-Mappings: SLING-INF/mappings.xml
+Sling-Namespaces: ocm=http://jackrabbit.apache.org/ocm
+Tool: Bnd-2.1.0.20130426-122213

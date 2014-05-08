@@ -1,0 +1,9 @@
+org/apache/sling/maven/jcrocm/ClassDescriptor.class
+org/apache/sling/maven/jcrocm/AbstractItemDescriptor.class
+org/apache/sling/maven/jcrocm/XMLWriter.class
+org/apache/sling/maven/jcrocm/AbstractNodeDescriptor.class
+org/apache/sling/maven/jcrocm/AbstractDescriptorElement.class
+org/apache/sling/maven/jcrocm/JcrOcmMojo.class
+org/apache/sling/maven/jcrocm/FieldDescriptor.class
+org/apache/sling/maven/jcrocm/BeanDescriptor.class
+org/apache/sling/maven/jcrocm/CollectionDescriptor.class

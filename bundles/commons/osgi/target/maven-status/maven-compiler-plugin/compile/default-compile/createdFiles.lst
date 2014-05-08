@@ -1,0 +1,13 @@
+org/apache/sling/commons/osgi/ServiceUtil$1.class
+org/apache/sling/commons/osgi/bundleversion/BundleVersionInfo.class
+org/apache/sling/commons/osgi/bundleversion/FileBundleVersionInfo.class
+org/apache/sling/commons/osgi/ManifestHeader.class
+org/apache/sling/commons/osgi/ServiceUtil$ComparableImplementation.class
+org/apache/sling/commons/osgi/bundleversion/BundleBundleVersionInfo.class
+org/apache/sling/commons/osgi/PropertiesUtil.class
+org/apache/sling/commons/osgi/ManifestHeader$PathImpl.class
+org/apache/sling/commons/osgi/ManifestHeader$Entry.class
+org/apache/sling/commons/osgi/ServiceUtil.class
+org/apache/sling/commons/osgi/SortingServiceTracker.class
+org/apache/sling/commons/osgi/ManifestHeader$NameValuePair.class
+org/apache/sling/commons/osgi/OsgiUtil.class

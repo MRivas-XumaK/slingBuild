@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="false" immediate="true" name="org.apache.sling.launchpad.testservices.servlets.HtmlDefaultServlet">
+        <implementation class="org.apache.sling.launchpad.testservices.servlets.HtmlDefaultServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="HTML Default Test Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.extensions" value="html"/>
+        <property name="sling.servlet.methods" value="GET"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.servlets.HtmlDefaultServlet"/>
+    </scr:component>
+</components>

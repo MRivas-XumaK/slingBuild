@@ -1,0 +1,9 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/DecomposedURLTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/helper/LocationIteratorTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/helper/ScriptSelectionTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/resource/ServletResourceProviderCreateTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/resource/MockServletResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/helper/WeightedResourceTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/helper/ResourceCollectorTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/SlingServletResolverTest.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/test/java/org/apache/sling/servlets/resolver/internal/helper/HelperTestBase.java

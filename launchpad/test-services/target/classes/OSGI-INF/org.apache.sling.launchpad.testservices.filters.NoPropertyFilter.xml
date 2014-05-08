@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.apache.sling.launchpad.testservices.filters.NoPropertyFilter">
+        <implementation class="org.apache.sling.launchpad.testservices.filters.NoPropertyFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.description" value="NoProperty Test Filter"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.filter.scope" value="request"/>
+        <property name="service.pid" value="org.apache.sling.launchpad.testservices.filters.NoPropertyFilter"/>
+    </scr:component>
+</components>

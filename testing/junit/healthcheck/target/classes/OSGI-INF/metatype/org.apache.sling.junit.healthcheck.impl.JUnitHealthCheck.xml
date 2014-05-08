@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck" name="%org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck.name" description="%org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck.description">
+        <AD id="hc.name" type="String" name="%hc.name.name" description="%hc.name.description"/>
+        <AD id="hc.tags" type="String" name="%hc.tags.name" description="%hc.tags.description" cardinality="2147483647"/>
+        <AD id="hc.mbean.name" type="String" name="%hc.mbean.name.name" description="%hc.mbean.name.description"/>
+        <AD id="test.package.or.class" type="String" name="%test.package.or.class.name" description="%test.package.or.class.description"/>
+        <AD id="test.method" type="String" name="%test.method.name" description="%test.method.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck" factoryPid="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck">
+        <Object ocdref="org.apache.sling.junit.healthcheck.impl.JUnitHealthCheck"/>
+    </Designate>
+</metatype:MetaData>

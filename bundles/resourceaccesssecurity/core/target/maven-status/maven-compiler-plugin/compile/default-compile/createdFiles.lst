@@ -1,0 +1,12 @@
+org/apache/sling/resourceaccesssecurity/ResourceAccessGate.class
+org/apache/sling/resourceaccesssecurity/ResourceAccessGate$Operation.class
+org/apache/sling/resourceaccesssecurity/impl/ProviderResourceAccessSecurityImpl.class
+org/apache/sling/resourceaccesssecurity/impl/ReadOnlyValueMapWrapper.class
+org/apache/sling/resourceaccesssecurity/impl/AccessGateResourceWrapper.class
+org/apache/sling/resourceaccesssecurity/impl/ResourceAccessGateHandler.class
+org/apache/sling/resourceaccesssecurity/impl/ResourceAccessSecurityImpl$1.class
+org/apache/sling/resourceaccesssecurity/impl/ApplicationResourceAccessSecurityImpl.class
+org/apache/sling/resourceaccesssecurity/ResourceAccessGate$GateResult.class
+org/apache/sling/resourceaccesssecurity/impl/ResourceAccessSecurityImpl.class
+org/apache/sling/resourceaccesssecurity/package-info.class
+org/apache/sling/resourceaccesssecurity/AllowingResourceAccessGate.class

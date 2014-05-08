@@ -1,0 +1,11 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/spi/Injector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/spi/DisposalCallbackRegistry.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/spi/DisposalCallback.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Filter.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Default.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Model.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/spi/package-info.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Source.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Optional.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/extensions/models/api/src/main/java/org/apache/sling/models/annotations/Via.java

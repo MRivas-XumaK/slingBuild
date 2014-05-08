@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling SLF4J Implementation (Logback)
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - Logback Classic Module (http://logback.qos.ch) ch.qos.logback:logback-classic:jar:1.1.0
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  - Logback Core Module (http://logback.qos.ch) ch.qos.logback:logback-core:jar:1.1.0
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  - JUL to SLF4J bridge (http://www.slf4j.org) org.slf4j:jul-to-slf4j:jar:1.6.4
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+
+
+

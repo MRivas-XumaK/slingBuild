@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.2.0">
+    <scr:component immediate="true" name="org.apache.sling.discovery.impl.standalone.NoClusterDiscoveryService" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.discovery.impl.standalone.NoClusterDiscoveryService"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.discovery.DiscoveryService"/>
+        </service>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.discovery.impl.standalone.NoClusterDiscoveryService"/>
+        <reference name="settingsService" interface="org.apache.sling.settings.SlingSettingsService" cardinality="1..1" policy="static" bind="bindSettingsService" unbind="unbindSettingsService"/>
+        <reference name="listeners" interface="org.apache.sling.discovery.TopologyEventListener" cardinality="0..n" policy="dynamic" bind="bindTopologyEventListener" unbind="unbindTopologyEventListener"/>
+        <reference name="providerInfos" interface="org.apache.sling.discovery.PropertyProvider" cardinality="0..n" policy="dynamic" bind="bindPropertyProvider" unbind="unbindPropertyProvider" updated="updatedPropertyProvider"/>
+    </scr:component>
+</components>

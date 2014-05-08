@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.paxexam.util.SlingSetupTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.505 sec - in org.apache.sling.paxexam.util.SlingSetupTest

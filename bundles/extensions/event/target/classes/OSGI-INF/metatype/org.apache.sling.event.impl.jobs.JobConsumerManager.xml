@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.event.impl.jobs.JobConsumerManager" name="%job.consumermanager.name" description="%job.consumermanager.description">
+        <AD id="org.apache.sling.installer.configuration.persist" type="Boolean" default="false" name="Distribute config" description="If this is disabled, the configuration is not persisted on save in the cluster and is only used on the current instance. This option should always be disabled!"/>
+        <AD id="job.consumermanager.whitelist" type="String" default="*" name="%job.consumermanager.whitelist.name" description="%job.consumermanager.whitelist.description" cardinality="2147483647"/>
+        <AD id="job.consumermanager.blacklist" type="String" name="%job.consumermanager.blacklist.name" description="%job.consumermanager.blacklist.description" cardinality="2147483647"/>
+    </OCD>
+    <Designate pid="org.apache.sling.event.impl.jobs.JobConsumerManager">
+        <Object ocdref="org.apache.sling.event.impl.jobs.JobConsumerManager"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.models.impl.ModelAdapterFactory" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.models.impl.ModelAdapterFactory"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.models.impl.ModelAdapterFactory"/>
+        <reference name="injector" interface="org.apache.sling.models.spi.Injector" cardinality="0..n" policy="dynamic" bind="bindInjector" unbind="unbindInjector"/>
+    </scr:component>
+</components>

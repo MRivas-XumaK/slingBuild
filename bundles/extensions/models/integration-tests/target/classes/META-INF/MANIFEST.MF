@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398698109305
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Apache Sling Models Integration Tests - builds a bun
+ dle        with Sling server-side tests, and executes them via a       
+  remote test proxy that runs in the integration-tests phase.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Models Integration Tests
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.models.integration-tests
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.models.it;uses:="org.apache.sling.junit
+ .annotations,org.junit,org.junit.runner";version="0.0.1.SNAPSHOT"
+Import-Package: javax.inject;version="[0.0,1)",javax.jcr,javax.servlet,o
+ rg.apache.commons.lang;version="[2.5,3)",org.apache.sling.api.adapter;v
+ ersion="[2.2,3)",org.apache.sling.api.resource;version="[2.1,3)",org.ap
+ ache.sling.junit.annotations;version="[1.0,2)",org.apache.sling.models.
+ annotations;version="[1.0,2)",org.junit;version="[4.8,5)",org.junit.run
+ ner;version="[4.8,5)"
+Sling-Model-Packages: org.apache.sling.models.it.models
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.1.0.20130426-122213

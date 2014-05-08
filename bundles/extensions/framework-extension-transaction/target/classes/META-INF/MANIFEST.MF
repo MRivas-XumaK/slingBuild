@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695843152
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling
+Bundle-Description: Adds the javax.transaction and javax.transaction.xa 
+        packages to the system bundle exports.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling System Bundle Extension: Java Transaction API
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.fragment.transaction
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: javax.transaction;version="0.0.0.fragment_transaction", 
+                               javax.transaction.xa;version="0.0.0.fragm
+ ent_transaction"
+Fragment-Host: system.bundle;extension:=framework
+Implementation-Title: Apache Sling System Bundle Extension: Java Transac
+ tion API
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.sling
+Implementation-Version: 1.0.1-SNAPSHOT
+Specification-Title: Apache Sling System Bundle Extension: Java Transact
+ ion API
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.0.1-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213

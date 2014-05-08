@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Thread Dumper
+
+
+From: 'OSGi Alliance' (http://www.osgi.org/)
+  - OSGi R4 Core Bundle (http://felix.apache.org/org.osgi.core/) org.apache.felix:org.osgi.core:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix Shell Service (http://felix.apache.org/org.apache.felix.shell/) org.apache.felix:org.apache.felix.shell:bundle:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

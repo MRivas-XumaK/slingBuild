@@ -1,0 +1,5 @@
+org/apache/sling/commons/json/JSONObjectTest.class
+org/apache/sling/commons/json/jcr/JsonJcrNodeTest.class
+org/apache/sling/commons/json/util/ValidatorTest.class
+org/apache/sling/commons/json/test/JSONAssert.class
+org/apache/sling/commons/json/jcr/JsonItemWriterTest.class

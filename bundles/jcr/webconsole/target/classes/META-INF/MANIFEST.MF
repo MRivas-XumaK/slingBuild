@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398696612969
+Build-Jdk: 1.7.0_55
+Built-By: xumakgt5
+Bundle-Category: sling,jcr
+Bundle-Description: The JCR WebConsole bundle provides Felix WebConsole 
+ plugins.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling JCR WebConsole Bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.jcr.webconsole
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.jcr,javax.jcr.nodetype,javax.jcr.version,org.apach
+ e.felix.webconsole;version="[3.0,4)",org.apache.sling.jcr.api;version="
+ [2.0,3)"
+Service-Component: OSGI-INF/org.apache.sling.jcr.webconsole.internal.Nam
+ espaceConfigurationPrinter.xml,OSGI-INF/org.apache.sling.jcr.webconsole
+ .internal.NodeTypeConfigurationPrinter.xml,OSGI-INF/org.apache.sling.jc
+ r.webconsole.internal.DescriptorsConfigurationPrinter.xml
+Tool: Bnd-2.1.0.20130426-122213

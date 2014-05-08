@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" name="org.apache.sling.archetype.servlet.testing.SimpleFilter">
+        <implementation class="org.apache.sling.archetype.servlet.testing.SimpleFilter"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Filter"/>
+        </service>
+        <property name="service.ranking" type="Integer" value="1"/>
+        <property name="sling.filter.scope" value=""/>
+        <property name="service.vendor" type="String" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.archetype.servlet.testing.SimpleFilter"/>
+    </scr:component>
+    <scr:component enabled="true" name="org.apache.sling.archetype.servlet.testing.ByPathServlet">
+        <implementation class="org.apache.sling.archetype.servlet.testing.ByPathServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/hello-world-servlet"/>
+        <property name="service.description" type="String" value="Hello World Path Servlet"/>
+        <property name="service.vendor" type="String" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.archetype.servlet.testing.ByPathServlet"/>
+    </scr:component>
+    <scr:component enabled="true" name="org.apache.sling.archetype.servlet.testing.ByResourceTypeServlet">
+        <implementation class="org.apache.sling.archetype.servlet.testing.ByResourceTypeServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.selectors" value="hello"/>
+        <property name="sling.servlet.extensions" value="html"/>
+        <property name="service.description" type="String" value="Hello World Type Servlet"/>
+        <property name="service.vendor" type="String" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.archetype.servlet.testing.ByResourceTypeServlet"/>
+    </scr:component>
+</components>

@@ -1,0 +1,21 @@
+09:26:52.498 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-api.jsp
+09:26:52.508 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/installer-duplicate.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/imports.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:166    Found test script /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-delete.jsp
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:147    Script path not found scripts/sling-it/expected-to-fail
+09:26:52.509 INFO  [main] ServerSideScriptsTest.java:175    No test scripts found with resource path scripts/sling-it/expected-to-fail
+09:27:20.369 INFO  [main] JUnitCategoriesTest.java:49       JUnit categories are set up correctly:[Jackrabbit-only test was executed]
+09:27:30.582 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.launchpad.testservices.serversidetests.ResourceResolverTest.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:09.774 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/resourceresolver-api/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-api.jsp
+09:28:11.802 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:12.091 INFO  [main] ServerSideScriptsTest.java:246    Execution of resourceresolver-api.jsp took 289 msec
+09:28:12.254 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/installer-duplicate/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/installer-duplicate.jsp
+09:28:14.291 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:14.513 INFO  [main] ServerSideScriptsTest.java:246    Execution of installer-duplicate.jsp took 223 msec
+09:28:14.635 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/imports/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/imports.jsp
+09:28:16.677 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:16.892 INFO  [main] ServerSideScriptsTest.java:246    Execution of imports.jsp took 215 msec
+09:28:16.998 INFO  [main] ServerSideScriptsTest.java:226    Setting up node /apps/testing/sling/scripted-tests/resourceresolver-delete/test.txt.jsp for /tmp/1398698812441.dir/scripts/sling-it/resourceresolver-delete.jsp
+09:28:19.027 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json JUnit servlet URL=http://localhost:43014/system/sling/junit
+09:28:19.262 INFO  [main] ServerSideScriptsTest.java:246    Execution of resourceresolver-delete.jsp took 235 msec
+09:28:19.744 INFO  [main] RemoteTestHttpClient.java:127     Executing test remotely, path=/org.apache.sling.launchpad.testservices.serversidetests.WriteableResourcesTest.json JUnit servlet URL=http://localhost:43014/system/sling/junit

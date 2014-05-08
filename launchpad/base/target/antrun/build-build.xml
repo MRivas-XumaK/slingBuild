@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="build"  >
+<target name="build">
+  <taskdef resource="aQute/bnd/ant/taskdef.properties" classpathref="maven.plugin.classpath"/>
+  <bnd exceptions="true" files="src/test/resources/test1.bnd" failok="false" output="/home/xumakgt5/Desarrollo/Apache/sling/launchpad/base/target/test-classes" classpath="/home/xumakgt5/Desarrollo/Apache/sling/launchpad/base/target/test-classes"/>
+</target>
+</project>

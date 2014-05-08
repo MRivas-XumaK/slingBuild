@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+      <role-hint>partialbundlelist</role-hint>
+      <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
+      <configuration>
+        <lifecycles>
+          <lifecycle>
+            <id>default</id>
+            
+            <phases>
+              <package>org.apache.sling:maven-launchpad-plugin:attach-partial-bundle-list</package>
+              <install>org.apache.maven.plugins:maven-install-plugin:install</install>
+              <deploy>org.apache.maven.plugins:maven-deploy-plugin:deploy</deploy>
+            </phases>
+            
+          </lifecycle>
+        </lifecycles>
+      </configuration>
+    </component>
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>partialbundlelist</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <type>partialbundlelist</type>
+        <includesDependencies>false</includesDependencies>
+        <language>xml</language>
+        <extension>xml</extension>
+        <addedToClasspath>false</addedToClasspath>
+      </configuration>
+    </component>
+  <component>
+      <role>org.apache.maven.AbstractMavenLifecycleParticipant</role>
+      <role-hint>default</role-hint>
+      <implementation>org.apache.sling.maven.projectsupport.LaunchpadPluginLifecycleParticipant</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.codehaus.plexus.logging.Logger</role>
+          <role-hint />
+          <field-name>log</field-name>
+        </requirement>
+      </requirements>
+    </component></components>
+</component-set>

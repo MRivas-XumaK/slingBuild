@@ -1,0 +1,15 @@
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/SlingServletResolver.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/resource/ServletResourceProviderFactory.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/AbstractResourceCollector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/defaults/DefaultErrorHandlerServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/SlingServletConfig.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/ServletResolverConstants.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/WeightedResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/ResourceCollector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/NamedScriptResourceCollector.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/defaults/DefaultServlet.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/DecomposedURL.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/ScriptResource.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/resource/ServletResourceProvider.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/helper/LocationIterator.java
+/home/xumakgt5/Desarrollo/Apache/sling/bundles/servlets/resolver/src/main/java/org/apache/sling/servlets/resolver/internal/resource/ServletResource.java

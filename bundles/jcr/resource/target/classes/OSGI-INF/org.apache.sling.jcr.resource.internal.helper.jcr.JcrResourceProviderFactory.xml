@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.jcr.resource.internal.helper.jcr.JcrResourceProviderFactory" activate="activate" deactivate="deactivate">
+        <implementation class="org.apache.sling.jcr.resource.internal.helper.jcr.JcrResourceProviderFactory"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.api.resource.ResourceProviderFactory"/>
+        </service>
+        <property name="required" type="Boolean" value="true"/>
+        <property name="provider.roots" value="/"/>
+        <property name="service.description" value="Apache Sling JCR Resource Provider Factory"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="provider.query.languages">
+            xpath
+            sql
+            JCR-SQL2
+        </property>
+        <property name="optimize.oak" type="Boolean" value="true"/>
+        <property name="service.pid" value="org.apache.sling.jcr.resource.internal.helper.jcr.JcrResourceProviderFactory"/>
+        <reference name="dynamicClassLoaderManager" interface="org.apache.sling.commons.classloader.DynamicClassLoaderManager" cardinality="0..1" policy="dynamic" bind="bindDynamicClassLoaderManager" unbind="unbindDynamicClassLoaderManager"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
+        <reference name="executor" interface="java.util.concurrent.Executor" cardinality="0..1" policy="static" bind="bindExecutor" unbind="unbindExecutor"/>
+    </scr:component>
+</components>

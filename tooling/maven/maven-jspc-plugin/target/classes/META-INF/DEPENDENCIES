@@ -1,0 +1,77 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Sling Maven Plugin for Compiling JSP Sources into Bundles
+
+
+From: 'an unknown organization'
+  - servlet-api  javax.servlet:servlet-api:jar:2.5
+
+  - jsp-api  javax.servlet.jsp:jsp-api:jar:2.1
+
+  - el-api  org.apache.tomcat:el-api:jar:6.0.14
+
+  - jasper-el  org.apache.tomcat:jasper-el:jar:6.0.14
+
+  - jasper-jdt  org.apache.tomcat:jasper-jdt:jar:6.0.14
+
+  - jsp-api  org.apache.tomcat:jsp-api:jar:6.0.14
+
+  - servlet-api  org.apache.tomcat:servlet-api:jar:6.0.14
+
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - Maven Archiver (http://maven.apache.org/maven2/maven-archiver/) org.apache.maven:maven-archiver:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Artifact (http://maven.apache.org/maven2/maven-artifact/) org.apache.maven:maven-artifact:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Artifact Manager (http://maven.apache.org) org.apache.maven:maven-artifact-manager:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Model (http://maven.apache.org/maven2/maven-model/) org.apache.maven:maven-model:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Plugin API (http://maven.apache.org/maven2/maven-plugin-api/) org.apache.maven:maven-plugin-api:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Profile Model (http://maven.apache.org/maven2/maven-profile/) org.apache.maven:maven-profile:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Project Builder (http://maven.apache.org/maven2/maven-project/) org.apache.maven:maven-project:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Repository Metadata Model (http://maven.apache.org/maven2/maven-repository-metadata/) org.apache.maven:maven-repository-metadata:jar:2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Wagon API  org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus Archiver Component  org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-3
+
+  - Default Plexus Container  org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8
+
+  - Plexus Common Utilities  org.codehaus.plexus:plexus-utils:jar:1.0.4
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.5.2
+
+  - SLF4J Simple Binding (http://www.slf4j.org) org.slf4j:slf4j-simple:jar:1.5.2
+
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Logging (http://jakarta.apache.org/commons/logging/) commons-logging:commons-logging:jar:1.0.4
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons IO (http://commons.apache.org/io/) commons-io:commons-io:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling API (http://sling.apache.org/org.apache.sling.api) org.apache.sling:org.apache.sling.api:bundle:2.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Sling Scripting JSP Support (http://sling.apache.org/org.apache.sling.scripting.jsp) org.apache.sling:org.apache.sling.scripting.jsp:bundle:2.0.18
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Codehaus' (http://codehaus.org/)
+  - classworlds (http://classworlds.codehaus.org/) classworlds:classworlds:jar:1.1-alpha-2
+
+
+
+
+

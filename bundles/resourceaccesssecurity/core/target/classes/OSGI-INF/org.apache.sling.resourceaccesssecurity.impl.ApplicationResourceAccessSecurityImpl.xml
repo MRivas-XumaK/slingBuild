@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="org.apache.sling.resourceaccesssecurity.impl.ApplicationResourceAccessSecurityImpl">
+        <implementation class="org.apache.sling.resourceaccesssecurity.impl.ApplicationResourceAccessSecurityImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.api.security.ResourceAccessSecurity"/>
+        </service>
+        <property name="access.context" value="application"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="service.pid" value="org.apache.sling.resourceaccesssecurity.impl.ApplicationResourceAccessSecurityImpl"/>
+        <reference name="ResourceAccessGate" interface="org.apache.sling.resourceaccesssecurity.ResourceAccessGate" cardinality="1..n" policy="dynamic" target="(access.context=application)" bind="bindResourceAccessGate" unbind="unbindResourceAccessGate"/>
+    </scr:component>
+</components>

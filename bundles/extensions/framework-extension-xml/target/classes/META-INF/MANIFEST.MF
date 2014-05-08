@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1398695843488
+Bundle-Category: sling
+Bundle-Description: Adds the XML API packages to the system bundle expor
+ ts.        The list of packages is derived from the packages available 
+        in the Java 7 platform. The system bundle exporting these       
+  packages gives no guarantee the platform provides them.        For pro
+ per setup it is suggested to either install an        extension fragmen
+ t adapted to the platform or to install        regular API packages as 
+ bundles.
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling System Bundle Extension: XML APIs
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.apache.sling.fragment.xml
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.3.SNAPSHOT
+Created-By: 1.7.0_55 (Oracle Corporation)
+Fragment-Host: system.bundle;extension:=framework
+Tool: Bnd-2.1.0.20130426-122213

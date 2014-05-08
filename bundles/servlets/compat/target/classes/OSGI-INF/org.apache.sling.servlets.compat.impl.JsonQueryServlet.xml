@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.apache.sling.servlets.compat.impl.JsonQueryServlet">
+        <implementation class="org.apache.sling.servlets.compat.impl.JsonQueryServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="service.description" value="Default Query Servlet"/>
+        <property name="service.vendor" value="The Apache Software Foundation"/>
+        <property name="sling.servlet.resourceTypes" value="sling/servlet/default"/>
+        <property name="sling.servlet.extensions" value="json"/>
+        <property name="sling.servlet.selectors" value="query"/>
+        <property name="sling.servlet.prefix" type="Integer" value="-1"/>
+        <property name="service.pid" value="org.apache.sling.servlets.compat.impl.JsonQueryServlet"/>
+    </scr:component>
+</components>

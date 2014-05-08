@@ -1,0 +1,6 @@
+org/apache/sling/commons/testing/jcr/RepositoryTestBaseTest.class
+org/apache/sling/commons/testing/sling/MockResourceTest.class
+org/apache/sling/commons/testing/jcr/RepositoryUtilTest.class
+org/apache/sling/commons/testing/junit/RetryRuleTest.class
+org/apache/sling/commons/testing/util/JavascriptEngineTest.class
+org/apache/sling/commons/testing/jcr/RepositoryProviderTest.class

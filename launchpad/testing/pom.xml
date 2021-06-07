@@ -75,7 +75,7 @@
         <resources.bundles.path>${project.build.directory}/launchpad-bundles/resources/bundles</resources.bundles.path>
         
         <slf4j.version>1.5.11</slf4j.version>
-        <logback.version>0.9.20</logback.version>
+        <logback.version>1.2.0</logback.version>
     </properties>
 
     <build>

@@ -108,7 +108,7 @@
       <groupId>org.apache.karaf</groupId>
       <artifactId>apache-karaf</artifactId>
       <type>tar.gz</type>
-      <version>3.0.0</version>
+      <version>4.3.8</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
